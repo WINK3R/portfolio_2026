@@ -48,12 +48,45 @@ export function HeroSection() {
             <p className=" text-[20px]  sm:text-[24px] lg:text-[28px] font-semibold italic">
               designer UI/UX
             </p>
-              <div className="absolute -bottom-20 -right-24">
-                  <CursorIcon className="absolute size-12 stroke-4 stroke-white -rotate-24 drop-shadow-[0_12px_24px_rgba(0,0,0,0.18)]" />
-                  <div className="bg-[#FF004D] text-white text-2xl font-medium px-4 py-1 rounded-tl-sm! rounded-3xl mt-12 ml-8">
+              <motion.div
+                  className="absolute -bottom-20 -right-24"
+              >
+                  <motion.div
+                      initial={{x: 10, y: 10, opacity: 0}}
+                      animate={{x: 0, y: 0, opacity: 1}}
+                      transition={{
+                          duration: 0.7,
+                          delay: 0.3,
+                          ease: [0.16, 0.84, 0.24, 1],
+                      }}
+                      className="absolute left-0 top-0 origin-center"
+                  >
+                      <motion.div
+                          initial={{rotate: -8}}
+                          animate={{rotate: -24}}
+                          transition={{
+                              duration: 0.7,
+                              delay: 0.3,
+                              ease: [0.16, 0.84, 0.24, 1],
+                          }}
+                          className="origin-center"
+                      >
+                          <CursorIcon className="size-12 stroke-4 stroke-white drop-shadow-[0_12px_24px_rgba(0,0,0,0.18)]" />
+                      </motion.div>
+                  </motion.div>
+                  <motion.div
+                      initial={{opacity: 0, y: -6, scale: 0.96}}
+                      animate={{opacity: 1, y: 0, scale: 1}}
+                      transition={{
+                          duration: 0.4,
+                          delay: 0.95,
+                          ease: heroEase,
+                      }}
+                      className="bg-[#FF004D] text-white text-2xl font-medium px-4 py-1 rounded-tl-sm! rounded-3xl mt-12 ml-8"
+                  >
                       Portfolio
-                  </div>
-              </div>
+                  </motion.div>
+              </motion.div>
           </div>
         </div>
           <div
