@@ -33,10 +33,28 @@ export function HeroSection() {
   return (
     <section className="mx-auto flex justify-center min-h-[calc(100vh-5.5rem)] w-full max-w-7xl px- items-start pt-64 sm:px-10 lg:px-16">
       <div className="max-w-4xl flex flex-col  items-center justify-center">
-        <h1 className="text-[64px] leading-none font-semibold text-black sm:text-[88px] lg:text-[120px]">
+        <motion.h1
+          initial={{ opacity: 0, y: 24 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{
+            duration: 0.75,
+            delay: 0.1,
+            ease: heroEase,
+          }}
+          className="text-[64px] leading-none font-semibold text-black sm:text-[88px] lg:text-[120px]"
+        >
           Lucas Delanier
-        </h1>
-        <div className="flex items-center gap-2">
+        </motion.h1>
+        <motion.div
+          initial={{ opacity: 0, y: 18 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{
+            duration: 0.65,
+            delay: 0.28,
+            ease: heroEase,
+          }}
+          className="flex items-center gap-2"
+        >
           <p className=" text-[20px] text-black/50 sm:text-[24px] lg:text-[28px]">
             Développeur &
           </p>
@@ -49,14 +67,23 @@ export function HeroSection() {
               designer UI/UX
             </p>
               <motion.div
-                  className="absolute -bottom-20 -right-24"
+                  whileHover="hover"
+                  className="absolute -bottom-20 -right-24 z-20 inline-flex w-max cursor-pointer flex-col items-start pointer-events-auto pr-3 pt-2"
+                  variants={{
+                      hover: {
+                          x: -4,
+                          y: -4,
+                          rotateY:6,
+                          rotateZ:6
+                      },
+                  }}
               >
                   <motion.div
                       initial={{x: 10, y: 10, opacity: 0}}
                       animate={{x: 0, y: 0, opacity: 1}}
                       transition={{
                           duration: 0.7,
-                          delay: 0.3,
+                          delay: 0.7,
                           ease: [0.16, 0.84, 0.24, 1],
                       }}
                       className="absolute left-0 top-0 origin-center"
@@ -66,7 +93,7 @@ export function HeroSection() {
                           animate={{rotate: -24}}
                           transition={{
                               duration: 0.7,
-                              delay: 0.3,
+                              delay: 0.7,
                               ease: [0.16, 0.84, 0.24, 1],
                           }}
                           className="origin-center"
@@ -78,8 +105,8 @@ export function HeroSection() {
                       initial={{opacity: 0, y: -6, scale: 0.96}}
                       animate={{opacity: 1, y: 0, scale: 1}}
                       transition={{
-                          duration: 0.4,
-                          delay: 0.95,
+                          duration: 0.7,
+                          delay: 1.2,
                           ease: heroEase,
                       }}
                       className="bg-[#FF004D] text-white text-2xl font-medium px-4 py-1 rounded-tl-sm! rounded-3xl mt-12 ml-8"
@@ -88,7 +115,7 @@ export function HeroSection() {
                   </motion.div>
               </motion.div>
           </div>
-        </div>
+        </motion.div>
           <div
               className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(255,255,255,0)_0%,rgba(255,255,255,0.8)_62%,rgba(255,255,255,1)_100%)] lg:hidden"/>
         <div className="absolute inset-x-0 top-0">
