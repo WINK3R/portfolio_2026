@@ -5,10 +5,10 @@ import { useEffect, useState } from "react";
 import Logo from "@/public/icons/logo.svg"
 
 const navItems = [
-  { name: "A propos", href: "" },
-  { name: "Compétences", href: "competences" },
-  { name: "Projets", href: "projets" },
-  { name: "Expériences", href: "experiences" },
+  { name: "A propos", href: "/about" },
+  { name: "Compétences", href: "/#skills" },
+  { name: "Projets", href: "/#projects" },
+  { name: "Expériences", href: "/" },
 ];
 
 function MenuIcon() {
@@ -105,13 +105,13 @@ export function NavigationBar() {
 
           <div className="flex items-center justify-end gap-2 h-full">
             <Link
-              href="#contact"
+              href="/"
               className="rounded-full flex items-center h-full px-4 py-2 text-sm font-medium text-black/60 transition bg-white/10 hover:text-black"
             >
               Voir mon CV
             </Link>
             <Link
-              href="#projects"
+              href="/#projects"
               className="rounded-full  flex items-center bg-black text-white text-sm font-semibold transition py-3 px-6"
             >
               Me contacter
@@ -159,14 +159,14 @@ export function NavigationBar() {
 
             <div className="mt-4 flex flex-col gap-2">
               <Link
-                href="#contact"
+                href="/"
                 onClick={() => setMenuOpen(false)}
                 className="rounded-full border border-black/10 px-4 py-3 text-center text-sm font-medium text-black transition hover:bg-black/[0.03]"
               >
                 Let&apos;s talk
               </Link>
               <Link
-                href="#projects"
+                href="/#projects"
                 onClick={() => setMenuOpen(false)}
                 className="rounded-full bg-black px-4 py-3 text-center text-sm font-medium text-white transition hover:bg-black/85"
               >

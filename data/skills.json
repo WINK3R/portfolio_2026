@@ -1,0 +1,474 @@
+[
+  {
+    "slug": "front-end",
+    "category": "technique",
+    "title": "Front-end",
+    "description": "Conception d'interfaces modernes, intégration responsive et attention portée aux détails visuels.",
+    "level": "78%",
+    "heroImage": "/images/illustration-1.png",
+    "galleryImage": "/images/photo-about-me.png",
+    "sections": {
+      "definition": [
+        "Le front-end est la partie visible d'un produit numérique. C'est lui qui transforme un besoin ou une maquette en interface lisible, navigable et agréable à utiliser. Pour moi, cette compétence ne consiste pas seulement à faire un rendu esthétique. Elle demande aussi de structurer l'information, de penser le responsive, de rendre l'expérience claire et de produire une interface cohérente.",
+        "Dans un contexte professionnel, le front-end a une place importante, car c'est souvent par l'interface qu'un utilisateur juge la qualité d'un projet. Aujourd'hui, avec des attentes fortes sur le mobile, la lisibilité et la fluidité, il ne suffit plus d'avoir une page qui fonctionne. Il faut une interface propre, compréhensible et crédible. C'est pour cela que je considère le front-end comme une compétence technique et visuelle à la fois."
+      ],
+      "proof": {
+        "intro": "La compétence front-end est celle que j'exerce le plus directement dans mes projets. Elle m'a surtout permis de travailler la structure des pages, la lisibilité et la cohérence visuelle.",
+        "stories": [
+          {
+            "title": "Structurer mon portfolio comme une interface complète",
+            "paragraphs": [
+              "Le premier exemple est mon portfolio personnel. Ce projet m'a permis de travailler une interface complète, avec une page d'accueil structurée, des sections lisibles et une navigation claire.",
+              "J'y ai particulièrement travaillé la hiérarchie visuelle, les espacements, le rendu des cartes de compétences et l'adaptation de l'interface à différents formats d'écran."
+            ],
+            "result": "Le résultat obtenu est une base de portfolio plus structurée, plus claire et plus exploitable pour une lecture professionnelle.",
+            "valueAdded": "Ma valeur ajoutée a été de faire évoluer une simple landing page vers une expérience plus cohérente, où chaque bloc commence à avoir un rôle précis dans la navigation et la compréhension du profil.",
+            "relatedItems": [
+              {
+                "label": "Portfolio personnel",
+                "href": "/"
+              },
+              {
+                "label": "Section competences",
+                "href": "/#skills"
+              }
+            ]
+          },
+          {
+            "title": "Mes différents travaux sur Figma",
+            "paragraphs": [
+              "Le second exemple concerne mes différents travaux sur Figma. Même s'il s'agit d'un outil de conception, ce travail nourrit directement ma compétence front-end, car il m'apprend à mieux organiser l'information, à penser les parcours et à anticiper le rendu final.",
+              "Ces travaux m'ont aidé à mieux comprendre les équilibres visuels, la lisibilité d'une interface, la place des composants et la cohérence d'ensemble avant même l'intégration."
+            ],
+            "result": "Le résultat est une meilleure capacité à passer d'une intention visuelle à une interface plus claire et plus maîtrisée.",
+            "valueAdded": "Ma valeur ajoutée est d'articuler plus facilement réflexion graphique et intégration, ce qui me permet de produire des interfaces plus cohérentes.",
+            "relatedItems": [
+              {
+                "label": "Travaux Figma"
+              }
+            ]
+          }
+        ],
+        "closing": [
+          "Ces deux exemples montrent que ma compétence front-end repose à la fois sur l'intégration et sur la réflexion visuelle. Ils montrent aussi que je cherche à produire des interfaces plus lisibles, plus cohérentes et mieux structurées."
+        ]
+      },
+      "selfReview": [
+        "Aujourd'hui, je considère que mon niveau en front-end est intermédiaire avancé. Je suis à l'aise pour intégrer des interfaces modernes, organiser une page et travailler sa lisibilité. C'est une compétence importante dans mon profil, car elle relie technique et sens du design.",
+        "En revanche, je ne me considère pas encore expert. Je dois encore progresser sur l'accessibilité, la performance et les interfaces plus complexes. Mon principal recul est le suivant : une interface fonctionnelle n'est pas forcément une interface aboutie. Il faut aller plus loin dans la finition et dans la cohérence."
+      ],
+      "growth": [
+        "Je veux continuer à progresser en front-end, car c'est une compétence centrale dans les projets que j'aime construire. À moyen terme, je souhaite mieux maîtriser l'accessibilité, la qualité d'intégration et la cohérence globale des interfaces.",
+        "Pour cela, je compte continuer à pratiquer sur mon portfolio et sur mes maquettes Figma, tout en approfondissant mes usages de React et Next.js. Mon objectif est de produire des interfaces plus solides, plus lisibles et plus abouties."
+      ]
+    },
+    "relatedProjects": [
+      {
+        "label": "Portfolio personnel",
+        "href": "/"
+      },
+      {
+        "label": "Section compétences",
+        "href": "/#skills"
+      },
+      {
+        "label": "Travaux Figma"
+      }
+    ]
+  },
+  {
+    "slug": "back-end",
+    "category": "technique",
+    "title": "Back-end",
+    "description": "Mise en place de logiques metier, APIs et structures solides pour des projets coherents.",
+    "level": "72%",
+    "heroImage": "/images/illustration-2.png",
+    "galleryImage": "/images/photo-about-me-2.png",
+    "sections": {
+      "definition": [
+        "Le back-end correspond à la partie d'une application qui gère la logique, les données et la cohérence du système. C'est lui qui permet à l'interface de s'appuyer sur des traitements fiables, sur des règles métier claires et sur des échanges bien structurés.",
+        "Dans un contexte professionnel, cette compétence est importante parce qu'elle conditionne la solidité d'un projet. Aujourd'hui, avec des applications de plus en plus connectées et dépendantes de la donnée, un bon back-end doit être lisible, maintenable et capable d'assurer une base technique sérieuse."
+      ],
+      "proof": {
+        "intro": "Le back-end est une compétence que j'ai travaillée à travers la logique applicative, la structuration des données et l'organisation des traitements côté serveur.",
+        "stories": [
+          {
+            "title": "Anecdote 1",
+            "paragraphs": [
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+              "Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor."
+            ],
+            "result": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "valueAdded": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+          }
+        ],
+        "closing": [
+          "Même si les anecdotes restent ici en attente de contenu détaillé, elles ont vocation à montrer ma capacité à concevoir une logique plus fiable, plus claire et mieux structurée."
+        ]
+      },
+      "selfReview": [
+        "Aujourd'hui, je me sens capable de comprendre et de mettre en place des bases back-end propres sur des projets de taille modérée. Je situe cette compétence comme complémentaire au front-end, avec un vrai intérêt pour la cohérence technique qu'elle apporte.",
+        "En revanche, je dois encore progresser sur les architectures plus avancées, la sécurité et la profondeur des logiques métier complexes. Mon recul est clair : un back-end utile n'est pas seulement fonctionnel, il doit aussi être lisible et durable."
+      ],
+      "growth": [
+        "Je veux continuer à progresser sur le back-end afin de mieux articuler logique métier, structure de données et qualité technique.",
+        "Pour cela, je compte approfondir mes pratiques sur les APIs, la validation, l'organisation du code serveur et les bases de données."
+      ]
+    },
+    "relatedProjects": []
+  },
+  {
+    "slug": "design-ui-ux",
+    "category": "technique",
+    "title": "Design UI/UX",
+    "description": "Creation d'experiences claires, lisibles et orientees utilisateur, du wireframe au rendu final.",
+    "level": "84%",
+    "heroImage": "/images/illustration-3.png",
+    "galleryImage": "/images/photo-about-me-3.png",
+    "sections": {
+      "definition": [
+        "Le design UI/UX consiste pour moi à concevoir des interfaces qui sont à la fois lisibles, cohérentes et agréables à utiliser. Il ne s'agit pas seulement de faire un rendu esthétique, mais de penser une expérience claire, avec une bonne hiérarchie de l'information et des parcours compréhensibles.",
+        "Cette compétence est aujourd'hui centrale dans les produits numériques, car les attentes des utilisateurs sont élevées sur la simplicité d'usage, la clarté des écrans et la cohérence globale d'une interface. Elle relie donc réflexion visuelle et compréhension des besoins."
+      ],
+      "proof": {
+        "intro": "Le design UI/UX nourrit directement ma manière de concevoir des interfaces, de structurer les écrans et d'anticiper la lecture utilisateur.",
+        "stories": [
+          {
+            "title": "Anecdote 1",
+            "paragraphs": [
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+              "Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor."
+            ],
+            "result": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "valueAdded": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+          }
+        ],
+        "closing": [
+          "Les anecdotes détaillées viendront illustrer comment cette compétence m'aide à produire des interfaces plus claires, plus fluides et plus cohérentes."
+        ]
+      },
+      "selfReview": [
+        "Je considère aujourd'hui que cette compétence fait partie de mes points forts, notamment sur la lisibilité, la structure des pages et l'attention portée au rendu. Elle occupe une place importante dans mon profil, car elle améliore directement la qualité perçue d'un projet.",
+        "Je dois toutefois continuer à progresser sur la profondeur des parcours utilisateur et sur les méthodologies de conception plus complètes. Mon recul est simple : une interface réussie doit rester utile avant d'être seulement belle."
+      ],
+      "growth": [
+        "Je veux continuer à développer cette compétence en travaillant davantage sur mes maquettes, mes systèmes de composants et ma culture des bonnes pratiques UX.",
+        "À moyen terme, je souhaite produire des interfaces encore plus justes, plus lisibles et plus cohérentes dans leur ensemble."
+      ]
+    },
+    "relatedProjects": []
+  },
+  {
+    "slug": "deploiement-devops",
+    "category": "technique",
+    "title": "Deploiement & DevOps",
+    "description": "Bases de mise en production, gestion d'environnements et automatisation des flux de travail.",
+    "level": "74%",
+    "heroImage": "/images/illustration-2.png",
+    "galleryImage": "/images/photo-about-me.png",
+    "sections": {
+      "definition": [
+        "Le déploiement et le DevOps représentent pour moi tout ce qui permet de faire vivre un projet au-delà du développement local. Cela comprend la mise en ligne, la gestion des environnements, la configuration et les premières formes d'automatisation.",
+        "Dans un contexte professionnel, cette compétence est importante parce qu'un projet ne s'arrête pas quand le code fonctionne sur une machine. Il faut aussi qu'il soit exécutable, stable et compréhensible dans un environnement réel."
+      ],
+      "proof": {
+        "intro": "Cette compétence s'est construite à travers mes mises en ligne, mes réglages d'environnement et mes premières réflexions sur la continuité entre développement et exécution.",
+        "stories": [
+          {
+            "title": "Anecdote 1",
+            "paragraphs": [
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            ],
+            "result": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "valueAdded": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+          }
+        ],
+        "closing": [
+          "Les anecdotes détaillées permettront ensuite de montrer comment j'ai appliqué cette compétence dans des cas concrets de configuration, de build et de déploiement."
+        ]
+      },
+      "selfReview": [
+        "Je considère aujourd'hui avoir des bases sérieuses sur le déploiement, en particulier pour comprendre les environnements, les builds et la mise en ligne de projets web. Cette compétence reste néanmoins en construction dans mon profil.",
+        "Je dois encore progresser sur les pratiques DevOps plus avancées, comme l'automatisation plus complète, l'observabilité et la robustesse des pipelines. Mon recul est clair : un projet bien développé doit aussi être correctement livré et exploitable."
+      ],
+      "growth": [
+        "Je veux approfondir cette compétence pour mieux maîtriser les déploiements, la configuration et les outils qui améliorent la fiabilité d'un projet.",
+        "À moyen terme, je souhaite consolider mes pratiques sur les environnements, les workflows de livraison et les outils de mise en production."
+      ]
+    },
+    "relatedProjects": []
+  },
+  {
+    "slug": "architecture-logicielle",
+    "category": "technique",
+    "title": "Architecture logicielle",
+    "description": "Reflexion sur l'organisation du code, la maintenabilite et la clarte des systemes construits.",
+    "level": "70%",
+    "heroImage": "/images/illustration-1.png",
+    "galleryImage": "/images/photo-about-me-2.png",
+    "sections": {
+      "definition": [
+        "L'architecture logicielle correspond pour moi à la manière d'organiser un projet afin qu'il reste lisible, maintenable et évolutif. Elle concerne autant la structure générale d'une application que les choix quotidiens de découpage, de responsabilité et de clarté."
+      ],
+      "proof": {
+        "intro": "Cette compétence intervient chaque fois qu'il faut structurer un projet, clarifier des responsabilités ou éviter qu'un code devienne confus en grandissant.",
+        "stories": [
+          {
+            "title": "Anecdote 1",
+            "paragraphs": [
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            ],
+            "result": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "valueAdded": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+          }
+        ],
+        "closing": [
+          "Les anecdotes viendront montrer comment j'aborde l'organisation du code, la séparation des responsabilités et la recherche de structures plus propres."
+        ]
+      },
+      "selfReview": [
+        "Je me sens aujourd'hui sensibilisé aux enjeux d'architecture, notamment sur l'organisation des composants, des données et des responsabilités. Cette compétence a une vraie importance dans mon profil parce qu'elle conditionne la qualité dans le temps.",
+        "Je dois encore progresser sur les arbitrages plus complexes et sur la juste mesure entre simplicité et anticipation. Mon principal recul est qu'une bonne architecture doit rester utile et ne pas devenir une abstraction inutile."
+      ],
+      "growth": [
+        "Je veux continuer à renforcer cette compétence en travaillant sur des projets plus structurés et en prenant plus de recul sur mes choix d'organisation.",
+        "À moyen terme, je souhaite concevoir des bases de projet plus claires, plus réutilisables et plus faciles à faire évoluer."
+      ]
+    },
+    "relatedProjects": []
+  },
+  {
+    "slug": "tests-automatises",
+    "category": "technique",
+    "title": "Tests automatises",
+    "description": "Verification des comportements clefs pour fiabiliser les interfaces et limiter les regressions.",
+    "level": "83%",
+    "heroImage": "/images/illustration-3.png",
+    "galleryImage": "/images/photo-about-me-3.png",
+    "sections": {
+      "definition": [
+        "Les tests automatisés sont pour moi un moyen de vérifier qu'un comportement important reste fiable dans le temps. Ils permettent de mieux sécuriser une évolution, de limiter les régressions et d'apporter plus de confiance quand un projet grandit."
+      ],
+      "proof": {
+        "intro": "Cette compétence s'inscrit dans une logique de fiabilisation : mieux vérifier, mieux corriger et mieux faire évoluer un code sans tout casser.",
+        "stories": [
+          {
+            "title": "Anecdote 1",
+            "paragraphs": [
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            ],
+            "result": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "valueAdded": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+          }
+        ],
+        "closing": [
+          "Les anecdotes détaillées serviront ensuite à montrer comment des cas concrets de test ont pu sécuriser un comportement ou accompagner une correction."
+        ]
+      },
+      "selfReview": [
+        "Je considère avoir une bonne compréhension de l'intérêt des tests et de leur place dans la qualité d'un projet. Cette compétence reste importante dans mon profil, même si elle est encore moins centrale que le front-end ou l'UI/UX.",
+        "Je dois encore progresser sur la régularité de leur mise en place, sur la priorisation des cas utiles et sur des stratégies de test plus complètes. Mon recul est que tester n'a de valeur que si cela aide réellement à fiabiliser le projet."
+      ],
+      "growth": [
+        "Je veux approfondir cette compétence pour rendre mes projets plus robustes et plus faciles à faire évoluer.",
+        "À moyen terme, je souhaite mieux intégrer les tests dans mes habitudes de développement et dans mes phases de correction."
+      ]
+    },
+    "relatedProjects": []
+  },
+  {
+    "slug": "methodes-agiles",
+    "category": "non-technique",
+    "title": "Methodes agiles",
+    "description": "Travail par iteration, adaptation continue et priorisation claire selon le contexte du projet.",
+    "level": "78%",
+    "heroImage": "/images/illustration-1.png",
+    "galleryImage": "/images/photo-about-me.png",
+    "sections": {
+      "definition": [
+        "Les méthodes agiles représentent pour moi une façon de travailler par étapes, avec des priorités plus claires, des ajustements réguliers et une meilleure visibilité sur l'avancement. Elles ne sont utiles que si elles aident réellement à produire de la valeur et à mieux collaborer."
+      ],
+      "proof": {
+        "intro": "Cette compétence prend forme dans ma manière d'organiser le travail, de découper un besoin et de faire évoluer un projet progressivement.",
+        "stories": [
+          {
+            "title": "Anecdote 1",
+            "paragraphs": [
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            ],
+            "result": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "valueAdded": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+          }
+        ],
+        "closing": [
+          "Les anecdotes détaillées permettront d'illustrer des situations où l'itération, la priorisation et l'adaptation ont réellement eu un effet sur le projet."
+        ]
+      },
+      "selfReview": [
+        "Je me sens à l'aise avec l'esprit des méthodes agiles, surtout lorsqu'il s'agit de structurer le travail et de progresser par étapes. Cette compétence a de la valeur dans mon profil parce qu'elle améliore l'organisation et la lisibilité de l'avancement.",
+        "Je dois encore approfondir la mise en pratique dans des contextes d'équipe plus complets. Mon recul est que l'agilité n'a d'intérêt que si elle clarifie le projet au lieu d'ajouter du formalisme inutile."
+      ],
+      "growth": [
+        "Je veux continuer à progresser sur cette compétence en travaillant avec des découpages plus précis, des priorités mieux tenues et une meilleure lecture de l'avancement.",
+        "À moyen terme, je souhaite rendre ma manière de travailler encore plus structurée et plus adaptable."
+      ]
+    },
+    "relatedProjects": []
+  },
+  {
+    "slug": "adaptabilite",
+    "category": "non-technique",
+    "title": "Adaptabilite",
+    "description": "Capacite a apprendre vite, changer d'approche et m'ajuster a des besoins differents.",
+    "level": "72%",
+    "heroImage": "/images/illustration-2.png",
+    "galleryImage": "/images/photo-about-me-2.png",
+    "sections": {
+      "definition": [
+        "L'adaptabilité est pour moi la capacité à comprendre rapidement un nouveau contexte, à changer d'approche si nécessaire et à continuer à avancer sans perdre en rigueur. C'est une compétence importante dans les métiers techniques, où les outils, les besoins et les contraintes évoluent souvent."
+      ],
+      "proof": {
+        "intro": "Cette compétence s'exprime surtout lorsque je dois prendre en main un sujet nouveau, ajuster ma méthode ou apprendre rapidement dans un contexte changeant.",
+        "stories": [
+          {
+            "title": "Anecdote 1",
+            "paragraphs": [
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            ],
+            "result": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "valueAdded": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+          }
+        ],
+        "closing": [
+          "Les anecdotes détaillées permettront de montrer plus précisément comment je réagis face à de nouveaux outils, de nouvelles contraintes ou de nouvelles attentes."
+        ]
+      },
+      "selfReview": [
+        "Je considère l'adaptabilité comme une vraie qualité dans mon profil, car elle me permet de ne pas rester bloqué face à l'inconnu. Je suis capable d'apprendre vite et de reformuler une approche quand la première ne fonctionne pas.",
+        "Je dois néanmoins veiller à conserver assez de recul pour ne pas confondre adaptation et précipitation. Mon principal conseil pour moi-même est de toujours garder une méthode, même lorsqu'il faut aller vite."
+      ],
+      "growth": [
+        "Je veux continuer à développer cette compétence en me confrontant à des sujets variés, à des outils nouveaux et à des contextes différents.",
+        "À moyen terme, je souhaite gagner encore en rapidité d'appropriation tout en gardant un bon niveau d'exigence."
+      ]
+    },
+    "relatedProjects": []
+  },
+  {
+    "slug": "autonomie",
+    "category": "non-technique",
+    "title": "Autonomie",
+    "description": "Organisation personnelle, prise d'initiative et avancee constante sur les sujets confies.",
+    "level": "84%",
+    "heroImage": "/images/illustration-3.png",
+    "galleryImage": "/images/photo-about-me-3.png",
+    "sections": {
+      "definition": [
+        "L'autonomie ne consiste pas seulement à travailler seul. Pour moi, elle correspond à la capacité d'avancer avec méthode, de chercher l'information utile, de prendre des initiatives et de vérifier soi-même la qualité de ce que l'on produit."
+      ],
+      "proof": {
+        "intro": "Cette compétence s'est développée dans ma manière de conduire des sujets par moi-même, de débloquer des problèmes et d'organiser mon travail sans dépendre constamment d'un cadre extérieur.",
+        "stories": [
+          {
+            "title": "Anecdote 1",
+            "paragraphs": [
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            ],
+            "result": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "valueAdded": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+          }
+        ],
+        "closing": [
+          "Les anecdotes détaillées permettront d'illustrer plus concrètement des situations où j'ai dû chercher, décider et avancer de façon autonome."
+        ]
+      },
+      "selfReview": [
+        "Je considère l'autonomie comme l'une de mes qualités importantes. Elle me permet de progresser régulièrement, de ne pas rester passif face à une difficulté et de produire avec une certaine continuité.",
+        "Je sais toutefois qu'une bonne autonomie ne doit pas devenir de l'isolement. Mon recul sur cette compétence est qu'il faut savoir avancer seul, tout en reconnaissant les moments où demander un avis fait gagner en justesse."
+      ],
+      "growth": [
+        "Je veux continuer à renforcer cette compétence en améliorant encore mon organisation, ma capacité de recherche et ma manière de vérifier mon propre travail.",
+        "À moyen terme, je souhaite être encore plus autonome sur des sujets techniques plus larges et plus complexes."
+      ]
+    },
+    "relatedProjects": []
+  },
+  {
+    "slug": "travail-en-equipe",
+    "category": "non-technique",
+    "title": "Travail en equipe",
+    "description": "Communication fluide, partage d'idees et collaboration constructive pour faire avancer un projet.",
+    "level": "76%",
+    "heroImage": "/images/illustration-1.png",
+    "galleryImage": "/images/photo-about-me.png",
+    "sections": {
+      "definition": [
+        "Le travail en équipe correspond pour moi à la capacité de collaborer de manière claire, constructive et efficace avec d'autres personnes. Il ne s'agit pas seulement de bien s'entendre, mais de partager de l'information utile, de se coordonner et de faire progresser un objectif commun."
+      ],
+      "proof": {
+        "intro": "Cette compétence se construit dans les projets collectifs, dans la répartition des rôles et dans la manière de communiquer sur le travail en cours.",
+        "stories": [
+          {
+            "title": "Anecdote 1",
+            "paragraphs": [
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            ],
+            "result": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "valueAdded": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+          }
+        ],
+        "closing": [
+          "Les anecdotes détaillées permettront ensuite de montrer comment j'ai participé à une dynamique collective et à une meilleure coordination du travail."
+        ]
+      },
+      "selfReview": [
+        "Je me sens à l'aise dans le travail en équipe, notamment sur la communication, l'écoute et la volonté de faire avancer un projet de façon constructive. Cette compétence est importante dans mon profil, car aucun projet sérieux ne se construit durablement sans collaboration.",
+        "Je dois continuer à progresser sur la coordination dans des contextes plus complexes ou plus exigeants. Mon recul est qu'un bon travail d'équipe repose autant sur la clarté des échanges que sur la qualité technique du travail produit."
+      ],
+      "growth": [
+        "Je veux continuer à développer cette compétence en travaillant dans des cadres collectifs plus riches et en améliorant encore ma communication de projet.",
+        "À moyen terme, je souhaite gagner en fluidité dans la coordination, le partage de contexte et la complémentarité avec d'autres profils."
+      ]
+    },
+    "relatedProjects": []
+  },
+  {
+    "slug": "resolution-de-problemes",
+    "category": "non-technique",
+    "title": "Resolution de problemes",
+    "description": "Analyse, diagnostic et recherche de solutions concretes avec methode et recul.",
+    "level": "73%",
+    "heroImage": "/images/illustration-2.png",
+    "galleryImage": "/images/photo-about-me-2.png",
+    "sections": {
+      "definition": [
+        "La résolution de problèmes est pour moi une compétence centrale dans les métiers du numérique. Elle consiste à observer une situation, à formuler des hypothèses, à tester, à comprendre l'origine d'un blocage puis à mettre en place une solution cohérente."
+      ],
+      "proof": {
+        "intro": "Cette compétence intervient très souvent dans mon travail, dès qu'il faut diagnostiquer un bug, comprendre un comportement inattendu ou trouver une solution concrète à une difficulté technique.",
+        "stories": [
+          {
+            "title": "Anecdote 1",
+            "paragraphs": [
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            ],
+            "result": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "valueAdded": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+          }
+        ],
+        "closing": [
+          "Les anecdotes détaillées viendront montrer comment j'aborde un problème, comment je structure la recherche et comment je vérifie qu'une solution est réellement satisfaisante."
+        ]
+      },
+      "selfReview": [
+        "Je considère cette compétence comme importante dans mon profil, car elle me permet d'avancer face aux blocages et de ne pas rester dans l'attente. Je suis à l'aise avec l'idée de chercher, tester et corriger avec méthode.",
+        "Je dois encore gagner en vitesse et en profondeur sur certains cas plus complexes. Mon recul est qu'un problème bien résolu n'est pas seulement corrigé : il est compris."
+      ],
+      "growth": [
+        "Je veux continuer à renforcer cette compétence en me confrontant à des situations variées et en améliorant encore ma méthode de diagnostic.",
+        "À moyen terme, je souhaite devenir plus rapide, plus précis et plus sûr dans ma manière de traiter des problèmes techniques."
+      ]
+    },
+    "relatedProjects": []
+  }
+]

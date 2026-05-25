@@ -1,8 +1,8 @@
 import Image from "next/image";
 
-const projects = [
+const projects: ProjectCardProps[] = [
   {
-    title: "Paage",
+    title: "Gliint",
     description:
       "Landing page et interface produit pensees pour mettre en valeur un service de maniere claire et attractive.",
     image: "/projects/paage-banner.png",
