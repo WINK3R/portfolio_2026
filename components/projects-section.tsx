@@ -7,7 +7,7 @@ type ProjectCardProps = {
   title: string;
   description: string;
   image: string;
-  logo: string
+  logo: string;
 };
 
 export function ProjectCard({
@@ -74,7 +74,6 @@ export function ProjectsSection() {
             description={project.shortDescription}
             image={project.coverImage}
             logo={project.logo}
-            logoStyle={project.logoStyle}
           />
         ))}
       </div>

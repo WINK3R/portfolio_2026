@@ -13,7 +13,6 @@ export type Project = {
   shortDescription: string;
   coverImage: string;
   logo: string;
-  logoStyle: "dark" | "light";
   primaryResource?: {
     label: string;
     href: string;

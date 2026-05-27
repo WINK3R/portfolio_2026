@@ -7,7 +7,6 @@
     "shortDescription": "Application web de type link-in-bio avec analytics avancés, conçue avec une approche moderne, responsive et orientée UI/UX.",
     "coverImage": "/projects/gliint-banner.png",
     "logo": "/projects/gliint-logo.png",
-    "logoStyle": "dark",
     "primaryResource": {
       "label": "Accéder au site",
       "href": "https://gliint.app"
@@ -69,7 +68,6 @@
     "shortDescription": "Projet à documenter avec fiche détaillée à compléter.",
     "coverImage": "/images/illustration-2.png",
     "logo": "/images/illustration-1.png",
-    "logoStyle": "light",
     "screenPlaceholders": 6,
     "status": "placeholder",
     "sections": {
@@ -92,7 +90,6 @@
     "shortDescription": "Projet à documenter avec fiche détaillée à compléter.",
     "coverImage": "/images/illustration-2.png",
     "logo": "/images/illustration-3.png",
-    "logoStyle": "light",
     "screenPlaceholders": 6,
     "status": "placeholder",
     "sections": {
@@ -115,7 +112,6 @@
     "shortDescription": "Réalisation à documenter avec fiche projet déjà structurée.",
     "coverImage": "/images/illustration-1.png",
     "logo": "/images/illustration-2.png",
-    "logoStyle": "light",
     "screenPlaceholders": 6,
     "status": "placeholder",
     "sections": {
@@ -138,7 +134,6 @@
     "shortDescription": "Réalisation à documenter avec fiche projet déjà structurée.",
     "coverImage": "/images/illustration-3.png",
     "logo": "/images/photo-about-me-2.png",
-    "logoStyle": "light",
     "screenPlaceholders": 6,
     "status": "placeholder",
     "sections": {
