@@ -80,7 +80,7 @@ export default function AboutPage() {
 
           <div className="px-6 py-8 sm:px-8 sm:py-10 lg:px-12 lg:py-12">
             <div className="space-y-12">
-              {sections.map((section, index) => (
+              {sections.map((section) => (
                 <section
                   key={section.eyebrow}
                   className={`rounded-[30px]`}
@@ -88,11 +88,6 @@ export default function AboutPage() {
                   <p className="font-bold uppercase text-2xl tracking-wide text-black">
                     {section.eyebrow}
                   </p>
-                  {section.title ? (
-                  <h2 className="mt-3 max-w-xl text-2xl font-semibold tracking-[-0.04em] text-black sm:text-3xl">
-                    {section.title}
-                  </h2>) : null
-                  }
                   <div className="mt-5 space-y-5 text-[1.02rem] leading-8 text-black/68">
                     {section.paragraphs.map((paragraph, paragraphIndex) => (
                       <p key={`${section.eyebrow}-${paragraphIndex}`}>

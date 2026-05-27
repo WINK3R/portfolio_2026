@@ -1,0 +1,156 @@
+[
+  {
+    "slug": "gliint",
+    "title": "Gliint",
+    "subtitle": "Application web de liens personnalisés avec analytics avancés",
+    "description": "Une application pensée comme une alternative moderne à Linktree, avec un accent fort sur le responsive, l'UI/UX et la lisibilité des analyses.",
+    "shortDescription": "Application web de type link-in-bio avec analytics avancés, conçue avec une approche moderne, responsive et orientée UI/UX.",
+    "coverImage": "/projects/gliint-banner.png",
+    "logo": "/projects/gliint-logo.png",
+    "logoStyle": "dark",
+    "primaryResource": {
+      "label": "Accéder au site",
+      "href": "https://gliint.app"
+    },
+    "screenPlaceholders": 8,
+    "status": "detailled",
+    "sections": {
+      "presentation": [
+        "Gliint est une application web conçue comme une solution de type link-in-bio, dans une logique proche de Linktree, mais avec une attention plus poussée portée à la modernité du produit, à la clarté de l'interface et à la qualité de lecture des statistiques. L'idée n'était pas seulement de proposer une page de liens, mais de construire une expérience plus aboutie, à la fois sur le plan visuel et sur le plan fonctionnel.",
+        "Le projet a été pensé comme une application actuelle, capable de fonctionner proprement sur mobile comme sur desktop, avec une identité plus soignée, une navigation plus fluide et une interface qui mette autant en valeur les contenus partagés que les données d'usage.",
+        "Avant même la partie développement, un travail important a été réalisé sur Figma afin de produire des maquettes propres, cohérentes et professionnelles. J'ai beaucoup réfléchi à la structure des écrans, à la hiérarchie des informations, aux états d'interface et à la manière de rendre l'expérience la plus simple possible pour un utilisateur qui doit créer, organiser et suivre ses liens rapidement."
+      ],
+      "objectives": [
+        "L'objectif principal était de concevoir une application crédible, moderne et agréable à utiliser, dans laquelle l'utilisateur puisse centraliser ses liens tout en bénéficiant d'analyses plus détaillées sur leur consultation. Le contexte du projet amenait donc une double exigence : proposer une expérience simple côté usage, tout en travaillant une vraie qualité produit.",
+        "L'enjeu principal portait sur l'équilibre entre clarté, performance perçue et richesse fonctionnelle. Il fallait éviter de produire une interface surchargée ou trop proche d'un simple clone, tout en construisant quelque chose de suffisamment structuré pour montrer une vraie valeur ajoutée. Le risque principal était justement de tomber dans un produit fonctionnel mais visuellement trop banal, ou à l'inverse dans une interface séduisante mais moins claire à utiliser.",
+        "Un autre objectif fort était d'arriver à une version finale réellement fonctionnelle, utilisée au quotidien, et pas seulement à une démonstration visuelle. Cela impliquait de penser les parcours de bout en bout : création de profil, ajout de liens, personnalisation, affichage public, analytics, gestion des abonnements et sécurité des données."
+      ],
+      "steps": [
+        "Le travail a commencé par une réflexion sur le positionnement de l'application, sa structure et la manière dont les écrans devaient guider l'utilisateur. Une attention particulière a été portée au responsive, à la hiérarchie visuelle et au rythme des blocs, afin que l'application conserve une lecture confortable sur tous les formats.",
+        "La mise en œuvre a ensuite été réalisée avec Next.js pour la structure applicative, Supabase pour la gestion des données et de certains besoins backend, et Vercel pour le déploiement. Cette stack a permis de construire une base moderne, cohérente et adaptée à un projet web qui demande à la fois fluidité, simplicité d'intégration et mise en ligne rapide.",
+        "Une part importante du travail a aussi porté sur l'UI/UX : choix des espacements, construction des écrans, lisibilité des zones d'analyse, cohérence des composants et recherche d'une interface plus contemporaine qu'une simple page de liens statique.",
+        "Côté fonctionnalités, j'ai développé des tuiles de liens capables de consommer différentes API externes selon le type de contenu, notamment YouTube, Spotify, Deezer ou LinkedIn. L'objectif était de proposer des blocs plus riches qu'un simple bouton, avec des informations plus utiles et une présentation adaptée au service connecté.",
+        "J'ai également travaillé l'architecture des composants pour limiter la duplication de code. Les différents types de tuiles, les états d'affichage et les comportements partagés ont demandé un vrai travail de conception afin de garder une base maintenable, évolutive et plus simple à faire progresser.",
+        "La partie monétisation a été intégrée avec Stripe pour gérer les abonnements. Cette partie a demandé de relier les statuts d'abonnement à l'expérience produit, de contrôler les accès aux fonctionnalités concernées et de garder une logique fiable entre les paiements, les comptes utilisateurs et les données stockées.",
+        "La sécurité a aussi été prise en compte dès la conception backend, notamment avec les politiques RLS de Supabase. L'idée était de s'assurer que chaque utilisateur ne puisse accéder qu'aux données qui lui appartiennent, tout en conservant des routes et des requêtes cohérentes avec les besoins de l'application."
+      ],
+      "actors": [
+        "Le projet a avant tout été porté comme une réalisation centrée sur la conception, le développement et les arbitrages produit. Cela a impliqué un dialogue constant entre la logique technique, la réflexion design et la manière dont un utilisateur final allait percevoir l'outil.",
+        "Les interactions principales se situaient donc entre les besoins du produit, les contraintes de la stack choisie et les choix de présentation nécessaires pour rendre l'application claire, moderne et convaincante."
+      ],
+      "results": [
+        "Pour moi, Gliint a surtout représenté un projet très formateur sur la construction d'une application web moderne, avec un vrai niveau d'attention accordé à la qualité visuelle, au responsive et à la cohérence du parcours. Il a permis d'approfondir à la fois le front-end, la logique produit et la capacité à faire tenir ensemble technique et lisibilité.",
+        "Pour l'entreprise ou pour un contexte produit comparable, une telle application a de la valeur parce qu'elle montre comment un service simple en apparence peut être enrichi par une meilleure expérience utilisateur, une interface plus soignée et des analyses plus utiles.",
+        "Le résultat est une version finale fonctionnelle, avec des utilisateurs quotidiens, ce qui a permis de confronter les choix d'interface et les choix techniques à un usage réel. Le projet ne s'arrête donc pas à une maquette ou à une preuve de concept : il montre une application utilisable, connectée à des services externes, avec une logique d'abonnement et une attention portée à la sécurité."
+      ],
+      "aftermath": [
+        "Dans un futur immédiat, ce type de projet a vocation à être enrichi par de vrais visuels d'interface, des captures d'écran plus nombreuses et des itérations supplémentaires sur les analyses et les composants.",
+        "Avec du recul, il constitue déjà une base solide pour illustrer une manière de concevoir une application web moderne, en mettant au centre le responsive, l'UI/UX et la crédibilité globale du produit."
+      ],
+      "criticalView": [
+        "Le regard critique principal sur Gliint porte sur le niveau d'exigence que ce type de projet impose. Lorsqu'une application se veut moderne, l'écart se joue souvent dans les détails : qualité du responsive, cohérence entre les écrans, hiérarchie des informations, lisibilité des analyses, finesse de certains composants. C'est un projet qui confirme qu'un bon rendu ne repose pas seulement sur les technologies choisies, mais sur la constance dans les choix de conception.",
+        "Ce projet m'a aussi obligé à prendre du recul sur la conception technique : plus les fonctionnalités se multiplient, plus il devient important d'éviter la duplication, de clarifier les responsabilités des composants et de prévoir une base capable d'accueillir de nouveaux types de contenus sans complexifier inutilement l'ensemble.",
+        "Si le projet devait être poussé plus loin, je renforcerais encore la profondeur des cas d'usage, l'expressivité de certaines vues analytiques et la documentation visuelle du produit. C'est justement ce qui en fait une réalisation intéressante : elle montre à la fois ce qui a déjà été construit et ce qui peut encore être élevé."
+      ]
+    },
+    "stack": ["Next.js", "Supabase", "Vercel", "Stripe"],
+    "skills": [
+      { "label": "Front-end", "href": "/competences/front-end" },
+      { "label": "Design UI/UX", "href": "/competences/design-ui-ux" },
+      { "label": "Architecture logicielle", "href": "/competences/architecture-logicielle" },
+      { "label": "Déploiement & DevOps", "href": "/competences/deploiement-devops" }
+    ]
+  },
+  {
+    "slug": "justmusic",
+    "title": "JustMusic",
+    "subtitle": "Projet à documenter",
+    "description": "Réalisation en attente de rédaction détaillée.",
+    "shortDescription": "Projet à documenter avec fiche détaillée à compléter.",
+    "coverImage": "/images/illustration-2.png",
+    "logo": "/images/illustration-1.png",
+    "logoStyle": "light",
+    "screenPlaceholders": 6,
+    "status": "placeholder",
+    "sections": {
+      "presentation": ["Contenu détaillé à compléter."],
+      "objectives": ["Contenu détaillé à compléter."],
+      "steps": ["Contenu détaillé à compléter."],
+      "actors": ["Contenu détaillé à compléter."],
+      "results": ["Contenu détaillé à compléter."],
+      "aftermath": ["Contenu détaillé à compléter."],
+      "criticalView": ["Contenu détaillé à compléter."]
+    },
+    "stack": [],
+    "skills": []
+  },
+  {
+    "slug": "moviefinder",
+    "title": "MovieFinder",
+    "subtitle": "Projet à documenter",
+    "description": "Réalisation en attente de rédaction détaillée.",
+    "shortDescription": "Projet à documenter avec fiche détaillée à compléter.",
+    "coverImage": "/images/illustration-2.png",
+    "logo": "/images/illustration-3.png",
+    "logoStyle": "light",
+    "screenPlaceholders": 6,
+    "status": "placeholder",
+    "sections": {
+      "presentation": ["Contenu détaillé à compléter."],
+      "objectives": ["Contenu détaillé à compléter."],
+      "steps": ["Contenu détaillé à compléter."],
+      "actors": ["Contenu détaillé à compléter."],
+      "results": ["Contenu détaillé à compléter."],
+      "aftermath": ["Contenu détaillé à compléter."],
+      "criticalView": ["Contenu détaillé à compléter."]
+    },
+    "stack": [],
+    "skills": []
+  },
+  {
+    "slug": "projet-quatre",
+    "title": "Projet Quatre",
+    "subtitle": "Réalisation à documenter",
+    "description": "Structure de page prête, contenu détaillé à venir.",
+    "shortDescription": "Réalisation à documenter avec fiche projet déjà structurée.",
+    "coverImage": "/images/illustration-1.png",
+    "logo": "/images/illustration-2.png",
+    "logoStyle": "light",
+    "screenPlaceholders": 6,
+    "status": "placeholder",
+    "sections": {
+      "presentation": ["Contenu détaillé à compléter."],
+      "objectives": ["Contenu détaillé à compléter."],
+      "steps": ["Contenu détaillé à compléter."],
+      "actors": ["Contenu détaillé à compléter."],
+      "results": ["Contenu détaillé à compléter."],
+      "aftermath": ["Contenu détaillé à compléter."],
+      "criticalView": ["Contenu détaillé à compléter."]
+    },
+    "stack": [],
+    "skills": []
+  },
+  {
+    "slug": "projet-cinq",
+    "title": "Projet Cinq",
+    "subtitle": "Réalisation à documenter",
+    "description": "Structure de page prête, contenu détaillé à venir.",
+    "shortDescription": "Réalisation à documenter avec fiche projet déjà structurée.",
+    "coverImage": "/images/illustration-3.png",
+    "logo": "/images/photo-about-me-2.png",
+    "logoStyle": "light",
+    "screenPlaceholders": 6,
+    "status": "placeholder",
+    "sections": {
+      "presentation": ["Contenu détaillé à compléter."],
+      "objectives": ["Contenu détaillé à compléter."],
+      "steps": ["Contenu détaillé à compléter."],
+      "actors": ["Contenu détaillé à compléter."],
+      "results": ["Contenu détaillé à compléter."],
+      "aftermath": ["Contenu détaillé à compléter."],
+      "criticalView": ["Contenu détaillé à compléter."]
+    },
+    "stack": [],
+    "skills": []
+  }
+]

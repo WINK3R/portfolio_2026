@@ -7,7 +7,7 @@ import Logo from "@/public/icons/logo.svg"
 const navItems = [
   { name: "A propos", href: "/about" },
   { name: "Compétences", href: "/#skills" },
-  { name: "Projets", href: "/#projects" },
+  { name: "Projets", href: "/projects" },
   { name: "Expériences", href: "/" },
 ];
 
@@ -111,7 +111,7 @@ export function NavigationBar() {
               Voir mon CV
             </Link>
             <Link
-              href="/#projects"
+              href="/projects"
               className="rounded-full  flex items-center bg-black text-white text-sm font-semibold transition py-3 px-6"
             >
               Me contacter
@@ -166,7 +166,7 @@ export function NavigationBar() {
                 Let&apos;s talk
               </Link>
               <Link
-                href="/#projects"
+                href="/projects"
                 onClick={() => setMenuOpen(false)}
                 className="rounded-full bg-black px-4 py-3 text-center text-sm font-medium text-white transition hover:bg-black/85"
               >
