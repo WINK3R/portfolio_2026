@@ -48,6 +48,13 @@ const stackLogoPaths: Record<string, string> = {
   Supabase: "/images/stacks/supabase.png",
   Vercel: "/images/stacks/vercel.png",
   Stripe: "/images/stacks/stripe.png",
+  Flutter: "/images/stacks/flutter-logo.png",
+  Firebase: "/images/stacks/firebase-logo.png",
+  Figma: "/images/stacks/Figma-logo.png",
+  "Google Auth": "/images/stacks/google-auth-logo.png",
+  "Spotify API": "/images/stacks/spotify-api-logo.png",
+  Swift: "/images/stacks/swift-logo.png",
+  "TMDB API": "/images/stacks/tmdb-logo.png",
 };
 
 export default async function ProjectDetailPage({ params }: ProjectPageProps) {

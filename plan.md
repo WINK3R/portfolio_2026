@@ -37,3 +37,19 @@
 2. Add a phone screenshot display mode to preserve the 390x844 ratio at a reduced size.
 3. Pass the display mode to the project screenshots marquee.
 4. Run lint/build checks.
+
+## Redaction SFHelper
+
+1. Replace SFHelper placeholder copy with a detailed professional project write-up.
+2. Set SFHelper status to `detailled`.
+3. Add the confirmed stack: Next.js and Vercel.
+4. Link relevant skills: Front-end, Architecture logicielle, Resolution de problemes, Deploiement & DevOps, Autonomie.
+5. Validate JSON, then run lint/build checks.
+
+## Redaction Canap
+
+1. Replace Canap placeholder copy with a detailed professional project write-up.
+2. Set Canap status to `detailled` and screenshots to phone display mode.
+3. Add stack entries: Swift, Firebase, TMDB API.
+4. Link relevant skills: Front-end, Back-end, Design UI/UX, Architecture logicielle, Resolution de problemes.
+5. Validate JSON, then run lint/build checks.

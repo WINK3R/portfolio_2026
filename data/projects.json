@@ -75,9 +75,9 @@
   {
     "slug": "justmusic",
     "title": "JustMusic",
-    "subtitle": "Projet à documenter",
-    "description": "Réalisation en attente de rédaction détaillée.",
-    "shortDescription": "Projet à documenter avec fiche détaillée à compléter.",
+    "subtitle": "Application mobile sociale centrée sur la musique et le partage quotidien",
+    "description": "Une application mobile pensée comme un réseau social musical : chaque jour, un utilisateur peut publier une musique accompagnée d'un selfie, puis découvrir, liker, commenter ou sauvegarder les titres partagés par les autres.",
+    "shortDescription": "Application mobile sociale de découverte musicale, construite autour du partage quotidien d'une musique et d'un selfie.",
     "coverImage": "/images/projects/justMusic/justMusic-banner.png",
     "logo": "/images/projects/justMusic/justMusic-logo.png",
     "screenshotDisplay": "phone",
@@ -93,83 +93,191 @@
       "/images/projects/justMusic/image-9.png"
     ],
     "screenPlaceholders": 6,
-    "status": "placeholder",
+    "status": "detailled",
     "sections": {
-      "presentation": ["Contenu détaillé à compléter."],
-      "objectives": ["Contenu détaillé à compléter."],
-      "steps": ["Contenu détaillé à compléter."],
-      "actors": ["Contenu détaillé à compléter."],
-      "results": ["Contenu détaillé à compléter."],
-      "aftermath": ["Contenu détaillé à compléter."],
-      "criticalView": ["Contenu détaillé à compléter."]
+      "presentation": [
+        "JustMusic est une application mobile sociale centrée sur la musique et la découverte de nouveaux titres. Le principe reprend l'idée d'un partage quotidien spontané, proche de l'esprit de BeReal, mais en l'adaptant à un usage musical : chaque jour, un utilisateur peut publier une musique qu'il écoute ou qu'il souhaite partager, accompagnée d'un selfie.",
+        "L'application ne se limite pas à une simple publication. Les autres utilisateurs peuvent liker, commenter et sauvegarder les musiques partagées, ce qui transforme l'expérience en un réseau social orienté vers la découverte, l'échange et la recommandation musicale. L'objectif était de créer un espace où la musique devient le point de départ de l'interaction sociale.",
+        "Le projet a été conçu comme une vraie application mobile, avec une attention portée à la fluidité des parcours, à l'identité visuelle et à la simplicité d'utilisation. Avant le développement, un travail de maquettage sur Figma a permis de structurer les écrans, de réfléchir aux interactions principales et de poser une base visuelle cohérente."
+      ],
+      "objectives": [
+        "L'objectif principal était de construire une application sociale claire, engageante et utilisable au quotidien. Il fallait rendre l'action de publier une musique simple et rapide, tout en donnant aux utilisateurs des moyens d'interagir avec les contenus des autres : likes, commentaires et sauvegarde des titres.",
+        "Le contexte du projet amenait plusieurs enjeux techniques. L'application devait gérer l'authentification, les profils, les publications, les interactions sociales, l'intégration avec Spotify et les règles d'accès aux contenus. Il ne s'agissait donc pas seulement d'une interface mobile, mais d'un produit complet avec une vraie logique applicative.",
+        "Le risque principal était de créer une application trop complexe pour un usage quotidien. Un réseau social musical doit rester immédiat : l'utilisateur doit comprendre rapidement ce qu'il peut publier, comment découvrir les musiques des autres et comment retrouver les titres qui l'intéressent. La clarté de l'expérience était donc aussi importante que la solidité technique."
+      ],
+      "steps": [
+        "Le projet a commencé par une phase de conception sur Figma. J'ai participé à la création des maquettes, à l'organisation des écrans et à la définition de l'expérience utilisateur. Ce travail a permis de clarifier les parcours essentiels : authentification, publication quotidienne, consultation du fil, interactions et sauvegarde des musiques.",
+        "Le développement a été réalisé avec Flutter. Ce choix était cohérent pour une application mobile, car Flutter permet de construire une interface fluide, homogène et adaptée à plusieurs plateformes à partir d'une base de code unique. Dans le cadre de JustMusic, cela permettait aussi de garder une bonne maîtrise du rendu visuel, des composants et des animations d'interface.",
+        "Firebase a été utilisé pour gérer une partie importante de la logique backend, notamment les données, l'authentification et les interactions entre utilisateurs. Cette solution était adaptée au projet car elle permettait d'avancer rapidement sur une application connectée, tout en conservant une structure capable de gérer des profils, des publications et des contenus liés aux utilisateurs.",
+        "L'application intégrait une authentification via Google afin de simplifier l'accès au produit. Elle utilisait également l'API Spotify pour connecter l'expérience sociale à un vrai catalogue musical, permettre la recherche ou l'exploitation de données liées aux titres, et donner plus de valeur aux publications des utilisateurs.",
+        "Une attention particulière a été portée à la gestion des droits d'accès aux contenus. Dans une application sociale, il est important que les données associées aux utilisateurs, aux publications et aux interactions ne soient pas accessibles n'importe comment. Ce sujet a donc demandé de réfléchir à la séparation des responsabilités et aux règles de consultation ou de modification des contenus."
+      ],
+      "actors": [
+        "Le projet a été réalisé en équipe de trois personnes, avec une organisation inspirée de la méthode agile Scrum. Le travail était découpé en tâches, discuté régulièrement et ajusté au fil des avancées. Cette méthode nous a aidés à garder une vision claire des priorités, à répartir les responsabilités et à avancer par itérations.",
+        "Mon rôle était double. J'ai travaillé comme développeur fullstack sur la logique applicative, l'intégration des services et la construction des écrans, mais j'ai aussi participé comme designer de l'application. Cette double position m'a permis de faire le lien entre les choix d'interface, les contraintes techniques et les besoins fonctionnels du produit.",
+        "Les interactions au sein de l'équipe étaient importantes, car le projet mélangeait design, mobile, backend, API externes et logique sociale. Il fallait régulièrement arbitrer entre ce qui était souhaitable côté expérience utilisateur et ce qui était réaliste ou prioritaire côté développement."
+      ],
+      "results": [
+        "Le résultat a été une application mobile fonctionnelle, capable de proposer un parcours social autour de la musique : connexion, publication, consultation des contenus, likes, commentaires et sauvegarde de titres. Le projet a permis de concrétiser une idée produit complète, depuis la maquette jusqu'à une version distribuée.",
+        "JustMusic a été publiée sur le Google Play Store, ce qui a donné au projet une dimension plus concrète qu'une simple démonstration. L'application n'est plus disponible aujourd'hui, mais cette publication a représenté une étape importante, car elle demandait de penser le produit comme une application réellement installable et utilisable.",
+        "Sur le plan personnel, ce projet m'a beaucoup fait progresser sur le développement mobile, l'organisation d'une application connectée, l'intégration d'API externes et la collaboration en équipe. Il m'a aussi permis de mieux comprendre l'importance d'un design simple lorsque les fonctionnalités sociales et techniques se multiplient."
+      ],
+      "aftermath": [
+        "Si le projet devait évoluer, je renforcerais d'abord la partie sociale : notifications, recommandations musicales, meilleure mise en valeur des profils et interactions plus riches autour des titres partagés. Ces évolutions permettraient de rendre la découverte musicale plus vivante et plus personnalisée.",
+        "J'améliorerais aussi les sujets liés à la modération, à la confidentialité et à la gestion fine des contenus. Une application sociale demande de penser non seulement les fonctionnalités visibles, mais aussi les règles qui protègent l'expérience utilisateur et la qualité des échanges.",
+        "Enfin, je pousserais davantage l'analyse des usages afin de mieux comprendre quelles musiques sont sauvegardées, comment les utilisateurs interagissent avec les publications et quelles mécaniques encouragent réellement la découverte."
+      ],
+      "criticalView": [
+        "Le principal recul que je garde sur JustMusic concerne la complexité d'un réseau social, même lorsqu'il repose sur une idée simple. Publier une musique avec un selfie paraît direct côté utilisateur, mais cela implique en réalité de nombreuses couches : authentification, données utilisateurs, contenus, interactions, droits d'accès, intégration Spotify et expérience mobile.",
+        "Le projet m'a aussi montré l'importance de l'architecture dans une application qui combine plusieurs services. Plus les fonctionnalités sociales avancent, plus il devient nécessaire de structurer clairement les données, les responsabilités et les règles d'accès. Sans cela, l'application peut vite devenir difficile à maintenir.",
+        "Avec du recul, je renforcerais encore la phase de cadrage produit et la priorisation des fonctionnalités. Le projet était ambitieux pour une équipe de trois personnes, et cette ambition était formatrice. Elle m'a permis de comprendre qu'un bon produit mobile ne repose pas seulement sur une idée originale, mais sur la capacité à rendre cette idée simple, fiable et agréable à utiliser."
+      ]
     },
-    "stack": [],
-    "skills": []
+    "stack": ["Flutter", "Firebase", "Figma", "Google Auth", "Spotify API"],
+    "skills": [
+      { "label": "Front-end", "href": "/competences/front-end" },
+      { "label": "Back-end", "href": "/competences/back-end" },
+      { "label": "Design UI/UX", "href": "/competences/design-ui-ux" },
+      { "label": "Architecture logicielle", "href": "/competences/architecture-logicielle" },
+      { "label": "Méthodes agiles", "href": "/competences/methodes-agiles" },
+      { "label": "Travail en équipe", "href": "/competences/travail-en-equipe" }
+    ]
   },
   {
-    "slug": "moviefinder",
-    "title": "MovieFinder",
-    "subtitle": "Projet à documenter",
-    "description": "Réalisation en attente de rédaction détaillée.",
-    "shortDescription": "Projet à documenter avec fiche détaillée à compléter.",
-    "coverImage": "/images/illustration-2.png",
-    "logo": "/images/illustration-3.png",
-    "screenPlaceholders": 6,
-    "status": "placeholder",
+    "slug": "canap",
+    "title": "Canap",
+    "subtitle": "Application mobile de découverte de films et séries",
+    "description": "Une application mobile inspirée des mécaniques de Tinder pour découvrir des films et séries à partir de l'API TMDB, organiser ses envies de visionnage et partager ses goûts avec ses amis.",
+    "shortDescription": "Application mobile de découverte cinéma et séries, avec swipe, playlists, suivi de visionnage et interactions sociales.",
+    "coverImage": "/images/projects/canap/canap-banner.png",
+    "logo": "/images/projects/canap/canap-logo.png",
+    "screenshotDisplay": "phone",
+    "screenshots": [
+      "/images/projects/canap/image-1.png",
+      "/images/projects/canap/image-2.png",
+      "/images/projects/canap/image-3.png",
+      "/images/projects/canap/image-4.png",
+      "/images/projects/canap/image-5.png",
+      "/images/projects/canap/image-6.png",
+      "/images/projects/canap/image-7.png",
+      "/images/projects/canap/image-8.png"
+    ],
+    "screenPlaceholders": 8,
+    "status": "detailled",
     "sections": {
-      "presentation": ["Contenu détaillé à compléter."],
-      "objectives": ["Contenu détaillé à compléter."],
-      "steps": ["Contenu détaillé à compléter."],
-      "actors": ["Contenu détaillé à compléter."],
-      "results": ["Contenu détaillé à compléter."],
-      "aftermath": ["Contenu détaillé à compléter."],
-      "criticalView": ["Contenu détaillé à compléter."]
+      "presentation": [
+        "Canap est une application mobile pensée pour faciliter la découverte de films et de séries. Le principe reprend une mécanique proche de Tinder : l'utilisateur parcourt des recommandations, interagit rapidement avec les contenus et peut construire progressivement une liste de films ou séries qui l'intéressent.",
+        "L'application s'appuie sur l'API TMDB pour récupérer des informations fiables et riches sur les films, les séries, les affiches, les résumés et les données associées. L'idée n'était pas seulement d'afficher un catalogue, mais de transformer cette base de données en une expérience mobile plus simple, plus personnelle et plus sociale.",
+        "Canap propose aussi des fonctionnalités d'organisation et d'interaction : création de playlists de films à voir, suivi de visionnage des séries, notation avec des emojis, commentaires et ajout d'amis pour consulter les films ou séries qui les intéressent. Le projet se situe donc entre outil de découverte, carnet de suivi et réseau social léger autour du cinéma."
+      ],
+      "objectives": [
+        "L'objectif principal était de rendre la découverte de films et séries plus fluide. Face à un catalogue très large, l'utilisateur peut vite se perdre. Une logique de swipe permet de simplifier la décision, de rendre l'exploration plus rapide et d'aider à construire une sélection personnelle sans parcours trop lourd.",
+        "Un autre objectif était d'ajouter une dimension d'organisation. Les playlists de films à voir et le suivi de visionnage des séries permettent de ne pas seulement découvrir du contenu, mais aussi de le retrouver, de le classer et de suivre sa progression dans le temps.",
+        "La dimension sociale faisait également partie du besoin. En ajoutant des amis, l'utilisateur peut découvrir les goûts des autres, voir les films qui les intéressent et enrichir sa propre sélection. Le risque principal était de multiplier les fonctionnalités au détriment de la lisibilité, surtout sur mobile."
+      ],
+      "steps": [
+        "Le développement a été réalisé en Swift afin de construire une application mobile native, adaptée aux usages iOS et capable d'offrir une expérience fluide. Ce choix était cohérent pour un projet centré sur l'interaction, le swipe, les écrans de détail et une navigation mobile soignée.",
+        "Firebase a été utilisé pour gérer l'authentification et la sauvegarde backend. Cette partie permettait de conserver les données liées aux utilisateurs : playlists, contenus sauvegardés, suivis de séries, commentaires, notes et relations entre amis.",
+        "L'API TMDB a constitué la source principale des données cinéma et séries. Elle a permis de récupérer les informations nécessaires pour alimenter les écrans de découverte et les fiches de contenu. Le travail consistait ensuite à intégrer ces données proprement dans l'application, en les adaptant aux besoins de l'expérience utilisateur.",
+        "Plusieurs fonctionnalités ont été pensées autour de l'usage réel : créer une playlist de films à voir, suivre l'avancement d'une série, noter un film avec des emojis, commenter un contenu et ajouter des amis. Ces fonctionnalités demandaient de relier l'interface, les données TMDB et les données propres à l'utilisateur stockées côté backend.",
+        "La partie la plus délicate côté architecture a été de gérer à la fois les films et les séries. Ces deux types de contenus se ressemblent dans l'interface, mais ce sont des entités différentes : une série possède des saisons, des épisodes et un suivi de progression, alors qu'un film repose davantage sur une logique de sélection, notation ou sauvegarde. Il a donc fallu concevoir une structure capable de les réunir sans effacer leurs différences."
+      ],
+      "actors": [
+        "Canap a été conçu comme une réalisation centrée sur le développement mobile, la structuration des données et l'expérience utilisateur. Le projet demandait de faire dialoguer plusieurs dimensions : interface Swift, données issues de TMDB, authentification Firebase, sauvegarde backend et logique sociale.",
+        "Mon rôle a consisté à penser l'application dans son ensemble : parcours utilisateur, organisation des écrans, intégration de l'API, structuration des données et gestion des fonctionnalités sociales. Cela m'a amené à travailler autant sur l'expérience visible que sur la logique applicative.",
+        "Le projet m'a aussi obligé à prendre des décisions de conception produit. Une application de découverte doit rester rapide à utiliser, alors qu'une application de suivi demande davantage de précision. Il fallait donc trouver un équilibre entre simplicité immédiate et richesse fonctionnelle."
+      ],
+      "results": [
+        "Le résultat est une application mobile structurée autour de la découverte de films et séries, avec des fonctionnalités qui dépassent le simple affichage d'un catalogue. L'utilisateur peut explorer, sauvegarder, organiser, commenter et suivre ses contenus.",
+        "L'application n'est pas encore disponible sur les stores. Elle représente néanmoins une base concrète de produit mobile, avec une architecture pensée pour connecter des données externes, des données utilisateur et des interactions sociales.",
+        "Sur le plan technique, Canap m'a permis de travailler des sujets importants : intégration d'API, authentification, sauvegarde backend, modélisation d'entités différentes et conception d'une expérience mobile centrée sur l'usage."
+      ],
+      "aftermath": [
+        "La suite naturelle du projet serait de préparer une publication sur les stores, en renforçant la stabilité, les tests et la qualité globale de l'expérience mobile. Une application de ce type doit être fiable, rapide et claire dès les premières minutes d'utilisation.",
+        "J'aimerais aussi enrichir la recommandation et la dimension sociale : notifications, suggestions basées sur les goûts, comparaison de playlists entre amis et meilleure mise en avant des films ou séries populaires dans son cercle.",
+        "Une autre évolution importante serait d'améliorer encore le suivi des séries. Les saisons, les épisodes et l'avancement personnel ouvrent beaucoup de possibilités, mais demandent une interface précise pour rester agréable à utiliser."
+      ],
+      "criticalView": [
+        "Le principal recul que je garde sur Canap concerne la complexité de traiter films et séries dans une même application. Visuellement, ces contenus peuvent sembler proches, mais leur modèle de données, leurs usages et leurs interactions ne sont pas les mêmes.",
+        "Cette différence a eu un impact direct sur l'architecture. Il fallait éviter de dupliquer toute la logique, tout en gardant assez de souplesse pour gérer les cas spécifiques : suivi d'épisodes pour les séries, playlists pour les films, commentaires, notes et sauvegardes communes.",
+        "Le projet m'a montré qu'une bonne architecture mobile ne consiste pas seulement à afficher des écrans propres. Elle doit aussi absorber les différences entre les entités métier, garder le code maintenable et permettre à l'expérience utilisateur de rester simple malgré la richesse fonctionnelle."
+      ]
     },
-    "stack": [],
-    "skills": []
+    "stack": ["Swift", "Firebase", "TMDB API"],
+    "skills": [
+      { "label": "Front-end", "href": "/competences/front-end" },
+      { "label": "Back-end", "href": "/competences/back-end" },
+      { "label": "Design UI/UX", "href": "/competences/design-ui-ux" },
+      { "label": "Architecture logicielle", "href": "/competences/architecture-logicielle" },
+      { "label": "Résolution de problèmes", "href": "/competences/resolution-de-problemes" }
+    ]
   },
   {
-    "slug": "projet-quatre",
-    "title": "Projet Quatre",
-    "subtitle": "Réalisation à documenter",
-    "description": "Structure de page prête, contenu détaillé à venir.",
-    "shortDescription": "Réalisation à documenter avec fiche projet déjà structurée.",
-    "coverImage": "/images/illustration-1.png",
-    "logo": "/images/illustration-2.png",
-    "screenPlaceholders": 6,
-    "status": "placeholder",
-    "sections": {
-      "presentation": ["Contenu détaillé à compléter."],
-      "objectives": ["Contenu détaillé à compléter."],
-      "steps": ["Contenu détaillé à compléter."],
-      "actors": ["Contenu détaillé à compléter."],
-      "results": ["Contenu détaillé à compléter."],
-      "aftermath": ["Contenu détaillé à compléter."],
-      "criticalView": ["Contenu détaillé à compléter."]
+    "slug": "sfhelper",
+    "title": "SFHelper",
+    "subtitle": "Outil web d'aide à la planification d'usines pour Satisfactory",
+    "description": "Un outil personnel conçu pour aider les joueurs de Satisfactory à modéliser leurs usines, ajuster leurs chaînes de production et optimiser les recettes utilisées.",
+    "shortDescription": "Outil web de planification pour Satisfactory, pensé pour modéliser des usines et optimiser des chaînes de production.",
+    "coverImage": "/images/projects/sfhelper/sfhelper-banner.png",
+    "logo": "/images/projects/sfhelper/sfhelper-logo.png",
+    "screenshots": [
+      "/images/projects/sfhelper/image-1.png",
+      "/images/projects/sfhelper/image-2.png",
+      "/images/projects/sfhelper/image-3.png",
+      "/images/projects/sfhelper/image-4.png"
+    ],
+    "primaryResource": {
+      "label": "Accéder au site",
+      "href": "https://sfhelper.vercel.app/"
     },
-    "stack": [],
-    "skills": []
-  },
-  {
-    "slug": "projet-cinq",
-    "title": "Projet Cinq",
-    "subtitle": "Réalisation à documenter",
-    "description": "Structure de page prête, contenu détaillé à venir.",
-    "shortDescription": "Réalisation à documenter avec fiche projet déjà structurée.",
-    "coverImage": "/images/illustration-3.png",
-    "logo": "/images/photo-about-me-2.png",
-    "screenPlaceholders": 6,
-    "status": "placeholder",
+    "screenPlaceholders": 4,
+    "status": "detailled",
     "sections": {
-      "presentation": ["Contenu détaillé à compléter."],
-      "objectives": ["Contenu détaillé à compléter."],
-      "steps": ["Contenu détaillé à compléter."],
-      "actors": ["Contenu détaillé à compléter."],
-      "results": ["Contenu détaillé à compléter."],
-      "aftermath": ["Contenu détaillé à compléter."],
-      "criticalView": ["Contenu détaillé à compléter."]
+      "presentation": [
+        "SFHelper est un projet personnel développé comme un outil d'aide pour Satisfactory, un jeu de construction et d'automatisation industrielle. Dans ce jeu, le joueur doit explorer un monde ouvert, extraire des ressources, fabriquer des composants et organiser des lignes de production de plus en plus complexes.",
+        "Plus la progression avance, plus les usines deviennent difficiles à planifier. Un même objet peut dépendre de plusieurs ressources, de différentes machines et parfois de plusieurs recettes possibles. L'objectif de SFHelper est justement d'aider à représenter ces chaînes de production de manière plus lisible, afin de mieux comprendre ce qu'une usine consomme, produit et nécessite.",
+        "L'outil permet de modéliser des usines et de les modifier à sa guise. L'utilisateur peut ajuster sa configuration, tester des choix de production et réfléchir à l'organisation de ses recettes sans devoir refaire tous les calculs manuellement. Le projet se situe donc entre un outil de planification, un support de calcul et une aide à la décision pour les joueurs."
+      ],
+      "objectives": [
+        "L'objectif principal était de créer un outil clair pour accompagner la planification d'usines dans Satisfactory. Le besoin vient directement du gameplay : lorsqu'une production devient dense, il faut anticiper les ressources nécessaires, comprendre les dépendances et identifier les recettes les plus adaptées à la situation.",
+        "Un autre objectif important était de rendre les usines modifiables. L'outil ne devait pas seulement afficher un résultat figé, mais permettre d'ajuster une configuration, de comparer des hypothèses et de construire progressivement un plan de production plus cohérent.",
+        "Le principal enjeu était de transformer une logique de jeu très technique en interface exploitable. Il fallait manipuler des données, des recettes, des ratios et des dépendances tout en gardant une expérience lisible. Le risque était de produire un outil juste mathématiquement, mais trop difficile à comprendre ou à utiliser."
+      ],
+      "steps": [
+        "Le travail a commencé par la modélisation des éléments principaux du jeu : ressources, objets, recettes, machines et relations entre les différentes productions. Cette étape était essentielle, car la qualité des calculs dépend directement de la manière dont les données sont structurées.",
+        "Une difficulté importante vient du fait qu'un même item peut souvent être fabriqué avec plusieurs recettes. Il a donc fallu prévoir une logique capable de choisir, comparer ou adapter ces recettes selon le contexte de l'usine. Cette contrainte rend le projet plus intéressant qu'un simple calculateur de ratios.",
+        "J'ai ensuite travaillé sur des algorithmes d'optimisation de recettes. L'objectif était d'aider l'utilisateur à trouver des combinaisons plus pertinentes selon les ressources disponibles, les besoins de production ou les choix de configuration. Ce travail demande de prendre en compte des dépendances en chaîne et d'éviter les calculs incohérents lorsque plusieurs chemins de production sont possibles.",
+        "L'interface a été pensée pour permettre à l'utilisateur de modifier son usine progressivement. Le but était de rendre les changements visibles, compréhensibles et réversibles dans la logique de l'outil. Un tel projet demande donc autant de réflexion sur les données que sur la manière dont elles sont présentées.",
+        "Le projet a été développé comme une application web et déployé sur Vercel. Ce choix permettait d'avoir un outil accessible facilement depuis un navigateur, sans installation, avec une mise en ligne rapide et adaptée à un projet personnel évolutif."
+      ],
+      "actors": [
+        "SFHelper est un projet personnel. J'ai donc porté l'ensemble des décisions : cadrage du besoin, modélisation des données, conception de l'interface, logique algorithmique et déploiement.",
+        "Cette autonomie m'a permis d'avancer librement, mais elle m'a aussi obligé à arbitrer entre ambition fonctionnelle et simplicité d'utilisation. Pour un outil technique, il est facile d'ajouter beaucoup d'options ; le vrai travail consiste à garder une interface claire et à prioriser ce qui aide réellement l'utilisateur.",
+        "Le projet m'a également amené à adopter une posture proche de celle d'un utilisateur final. Comme l'outil répond à une problématique concrète de joueur, il fallait constamment vérifier que les choix techniques servaient bien l'usage : planifier plus vite, comprendre plus clairement et modifier plus facilement."
+      ],
+      "results": [
+        "Le résultat est un outil web fonctionnel permettant de représenter des usines, de manipuler des chaînes de production et de travailler sur des choix de recettes. Il apporte une aide concrète dans un jeu où les calculs deviennent rapidement nombreux et interdépendants.",
+        "Le déploiement sur Vercel a permis de rendre le projet accessible simplement et de le traiter comme une vraie application web, plutôt que comme un script local ou une preuve de concept isolée. C'est un point important, car l'intérêt de l'outil repose aussi sur sa disponibilité et sa facilité d'accès.",
+        "Sur le plan personnel, SFHelper m'a permis de progresser sur la structuration de données complexes, les algorithmes d'optimisation et la conception d'une interface pour un usage technique. C'est un projet qui relie logique, architecture et expérience utilisateur."
+      ],
+      "aftermath": [
+        "Le projet pourrait évoluer en intégrant davantage de recettes, de paramètres de machines et de scénarios avancés liés à la progression dans Satisfactory. Plus les données du jeu sont complètes, plus l'outil peut devenir utile pour planifier des usines complexes.",
+        "Une autre évolution intéressante serait la sauvegarde de plans d'usines. Cela permettrait à l'utilisateur de revenir sur ses configurations, de comparer plusieurs versions et de construire une planification plus durable.",
+        "Je pourrais aussi renforcer la visualisation des chaînes de production avec des graphes plus lisibles, des indicateurs de performance et des alertes sur les ressources critiques. L'enjeu serait de rendre les calculs avancés plus faciles à lire sans surcharger l'interface."
+      ],
+      "criticalView": [
+        "Le principal recul que je garde sur SFHelper concerne la difficulté de rendre simple un sujet qui ne l'est pas. Satisfactory repose sur des systèmes imbriqués, et un outil d'aide doit réussir à clarifier ces systèmes sans les déformer.",
+        "Le projet montre aussi que l'algorithmique ne suffit pas. Même si les calculs de recettes et d'optimisation sont centraux, l'utilisateur doit pouvoir comprendre ce que l'outil propose, modifier ses choix et garder le contrôle sur sa planification.",
+        "Avec du recul, je renforcerais encore la séparation entre la logique de calcul et l'interface. Cela rendrait le projet plus maintenable, faciliterait l'ajout de nouvelles recettes et permettrait d'améliorer l'expérience sans fragiliser les algorithmes existants."
+      ]
     },
-    "stack": [],
-    "skills": []
+    "stack": ["Next.js", "Vercel"],
+    "skills": [
+      { "label": "Front-end", "href": "/competences/front-end" },
+      { "label": "Architecture logicielle", "href": "/competences/architecture-logicielle" },
+      { "label": "Résolution de problèmes", "href": "/competences/resolution-de-problemes" },
+      { "label": "Déploiement & DevOps", "href": "/competences/deploiement-devops" },
+      { "label": "Autonomie", "href": "/competences/autonomie" }
+    ]
   }
 ]

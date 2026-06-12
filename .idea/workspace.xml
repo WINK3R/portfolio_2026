@@ -5,29 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6214dfae-1ced-4109-a6eb-289033033ebd" name="Changes" comment="wip">
-      <change afterPath="$PROJECT_DIR$/AGENTS.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CLAUDE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/exemple_cloud-computing" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/grille_evalutation.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/plan-redaction-competences.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/redaction-competence-front-end.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plan.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/projects/justMusic/justMusic-logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ShadcnHelperSettings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ShadcnHelperSettings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/projects/canap/canap-banner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/projects/canap/canap-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/projects/sfhelper/image-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/projects/sfhelper/image-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/projects/sfhelper/image-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/projects/sfhelper/image-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/projects/sfhelper/sfhelper-banner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/projects/sfhelper/sfhelper-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/stacks/swift-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/stacks/tmdb-logo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/competences/[slug]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/competences/[slug]/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/projects/[slug]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/projects/[slug]/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/skills-section.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/skills-section.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/projects.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/projects.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/skills.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/skills.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/projects.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/projects.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/skills.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/skills.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/projects/gliint-banner.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/projects/gliint/gliint-banner.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/projects/gliint-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/projects/gliint/gliint-logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/projects/paage-banner.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/projects/paage-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plan.md" beforeDir="false" afterPath="$PROJECT_DIR$/plan.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/projects/gliint/gliint-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/projects/gliint/gliint-logo.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,61 +79,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0000290319298197" />
-      <entry key="S2" value="1.0734038732008533" />
-      <entry key="S5" value="1.3517933215409967" />
-      <entry key="S10" value="1.5931216752039705" />
-      <entry key="S30" value="1.842669465923133" />
-      <entry key="S60" value="2.1391414490130867" />
-      <entry key="M2" value="4.1477520441934015" />
-      <entry key="M5" value="11.009895504391283" />
-      <entry key="M10" value="17.461846071679567" />
-      <entry key="M15" value="22.422966926036327" />
-      <entry key="M30" value="36.254861694262914" />
-      <entry key="H1" value="56.77951386153229" />
-      <entry key="H2" value="78.39559993628694" />
-      <entry key="H4" value="96.11844741682249" />
-      <entry key="D1" value="118.26759502956206" />
-      <entry key="W1" value="123.14669093429784" />
+      <entry key="MS100" value="1.0009833550293523" />
+      <entry key="MS500" value="1.2503468139278335" />
+      <entry key="S2" value="1.7073518881937688" />
+      <entry key="S5" value="1.8706712555953802" />
+      <entry key="S10" value="1.933097666696997" />
+      <entry key="S30" value="1.9771825458843058" />
+      <entry key="S60" value="1.9885254401806285" />
+      <entry key="M2" value="1.9942461918886623" />
+      <entry key="M5" value="2.0021188240672627" />
+      <entry key="M10" value="2.2475671058817412" />
+      <entry key="M15" value="2.952849447952259" />
+      <entry key="M30" value="5.815401660924916" />
+      <entry key="H1" value="12.946217909225272" />
+      <entry key="H2" value="33.28909659087037" />
+      <entry key="H4" value="67.19642503126131" />
+      <entry key="D1" value="135.58586878733337" />
+      <entry key="W1" value="154.54374314691523" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
       <entry key="MS500" value="0.0" />
       <entry key="S2" value="0.0" />
-      <entry key="S5" value="1.0904015000174684E-205" />
-      <entry key="S10" value="3.302122802103926E-103" />
-      <entry key="S30" value="6.911904676132822E-35" />
-      <entry key="S60" value="8.313786547736732E-18" />
-      <entry key="M2" value="2.8833637557107737E-9" />
-      <entry key="M5" value="3.8367916730779977E-4" />
-      <entry key="M10" value="0.019709691585223225" />
-      <entry key="M15" value="0.0757658788353668" />
-      <entry key="M30" value="0.34832539776064403" />
-      <entry key="H1" value="0.9160887907488262" />
-      <entry key="H2" value="1.611499701857718" />
-      <entry key="H4" value="2.1837299795131986" />
-      <entry key="D1" value="2.842729095058652" />
-      <entry key="W1" value="2.976945559051898" />
+      <entry key="S5" value="0.0" />
+      <entry key="S10" value="0.0" />
+      <entry key="S30" value="1.42741155807912E-197" />
+      <entry key="S60" value="3.778110054086726E-99" />
+      <entry key="M2" value="6.146633268783146E-50" />
+      <entry key="M5" value="2.067584966700947E-20" />
+      <entry key="M10" value="1.446862970804741E-10" />
+      <entry key="M15" value="2.861796275307025E-7" />
+      <entry key="M30" value="6.769672610604647E-4" />
+      <entry key="H1" value="0.04038581312823368" />
+      <entry key="H2" value="0.3383575414202652" />
+      <entry key="H4" value="1.0006259277950371" />
+      <entry key="D1" value="2.4960174108193005" />
+      <entry key="W1" value="2.9221412010152408" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.8350879194283694" />
-      <entry key="MS500" value="0.9646254607426575" />
-      <entry key="S2" value="1.0632975242507867" />
-      <entry key="S5" value="1.346007674293127" />
-      <entry key="S10" value="1.5894739550089814" />
-      <entry key="S30" value="1.841195367543218" />
-      <entry key="S60" value="2.138344834866383" />
-      <entry key="M2" value="4.147254159702315" />
-      <entry key="M5" value="11.009912497599691" />
-      <entry key="M10" value="17.48028211667903" />
-      <entry key="M15" value="22.495703303143877" />
-      <entry key="M30" value="36.59647850540967" />
-      <entry key="H1" value="57.687667333314714" />
-      <entry key="H2" value="80.00050094231295" />
-      <entry key="H4" value="98.29766020589565" />
-      <entry key="D1" value="121.10927999478902" />
-      <entry key="W1" value="126.12347738228259" />
+      <entry key="MS100" value="0.9735473609379003" />
+      <entry key="MS500" value="1.2400050674890621" />
+      <entry key="S2" value="1.7025427743848505" />
+      <entry key="S5" value="1.8684287209955042" />
+      <entry key="S10" value="1.931915401835176" />
+      <entry key="S30" value="1.9767740936951579" />
+      <entry key="S60" value="1.9883193658527272" />
+      <entry key="M2" value="1.9941426886245657" />
+      <entry key="M5" value="2.0020772407537053" />
+      <entry key="M10" value="2.247544376860667" />
+      <entry key="M15" value="2.952830877562263" />
+      <entry key="M30" value="5.816048794497739" />
+      <entry key="H1" value="12.986238884262137" />
+      <entry key="H2" value="33.626056269416836" />
+      <entry key="H4" value="68.19497240350256" />
+      <entry key="D1" value="138.08096738644326" />
+      <entry key="W1" value="157.46572785756945" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -168,7 +160,7 @@
     "javascript.preferred.runtime.type.id": "node",
     "js.debugger.nextJs.config.created.client": "true",
     "js.debugger.nextJs.config.created.server": "true",
-    "last_opened_file_path": "/home/ldelanier/Documents/Iscod/Portfolio/portfolio/public/images/projects/justMusic",
+    "last_opened_file_path": "/home/ldelanier/Documents/Iscod/Portfolio/portfolio/public/images/stacks",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -183,13 +175,15 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/images/stacks" />
+      <recent name="$PROJECT_DIR$/public/images/projects/sfhelper" />
+      <recent name="$PROJECT_DIR$/public/images/projects/gliint" />
+      <recent name="$PROJECT_DIR$/public/images/projects/canap" />
       <recent name="$PROJECT_DIR$/public/images/projects/justMusic" />
-      <recent name="$PROJECT_DIR$/public/images/projects" />
-      <recent name="$PROJECT_DIR$/public/projects" />
-      <recent name="$PROJECT_DIR$/doc" />
-      <recent name="$PROJECT_DIR$/public/images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/images/projects/sfhelper" />
+      <recent name="$PROJECT_DIR$/public/images/projects/sfhelper-banner" />
       <recent name="$PROJECT_DIR$/public/images/projects/gliint" />
       <recent name="$PROJECT_DIR$/public/images/stacks" />
       <recent name="$PROJECT_DIR$/public/images" />
@@ -237,7 +231,7 @@
       <workItem from="1779952025204" duration="17000" />
       <workItem from="1780062398886" duration="638000" />
       <workItem from="1780297774275" duration="80000" />
-      <workItem from="1781253967744" duration="3864000" />
+      <workItem from="1781253967744" duration="11349000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -287,7 +281,15 @@
       <option name="project" value="LOCAL" />
       <updated>1779894951436</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="wip">
+      <option name="closed" value="true" />
+      <created>1781258586139</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1781258586139</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
