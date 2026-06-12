@@ -4,7 +4,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ExternalLink } from "lucide-react";
 import { NavigationBar } from "@/components/navigation-bar";
-import { Marquee } from "@/components/ui/marquee";
+import { ProjectScreenshotsMarquee } from "@/components/project-screenshots-marquee";
 import { allProjects, getProjectBySlug } from "@/lib/projects";
 
 type ProjectPageProps = {
@@ -50,12 +50,6 @@ const stackLogoPaths: Record<string, string> = {
   Stripe: "/images/stacks/stripe.png",
 };
 
-function ScreenPlaceholder() {
-  return (
-    <div className="aspect-video w-[260px] shrink-0 rounded-[20px] bg-[#d9d9d9] sm:w-[340px] lg:w-[420px]" />
-  );
-}
-
 export default async function ProjectDetailPage({ params }: ProjectPageProps) {
   const { slug } = await params;
   const project = getProjectBySlug(slug);
@@ -63,11 +57,6 @@ export default async function ProjectDetailPage({ params }: ProjectPageProps) {
   if (!project) {
     notFound();
   }
-
-  const placeholders = Array.from(
-    { length: project.screenPlaceholders },
-    (_, index) => index,
-  );
 
   return (
     <main className="min-h-screen bg-neutral-50 text-black">
@@ -121,22 +110,12 @@ export default async function ProjectDetailPage({ params }: ProjectPageProps) {
 
           </div>
 
-          <div className="overflow-hidden py-6 sm:py-8">
-            <Marquee className="p-0 [--duration:34s]" repeat={2}>
-              {placeholders.map((item) => (
-                <ScreenPlaceholder
-                  key={`row-1-${item}`}
-                />
-              ))}
-            </Marquee>
-            <Marquee className="mt-4 p-0 [--duration:34s]" repeat={2} reverse>
-              {placeholders.map((item) => (
-                <ScreenPlaceholder
-                  key={`row-2-${item}`}
-                />
-              ))}
-            </Marquee>
-          </div>
+          <ProjectScreenshotsMarquee
+            projectTitle={project.title}
+            screenshots={project.screenshots ?? []}
+            display={project.screenshotDisplay}
+            placeholderCount={project.screenPlaceholders}
+          />
 
           <div className="px-6 py-8 sm:px-8 sm:py-10 lg:px-12 lg:py-12">
             <section className="rounded-[28px] bg-neutral-50 p-5 sm:p-6">

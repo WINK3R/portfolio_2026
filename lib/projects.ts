@@ -13,6 +13,8 @@ export type Project = {
   shortDescription: string;
   coverImage: string;
   logo: string;
+  screenshotDisplay?: "desktop" | "phone";
+  screenshots?: string[];
   primaryResource?: {
     label: string;
     href: string;

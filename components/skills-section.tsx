@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { SkillIcon } from "@/components/skill-icon";
 import { nonTechnicalSkills, technicalSkills, type Skill } from "@/lib/skills";
 
 type SkillCardProps = {
@@ -13,7 +14,12 @@ function SkillCard({ skill }: Readonly<SkillCardProps>) {
     >
       <article>
         <div className="flex gap-4">
-          <div className="h-14 w-14 shrink-0 rounded-2xl bg-neutral-100 transition group-hover:bg-[#dff0ff]" />
+          <div
+            className="flex h-14 w-14 shrink-0 items-center justify-center rounded-2xl text-white transition group-hover:scale-105"
+            style={{ backgroundColor: skill.accentColor }}
+          >
+            <SkillIcon name={skill.icon} className="size-7" />
+          </div>
           <div className="min-w-0">
             <h3 className="text-2xl font-semibold leading-[1.02] tracking-[-0.04em] text-black">
               {skill.title}

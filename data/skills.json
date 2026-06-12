@@ -5,6 +5,8 @@
     "title": "Front-end",
     "description": "Conception d'interfaces modernes, intégration responsive et attention portée aux détails visuels.",
     "level": "78%",
+    "accentColor": "#5B8DEF",
+    "icon": "CodeBracketIcon",
     "heroImage": "/images/illustration-1.png",
     "galleryImage": "/images/photo-about-me.png",
     "sections": {
@@ -82,6 +84,8 @@
     "title": "Back-end",
     "description": "Mise en place de logiques metier, APIs et structures solides pour des projets coherents.",
     "level": "72%",
+    "accentColor": "#22A06B",
+    "icon": "ServerStackIcon",
     "heroImage": "/images/illustration-2.png",
     "galleryImage": "/images/photo-about-me-2.png",
     "sections": {
@@ -123,6 +127,8 @@
     "title": "Design UI/UX",
     "description": "Creation d'experiences claires, lisibles et orientees utilisateur, du wireframe au rendu final.",
     "level": "84%",
+    "accentColor": "#FF7A90",
+    "icon": "PaintBrushIcon",
     "heroImage": "/images/illustration-3.png",
     "galleryImage": "/images/photo-about-me-3.png",
     "sections": {
@@ -164,6 +170,8 @@
     "title": "Deploiement & DevOps",
     "description": "Bases de mise en production, gestion d'environnements et automatisation des flux de travail.",
     "level": "74%",
+    "accentColor": "#F59E0B",
+    "icon": "RocketLaunchIcon",
     "heroImage": "/images/illustration-2.png",
     "galleryImage": "/images/photo-about-me.png",
     "sections": {
@@ -204,6 +212,8 @@
     "title": "Architecture logicielle",
     "description": "Reflexion sur l'organisation du code, la maintenabilite et la clarte des systemes construits.",
     "level": "70%",
+    "accentColor": "#7C5CFF",
+    "icon": "Square3Stack3DIcon",
     "heroImage": "/images/illustration-1.png",
     "galleryImage": "/images/photo-about-me-2.png",
     "sections": {
@@ -243,6 +253,8 @@
     "title": "Tests automatises",
     "description": "Verification des comportements clefs pour fiabiliser les interfaces et limiter les regressions.",
     "level": "83%",
+    "accentColor": "#00A6A6",
+    "icon": "ShieldCheckIcon",
     "heroImage": "/images/illustration-3.png",
     "galleryImage": "/images/photo-about-me-3.png",
     "sections": {
@@ -282,6 +294,8 @@
     "title": "Methodes agiles",
     "description": "Travail par iteration, adaptation continue et priorisation claire selon le contexte du projet.",
     "level": "78%",
+    "accentColor": "#F97316",
+    "icon": "PresentationChartLineIcon",
     "heroImage": "/images/illustration-1.png",
     "galleryImage": "/images/photo-about-me.png",
     "sections": {
@@ -321,6 +335,8 @@
     "title": "Adaptabilite",
     "description": "Capacite a apprendre vite, changer d'approche et m'ajuster a des besoins differents.",
     "level": "72%",
+    "accentColor": "#84CC16",
+    "icon": "ArrowsPointingOutIcon",
     "heroImage": "/images/illustration-2.png",
     "galleryImage": "/images/photo-about-me-2.png",
     "sections": {
@@ -360,6 +376,8 @@
     "title": "Autonomie",
     "description": "Organisation personnelle, prise d'initiative et avancee constante sur les sujets confies.",
     "level": "84%",
+    "accentColor": "#EC4899",
+    "icon": "BoltIcon",
     "heroImage": "/images/illustration-3.png",
     "galleryImage": "/images/photo-about-me-3.png",
     "sections": {
@@ -399,6 +417,8 @@
     "title": "Travail en equipe",
     "description": "Communication fluide, partage d'idees et collaboration constructive pour faire avancer un projet.",
     "level": "76%",
+    "accentColor": "#38BDF8",
+    "icon": "UsersIcon",
     "heroImage": "/images/illustration-1.png",
     "galleryImage": "/images/photo-about-me.png",
     "sections": {
@@ -438,6 +458,8 @@
     "title": "Resolution de problemes",
     "description": "Analyse, diagnostic et recherche de solutions concretes avec methode et recul.",
     "level": "73%",
+    "accentColor": "#EF4444",
+    "icon": "LightBulbIcon",
     "heroImage": "/images/illustration-2.png",
     "galleryImage": "/images/photo-about-me-2.png",
     "sections": {

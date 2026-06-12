@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { NavigationBar } from "@/components/navigation-bar";
+import { SkillIcon } from "@/components/skill-icon";
 import {
   Collapsible,
   CollapsibleContent,
@@ -58,8 +59,18 @@ export default async function SkillDetailPage({ params }: SkillPageProps) {
               fill
               className="object-cover"
             />
+            <div
+              className="absolute inset-0 mix-blend-multiply opacity-55"
+              style={{ backgroundColor: skill.accentColor }}
+            />
             <div className="absolute inset-0 bg-linear-to-t from-black/65 via-black/20 to-transparent" />
             <div className="absolute inset-x-0 bottom-0 p-6 sm:p-8 lg:p-10">
+              <div
+                className="mb-5 flex h-16 w-16 items-center justify-center rounded-3xl text-white shadow-2xl shadow-black/20 ring-1 ring-white/24"
+                style={{ backgroundColor: skill.accentColor }}
+              >
+                <SkillIcon name={skill.icon} className="size-8" />
+              </div>
               <p className="text-sm font-semibold uppercase tracking-[0.28em] text-white/72">
                 {skill.category === "technique"
                   ? "Competence technique"

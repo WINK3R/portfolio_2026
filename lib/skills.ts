@@ -13,12 +13,27 @@ type SkillStory = {
   relatedItems?: RelatedItem[];
 };
 
+export type SkillIconName =
+  | "CodeBracketIcon"
+  | "ServerStackIcon"
+  | "PaintBrushIcon"
+  | "RocketLaunchIcon"
+  | "Square3Stack3DIcon"
+  | "ShieldCheckIcon"
+  | "PresentationChartLineIcon"
+  | "ArrowsPointingOutIcon"
+  | "BoltIcon"
+  | "UsersIcon"
+  | "LightBulbIcon";
+
 export type Skill = {
   slug: string;
   category: "technique" | "non-technique";
   title: string;
   description: string;
   level: string;
+  accentColor: string;
+  icon: SkillIconName;
   heroImage: string;
   galleryImage: string;
   sections: {

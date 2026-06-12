@@ -5,8 +5,20 @@
     "subtitle": "Application web de liens personnalisés avec analytics avancés",
     "description": "Une application pensée comme une alternative moderne à Linktree, avec un accent fort sur le responsive, l'UI/UX et la lisibilité des analyses.",
     "shortDescription": "Application web de type link-in-bio avec analytics avancés, conçue avec une approche moderne, responsive et orientée UI/UX.",
-    "coverImage": "/projects/gliint-banner.png",
-    "logo": "/projects/gliint-logo.png",
+    "coverImage": "/images/projects/gliint/gliint-banner.png",
+    "logo": "/images/projects/gliint/gliint-logo.png",
+    "screenshots": [
+      "/images/projects/gliint/image-1.png",
+      "/images/projects/gliint/image-2.png",
+      "/images/projects/gliint/image-3.png",
+      "/images/projects/gliint/image-4.png",
+      "/images/projects/gliint/image-5.png",
+      "/images/projects/gliint/image-6.png",
+      "/images/projects/gliint/image-7.png",
+      "/images/projects/gliint/image-8.png",
+      "/images/projects/gliint/image-9.png",
+      "/images/projects/gliint/image-10.png"
+    ],
     "primaryResource": {
       "label": "Accéder au site",
       "href": "https://gliint.app"
@@ -66,8 +78,20 @@
     "subtitle": "Projet à documenter",
     "description": "Réalisation en attente de rédaction détaillée.",
     "shortDescription": "Projet à documenter avec fiche détaillée à compléter.",
-    "coverImage": "/images/illustration-2.png",
-    "logo": "/images/illustration-1.png",
+    "coverImage": "/images/projects/justMusic/justMusic-banner.png",
+    "logo": "/images/projects/justMusic/justMusic-logo.png",
+    "screenshotDisplay": "phone",
+    "screenshots": [
+      "/images/projects/justMusic/image-1.png",
+      "/images/projects/justMusic/image-2.png",
+      "/images/projects/justMusic/image-3.png",
+      "/images/projects/justMusic/image-4.png",
+      "/images/projects/justMusic/image-5.png",
+      "/images/projects/justMusic/image-6.png",
+      "/images/projects/justMusic/image-7.png",
+      "/images/projects/justMusic/image-8.png",
+      "/images/projects/justMusic/image-9.png"
+    ],
     "screenPlaceholders": 6,
     "status": "placeholder",
     "sections": {
