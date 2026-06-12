@@ -1,3 +1,29 @@
+Plan
+
+1. Remplacer les references aux realisations par des badges de taches.
+2. Ajouter les taches demandees pour Cikaba Mastere, Alternance Cikaba et INRAE.
+3. Preciser dans INRAE l'embauche de 2 mois pour la version mobile Flutter.
+4. Relancer lint/build.
+
+## Historique precedent
+
+1. Supprimer l'effet de hover des cartes experiences.
+2. Passer chaque experience en carte pleine largeur avec details visibles a droite.
+3. Reordonner les experiences de la plus recente a la plus ancienne.
+4. Relancer lint/build.
+
+## Historique precedent
+
+1. Structurer les cartes d'experience avec un premier niveau de lecture: periode, poste, lieu et logo.
+2. Ajouter un deuxieme niveau visible au survol/focus: responsabilite, statut, missions, liens projets et competences.
+3. Garder les dates exactes a preciser lorsque l'information n'est pas fournie.
+4. Relancer lint/build.
+
+1. Ajouter un composant `ExperiencesSection` avec les experiences fournies.
+2. Inserer la section sous les projets sur la page d'accueil.
+3. Pointer l'entree de navigation "Experiences" vers l'ancre de la nouvelle section.
+4. Lancer les verifications du projet.
+
 1. Enrichir la fiche Gliint avec les details de conception Figma, UI/UX, integrations API, optimisation de code, abonnements Stripe et securite Supabase/RLS.
 2. Ajouter Stripe a la stack affichee sur la page detail projet.
 3. Verifier que les donnees JSON restent valides et que le lint/build passent.

@@ -8,7 +8,7 @@ const navItems = [
   { name: "A propos", href: "/about" },
   { name: "Compétences", href: "/#skills" },
   { name: "Projets", href: "/projects" },
-  { name: "Expériences", href: "/" },
+  { name: "Expériences", href: "/#experiences" },
 ];
 
 function MenuIcon() {
