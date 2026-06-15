@@ -105,13 +105,15 @@ export function NavigationBar() {
 
           <div className="flex items-center justify-end gap-2 h-full">
             <Link
-              href="/"
+              href="/pdf/CV-delanier.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
               className="rounded-full flex items-center h-full px-4 py-2 text-sm font-medium text-black/60 transition bg-white/10 hover:text-black"
             >
               Voir mon CV
             </Link>
             <Link
-              href="/projects"
+              href="mailto:delanierlucas@gmail.com"
               className="rounded-full  flex items-center bg-black text-white text-sm font-semibold transition py-3 px-6"
             >
               Me contacter

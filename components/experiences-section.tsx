@@ -37,7 +37,7 @@ const experiences: Experience[] = [
     missions:
       "Alternance de deux ans sur des solutions QHSE, avec un positionnement orienté digitalisation des processus, qualité des interfaces et fiabilité des parcours métier.",
     duration: "2 ans",
-    image: "/images/illustration-3.png",
+    image: "/images/experiences/cikaba-banner.jpg",
     taskBadges: [
       "Digitalisation processus QHSE",
       "Maquettage",
@@ -68,7 +68,7 @@ const experiences: Experience[] = [
     missions:
       "Alternance d'un an au sein de Cikaba pendant la troisième année d'IUT, avec une immersion dans les projets digitaux de l'entreprise et la participation aux évolutions fonctionnelles.",
     duration: "1 an",
-    image: "/images/illustration-2.png",
+    image: "/images/experiences/cikaba-banner.jpg",
     taskBadges: ["Front-end", "Intégration application", "SSO"],
     skillLinks: [
       { label: "Front-end", href: "/competences/front-end" },
@@ -94,7 +94,7 @@ const experiences: Experience[] = [
     missions:
       "Développement d'un serious game autour de la santé des jeunes et de leur alimentation, avec une attention portée à la pédagogie, au parcours utilisateur et à la clarté des interactions. J'ai ensuite été embauché pendant 2 mois pour réaliser la version mobile en Flutter.",
     duration: "Projet serious game",
-    image: "/images/illustration-1.png",
+    image: "/images/experiences/inrae-banner.jpg",
     taskBadges: ["Déploiement", "Conception", "Maquettage", "Flutter"],
     skillLinks: [
       { label: "Front-end", href: "/competences/front-end" },

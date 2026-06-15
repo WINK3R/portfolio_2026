@@ -37,16 +37,29 @@
             ]
           },
           {
-            "title": "Mes différents travaux sur Figma",
+            "title": "Les projets présentés dans ce portfolio",
             "paragraphs": [
-              "Le second exemple concerne mes différents travaux sur Figma. Même s'il s'agit d'un outil de conception, ce travail nourrit directement ma compétence front-end, car il m'apprend à mieux organiser l'information, à penser les parcours et à anticiper le rendu final.",
-              "Ces travaux m'ont aidé à mieux comprendre les équilibres visuels, la lisibilité d'une interface, la place des composants et la cohérence d'ensemble avant même l'intégration."
+              "Le second exemple concerne les projets présentés dans ce portfolio. Chaque projet visible ici est le fruit de mon travail de développement front-end, avec des interfaces que j'ai construites, intégrées ou fait évoluer selon le contexte du produit.",
+              "Ces réalisations montrent ma capacité à adapter mon approche front-end à des supports différents : application web, application mobile, outil métier ou interface de présentation. Elles m'ont permis de travailler la structure des écrans, le responsive, les composants et la cohérence visuelle."
             ],
-            "result": "Le résultat est une meilleure capacité à passer d'une intention visuelle à une interface plus claire et plus maîtrisée.",
-            "valueAdded": "Ma valeur ajoutée est d'articuler plus facilement réflexion graphique et intégration, ce qui me permet de produire des interfaces plus cohérentes.",
+            "result": "Le résultat est un ensemble de projets concrets qui illustrent ma pratique du front-end à travers plusieurs interfaces réellement construites.",
+            "valueAdded": "Ma valeur ajoutée est d'avoir transformé des besoins ou des idées produit en interfaces lisibles, structurées et adaptées à leur usage.",
             "relatedItems": [
               {
-                "label": "Travaux Figma"
+                "label": "Gliint",
+                "href": "/projects/gliint"
+              },
+              {
+                "label": "JustMusic",
+                "href": "/projects/justmusic"
+              },
+              {
+                "label": "Canap",
+                "href": "/projects/canap"
+              },
+              {
+                "label": "SFHelper",
+                "href": "/projects/sfhelper"
               }
             ]
           }
@@ -70,11 +83,24 @@
         "href": "/"
       },
       {
-        "label": "Section compétences",
-        "href": "/#skills"
+        "label": "Gliint",
+        "href": "/projects/gliint"
       },
       {
-        "label": "Travaux Figma"
+        "label": "JustMusic",
+        "href": "/projects/justmusic"
+      },
+      {
+        "label": "Canap",
+        "href": "/projects/canap"
+      },
+      {
+        "label": "SFHelper",
+        "href": "/projects/sfhelper"
+      },
+      {
+        "label": "Expériences Cikaba",
+        "href": "/#experiences"
       }
     ]
   },
@@ -97,17 +123,17 @@
         "intro": "Le back-end est une compétence que j'ai travaillée à travers la logique applicative, la structuration des données et l'organisation des traitements côté serveur.",
         "stories": [
           {
-            "title": "Anecdote 1",
+            "title": "Réaliser des API pour un outil de tickets",
             "paragraphs": [
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-              "Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor."
+              "Un exemple important de ma compétence back-end vient d'un exercice réalisé pendant ma formation en mastère. Il consistait à développer un outil de gestion de tickets avec un tableau Kanban, en construisant les API nécessaires pour créer, organiser, déplacer et suivre les tickets.",
+              "Le projet ne se limitait pas à manipuler des tâches. Il fallait aussi permettre d'inviter des utilisateurs dans un espace de travail et de gérer précisément ce que chacun pouvait consulter ou modifier. Une grande partie du travail a donc porté sur la gestion des accès, les permissions et la sécurité des données."
             ],
-            "result": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            "valueAdded": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            "result": "Le résultat a été une base back-end capable de gérer des tickets, des colonnes Kanban, des invitations et des règles d'accès cohérentes entre les utilisateurs.",
+            "valueAdded": "Ma valeur ajoutée a été de structurer les API en gardant une attention forte sur la fiabilité des données et sur le fait qu'un utilisateur ne puisse accéder qu'aux ressources autorisées."
           }
         ],
         "closing": [
-          "Même si les anecdotes restent ici en attente de contenu détaillé, elles ont vocation à montrer ma capacité à concevoir une logique plus fiable, plus claire et mieux structurée."
+          "Cet exemple montre ma capacité à concevoir une logique back-end qui ne se limite pas aux fonctionnalités visibles, mais prend aussi en compte les accès, les permissions et la protection des données."
         ]
       },
       "selfReview": [
@@ -119,7 +145,27 @@
         "Pour cela, je compte approfondir mes pratiques sur les APIs, la validation, l'organisation du code serveur et les bases de données."
       ]
     },
-    "relatedProjects": []
+    "relatedProjects": [
+      {
+        "label": "Gliint",
+        "href": "/projects/gliint"
+      },
+      {
+        "label": "JustMusic",
+        "href": "/projects/justmusic"
+      },
+      {
+        "label": "Canap",
+        "href": "/projects/canap"
+      },
+      {
+        "label": "Exercice Kanban"
+      },
+      {
+        "label": "Expériences Cikaba",
+        "href": "/#experiences"
+      }
+    ]
   },
   {
     "slug": "design-ui-ux",
@@ -140,17 +186,17 @@
         "intro": "Le design UI/UX nourrit directement ma manière de concevoir des interfaces, de structurer les écrans et d'anticiper la lecture utilisateur.",
         "stories": [
           {
-            "title": "Anecdote 1",
+            "title": "Maîtriser Figma à travers mes réalisations",
             "paragraphs": [
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-              "Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor."
+              "Un exemple important de ma compétence Design UI/UX vient de toutes les réalisations que j'ai produites sur Figma. À force de concevoir des maquettes, des écrans et des parcours, j'ai appris à maîtriser l'outil de manière complète, bien au-delà d'un simple usage visuel.",
+              "J'ai progressivement travaillé des notions plus avancées comme l'auto-layout, les styles, les variables, les guides, les composants et les interactions de prototype. Cette maîtrise m'aide à construire des maquettes plus propres, plus cohérentes et plus faciles à faire évoluer avant le passage au développement."
             ],
-            "result": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            "valueAdded": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            "result": "Le résultat est une meilleure capacité à produire des maquettes structurées, lisibles et proches d'une logique de produit réel.",
+            "valueAdded": "Ma valeur ajoutée est de savoir utiliser Figma comme un véritable outil de conception, capable de clarifier une interface, d'organiser un système visuel et d'anticiper l'intégration."
           }
         ],
         "closing": [
-          "Les anecdotes détaillées viendront illustrer comment cette compétence m'aide à produire des interfaces plus claires, plus fluides et plus cohérentes."
+          "Cet exemple montre que ma compétence Design UI/UX repose à la fois sur la réflexion visuelle, la structuration des parcours et la maîtrise concrète des outils de conception."
         ]
       },
       "selfReview": [
@@ -162,7 +208,27 @@
         "À moyen terme, je souhaite produire des interfaces encore plus justes, plus lisibles et plus cohérentes dans leur ensemble."
       ]
     },
-    "relatedProjects": []
+    "relatedProjects": [
+      {
+        "label": "Travaux Figma"
+      },
+      {
+        "label": "Gliint",
+        "href": "/projects/gliint"
+      },
+      {
+        "label": "JustMusic",
+        "href": "/projects/justmusic"
+      },
+      {
+        "label": "Portfolio personnel",
+        "href": "/"
+      },
+      {
+        "label": "Expériences Cikaba",
+        "href": "/#experiences"
+      }
+    ]
   },
   {
     "slug": "deploiement-devops",
@@ -183,16 +249,17 @@
         "intro": "Cette compétence s'est construite à travers mes mises en ligne, mes réglages d'environnement et mes premières réflexions sur la continuité entre développement et exécution.",
         "stories": [
           {
-            "title": "Anecdote 1",
+            "title": "Étudier le déploiement d'infrastructures modernes",
             "paragraphs": [
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+              "Un exemple important de ma compétence Déploiement & DevOps vient de mon travail sur Docker et Kubernetes. J'ai étudié la manière de conteneuriser des services, de les organiser dans une infrastructure plus structurée et de comprendre les enjeux liés au déploiement d'applications composées de plusieurs services.",
+              "Ce travail m'a permis de mieux comprendre comment déployer et maintenir une infrastructure orientée microservices, avec une attention portée à la configuration, à l'automatisation et à la stabilité des environnements. J'ai aussi abordé des outils de qualité de code comme SonarQube, utiles pour intégrer la vérification et l'amélioration continue dans un workflow de développement."
             ],
-            "result": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            "valueAdded": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            "result": "Le résultat est une compréhension plus solide des étapes nécessaires pour livrer une application dans un environnement structuré, depuis la conteneurisation jusqu'au suivi de la qualité du code.",
+            "valueAdded": "Ma valeur ajoutée est de ne pas limiter le déploiement à une simple mise en ligne, mais de prendre en compte l'organisation des services, l'automatisation, la maintenabilité et la qualité globale de l'infrastructure."
           }
         ],
         "closing": [
-          "Les anecdotes détaillées permettront ensuite de montrer comment j'ai appliqué cette compétence dans des cas concrets de configuration, de build et de déploiement."
+          "Cet exemple montre que ma compétence DevOps s'appuie sur une vision plus complète de la livraison logicielle : construire, déployer, automatiser, contrôler la qualité et maintenir un environnement exploitable."
         ]
       },
       "selfReview": [
@@ -204,7 +271,22 @@
         "À moyen terme, je souhaite consolider mes pratiques sur les environnements, les workflows de livraison et les outils de mise en production."
       ]
     },
-    "relatedProjects": []
+    "relatedProjects": [
+      {
+        "label": "Gliint",
+        "href": "/projects/gliint"
+      },
+      {
+        "label": "SFHelper",
+        "href": "/projects/sfhelper"
+      },
+      {
+        "label": "Docker & Kubernetes"
+      },
+      {
+        "label": "SonarQube"
+      }
+    ]
   },
   {
     "slug": "architecture-logicielle",
@@ -224,16 +306,17 @@
         "intro": "Cette compétence intervient chaque fois qu'il faut structurer un projet, clarifier des responsabilités ou éviter qu'un code devienne confus en grandissant.",
         "stories": [
           {
-            "title": "Anecdote 1",
+            "title": "Appliquer les principes SOLID au quotidien",
             "paragraphs": [
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+              "Un exemple important de ma compétence en architecture logicielle vient de mon étude des principes SOLID. Ces principes m'ont aidé à mieux comprendre ce qui rend un code plus lisible, plus maintenable et plus simple à faire évoluer dans le temps.",
+              "Dans mon quotidien de développeur, je m'efforce de les appliquer progressivement : mieux séparer les responsabilités, limiter le couplage, éviter les classes ou composants trop chargés et concevoir des structures plus faciles à tester ou à modifier."
             ],
-            "result": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            "valueAdded": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            "result": "Le résultat est une manière de coder plus structurée, avec une attention plus forte portée à la clarté des responsabilités et à l'évolution future du projet.",
+            "valueAdded": "Ma valeur ajoutée est de chercher à produire un code qui ne fonctionne pas seulement à court terme, mais qui reste compréhensible, cohérent et maintenable pour la suite."
           }
         ],
         "closing": [
-          "Les anecdotes viendront montrer comment j'aborde l'organisation du code, la séparation des responsabilités et la recherche de structures plus propres."
+          "Cet exemple montre comment j'aborde l'architecture logicielle comme une discipline quotidienne, faite de choix simples mais importants sur l'organisation du code et la séparation des responsabilités."
         ]
       },
       "selfReview": [
@@ -245,7 +328,23 @@
         "À moyen terme, je souhaite concevoir des bases de projet plus claires, plus réutilisables et plus faciles à faire évoluer."
       ]
     },
-    "relatedProjects": []
+    "relatedProjects": [
+      {
+        "label": "Gliint",
+        "href": "/projects/gliint"
+      },
+      {
+        "label": "SFHelper",
+        "href": "/projects/sfhelper"
+      },
+      {
+        "label": "Exercice Kanban"
+      },
+      {
+        "label": "Expériences Cikaba",
+        "href": "/#experiences"
+      }
+    ]
   },
   {
     "slug": "tests-automatises",
@@ -265,16 +364,17 @@
         "intro": "Cette compétence s'inscrit dans une logique de fiabilisation : mieux vérifier, mieux corriger et mieux faire évoluer un code sans tout casser.",
         "stories": [
           {
-            "title": "Anecdote 1",
+            "title": "Intégrer les tests et SonarQube dans mes projets",
             "paragraphs": [
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+              "Dans la majorité de mes projets, j'essaie de mettre en place une démarche qualité qui ne repose pas seulement sur des vérifications manuelles. Cela passe par l'ajout de tests automatisés et par leur intégration dans la CI/CD, afin de contrôler les comportements importants à chaque évolution du code.",
+              "J'utilise aussi des outils comme SonarQube pour suivre la qualité du code, repérer des problèmes de maintenabilité, de duplication ou de fiabilité, et garder une vision plus objective de l'état technique du projet. Cette approche m'aide à corriger plus tôt et à éviter que les défauts ne s'accumulent."
             ],
-            "result": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            "valueAdded": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            "result": "Le résultat est un workflow plus fiable, dans lequel les tests et l'analyse de qualité accompagnent les développements au lieu d'arriver seulement en fin de projet.",
+            "valueAdded": "Ma valeur ajoutée est d'intégrer la qualité dans le processus de développement, en cherchant à sécuriser les changements, limiter les régressions et maintenir une base de code plus saine."
           }
         ],
         "closing": [
-          "Les anecdotes détaillées serviront ensuite à montrer comment des cas concrets de test ont pu sécuriser un comportement ou accompagner une correction."
+          "Cet exemple montre que ma compétence en tests automatisés s'inscrit dans une logique plus large de qualité continue, avec des contrôles réguliers, mesurables et intégrés au cycle de développement."
         ]
       },
       "selfReview": [
@@ -286,7 +386,22 @@
         "À moyen terme, je souhaite mieux intégrer les tests dans mes habitudes de développement et dans mes phases de correction."
       ]
     },
-    "relatedProjects": []
+    "relatedProjects": [
+      {
+        "label": "Gliint",
+        "href": "/projects/gliint"
+      },
+      {
+        "label": "SFHelper",
+        "href": "/projects/sfhelper"
+      },
+      {
+        "label": "CI/CD"
+      },
+      {
+        "label": "SonarQube"
+      }
+    ]
   },
   {
     "slug": "methodes-agiles",
@@ -306,16 +421,26 @@
         "intro": "Cette compétence prend forme dans ma manière d'organiser le travail, de découper un besoin et de faire évoluer un projet progressivement.",
         "stories": [
           {
-            "title": "Anecdote 1",
+            "title": "Apprendre les fondamentaux à l'IUT",
             "paragraphs": [
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+              "J'ai découvert les fondamentaux des méthodes agiles pendant mon parcours à l'IUT. Cette période m'a permis de comprendre les principes importants : travailler par itérations, découper un besoin, prioriser les tâches et garder une vision claire de l'avancement.",
+              "J'ai commencé à mettre ces pratiques en œuvre dans des projets de groupe, en participant à l'organisation du travail, à la répartition des tâches et aux échanges réguliers autour des difficultés rencontrées. Cela m'a aidé à mieux comprendre l'intérêt d'une méthode commune pour avancer plus efficacement."
             ],
-            "result": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            "valueAdded": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            "result": "Le résultat a été une première compréhension concrète de l'agilité, appliquée à des projets étudiants où la coordination et la progression par étapes étaient essentielles.",
+            "valueAdded": "Ma valeur ajoutée a été de prendre l'habitude de structurer le travail, de rendre l'avancement plus lisible et de mieux collaborer dans un cadre collectif."
+          },
+          {
+            "title": "Participer à une équipe agile chez Cikaba",
+            "paragraphs": [
+              "Mon expérience chez Cikaba m'a ensuite permis de prendre pleinement part à une équipe fonctionnant en mode agile. Dans un contexte professionnel, les méthodes agiles ne sont plus seulement un cadre théorique : elles servent à organiser le développement, à prioriser les besoins et à ajuster les livraisons selon les retours.",
+              "Cette expérience m'a permis de mieux comprendre le lien entre les échanges d'équipe, les tickets, les objectifs de sprint et la réalité du développement. J'ai appris à m'inscrire dans un rythme collectif, à suivre les priorités et à contribuer à des évolutions produit de manière plus structurée."
+            ],
+            "result": "Le résultat est une meilleure capacité à travailler dans une organisation agile réelle, avec des priorités, des échanges réguliers et des livraisons progressives.",
+            "valueAdded": "Ma valeur ajoutée est de savoir m'intégrer dans un cadre agile professionnel, en restant attentif aux besoins, à la communication d'équipe et à la qualité des développements réalisés."
           }
         ],
         "closing": [
-          "Les anecdotes détaillées permettront d'illustrer des situations où l'itération, la priorisation et l'adaptation ont réellement eu un effet sur le projet."
+          "Ces deux exemples montrent une progression claire : d'abord l'apprentissage des bases en formation, puis leur application dans un environnement professionnel avec de vrais enjeux d'équipe et de produit."
         ]
       },
       "selfReview": [
@@ -327,7 +452,19 @@
         "À moyen terme, je souhaite rendre ma manière de travailler encore plus structurée et plus adaptable."
       ]
     },
-    "relatedProjects": []
+    "relatedProjects": [
+      {
+        "label": "Expériences Cikaba",
+        "href": "/#experiences"
+      },
+      {
+        "label": "Projets IUT"
+      },
+      {
+        "label": "JustMusic",
+        "href": "/projects/justmusic"
+      }
+    ]
   },
   {
     "slug": "adaptabilite",
@@ -347,16 +484,26 @@
         "intro": "Cette compétence s'exprime surtout lorsque je dois prendre en main un sujet nouveau, ajuster ma méthode ou apprendre rapidement dans un contexte changeant.",
         "stories": [
           {
-            "title": "Anecdote 1",
+            "title": "Apprendre des stacks et langages variés",
             "paragraphs": [
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+              "Un premier exemple de mon adaptabilité vient de la diversité des stacks et langages que j'ai appris à utiliser au fil de mes projets. J'ai été amené à travailler avec des environnements différents, côté web, mobile, back-end ou déploiement, ce qui m'a obligé à changer régulièrement de repères techniques.",
+              "Cette capacité vient surtout de mon envie d'apprendre. Quand un projet demande un nouvel outil ou une nouvelle technologie, j'essaie de comprendre rapidement sa logique, ses usages et ses limites pour pouvoir l'utiliser de manière pertinente plutôt que simplement reproduire des exemples."
             ],
-            "result": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            "valueAdded": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            "result": "Le résultat est une palette technique assez large, qui me permet de m'adapter plus facilement à des projets, des contraintes et des environnements différents.",
+            "valueAdded": "Ma valeur ajoutée est de pouvoir apprendre vite sans perdre le fil du besoin, en reliant les nouveaux outils à une logique de projet concrète."
+          },
+          {
+            "title": "Comprendre le contexte QHSE chez Cikaba",
+            "paragraphs": [
+              "Un second exemple vient de mon arrivée chez Cikaba. Avant cette expérience, je n'avais pas de connaissance particulière des processus QHSE. Il a donc fallu m'adapter à un domaine métier nouveau, comprendre son vocabulaire, ses contraintes et les besoins réels des utilisateurs.",
+              "Cette adaptation ne concernait pas seulement le métier. J'ai aussi dû comprendre la structure technique des solutions existantes, leur organisation, leurs choix de conception et la manière dont les besoins QHSE se traduisent dans des fonctionnalités concrètes."
+            ],
+            "result": "Le résultat est une meilleure capacité à entrer dans un contexte métier inconnu, à en comprendre les enjeux et à contribuer plus efficacement aux solutions développées.",
+            "valueAdded": "Ma valeur ajoutée est d'avoir su faire le lien entre compréhension métier, adaptation technique et qualité des développements réalisés dans un environnement professionnel."
           }
         ],
         "closing": [
-          "Les anecdotes détaillées permettront de montrer plus précisément comment je réagis face à de nouveaux outils, de nouvelles contraintes ou de nouvelles attentes."
+          "Ces deux exemples montrent que mon adaptabilité repose à la fois sur l'apprentissage technique et sur la capacité à comprendre un contexte métier nouveau."
         ]
       },
       "selfReview": [
@@ -368,7 +515,24 @@
         "À moyen terme, je souhaite gagner encore en rapidité d'appropriation tout en gardant un bon niveau d'exigence."
       ]
     },
-    "relatedProjects": []
+    "relatedProjects": [
+      {
+        "label": "Expériences Cikaba",
+        "href": "/#experiences"
+      },
+      {
+        "label": "JustMusic",
+        "href": "/projects/justmusic"
+      },
+      {
+        "label": "Canap",
+        "href": "/projects/canap"
+      },
+      {
+        "label": "SFHelper",
+        "href": "/projects/sfhelper"
+      }
+    ]
   },
   {
     "slug": "autonomie",
@@ -388,16 +552,26 @@
         "intro": "Cette compétence s'est développée dans ma manière de conduire des sujets par moi-même, de débloquer des problèmes et d'organiser mon travail sans dépendre constamment d'un cadre extérieur.",
         "stories": [
           {
-            "title": "Anecdote 1",
+            "title": "Débloquer un problème avec méthode",
             "paragraphs": [
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+              "Un premier exemple de mon autonomie se voit dans ma manière d'aborder les problèmes techniques. Quand je rencontre un blocage, j'essaie d'abord de comprendre précisément ce qui ne fonctionne pas, de lire la documentation, de tester plusieurs hypothèses et de comparer les pistes possibles.",
+              "Je ne cherche pas à rester bloqué seul inutilement, mais j'essaie d'arriver avec un diagnostic clair avant de demander de l'aide. Cette démarche me permet de mieux formuler le problème, de gagner du temps et de progresser réellement à chaque difficulté rencontrée."
             ],
-            "result": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            "valueAdded": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            "result": "Le résultat est une meilleure capacité à avancer même face à l'incertitude, en transformant un blocage en recherche structurée plutôt qu'en attente passive.",
+            "valueAdded": "Ma valeur ajoutée est de savoir chercher, tester et clarifier un problème avant de solliciter quelqu'un, ce qui rend les échanges plus efficaces et les solutions plus solides."
+          },
+          {
+            "title": "Mener des projets de bout en bout",
+            "paragraphs": [
+              "Un second exemple vient de mes projets personnels, comme mon portfolio, Gliint ou SFHelper. Sur ce type de réalisation, j'ai dû avancer sans cadre imposé : cadrer le besoin, choisir les outils, organiser le développement, corriger les problèmes, déployer et améliorer progressivement l'interface.",
+              "Ces projets demandent une vraie autonomie, parce qu'il faut prendre des décisions seul, prioriser les tâches et garder une continuité dans le travail. Ils m'ont appris à ne pas seulement produire du code, mais à faire avancer un projet complet jusqu'à une version exploitable."
+            ],
+            "result": "Le résultat est une capacité plus solide à conduire un projet depuis l'idée initiale jusqu'à une réalisation concrète, visible et utilisable.",
+            "valueAdded": "Ma valeur ajoutée est de pouvoir prendre en charge un sujet dans sa globalité, en gardant une logique de progression, de qualité et de finalisation."
           }
         ],
         "closing": [
-          "Les anecdotes détaillées permettront d'illustrer plus concrètement des situations où j'ai dû chercher, décider et avancer de façon autonome."
+          "Ces deux exemples montrent que mon autonomie repose autant sur ma capacité à débloquer des problèmes que sur ma capacité à conduire un projet complet avec méthode."
         ]
       },
       "selfReview": [
@@ -409,7 +583,20 @@
         "À moyen terme, je souhaite être encore plus autonome sur des sujets techniques plus larges et plus complexes."
       ]
     },
-    "relatedProjects": []
+    "relatedProjects": [
+      {
+        "label": "Portfolio personnel",
+        "href": "/"
+      },
+      {
+        "label": "Gliint",
+        "href": "/projects/gliint"
+      },
+      {
+        "label": "SFHelper",
+        "href": "/projects/sfhelper"
+      }
+    ]
   },
   {
     "slug": "travail-en-equipe",
@@ -429,16 +616,17 @@
         "intro": "Cette compétence se construit dans les projets collectifs, dans la répartition des rôles et dans la manière de communiquer sur le travail en cours.",
         "stories": [
           {
-            "title": "Anecdote 1",
+            "title": "Travailler en groupe à l'IUT",
             "paragraphs": [
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+              "Un exemple important de ma compétence en travail d'équipe vient de mon parcours à l'IUT. Nous avons souvent travaillé sur des projets de groupe, parfois à deux ou trois, et parfois jusqu'à six personnes selon la taille du sujet.",
+              "Ces projets demandaient de respecter des rôles, de se répartir les tâches et de coordonner les avancées pour éviter que chacun travaille dans une direction différente. J'ai appris à communiquer plus clairement, à tenir compte du travail des autres et à contribuer à un résultat commun plutôt qu'à une simple somme de contributions individuelles."
             ],
-            "result": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            "valueAdded": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            "result": "Le résultat a été une meilleure capacité à avancer dans des projets collectifs structurés, avec une organisation plus claire et une meilleure cohérence entre les différentes parties du travail.",
+            "valueAdded": "Ma valeur ajoutée a été de participer à la coordination, de respecter le rôle confié et de chercher à produire une contribution utile au projet global, pas seulement à ma partie isolée."
           }
         ],
         "closing": [
-          "Les anecdotes détaillées permettront ensuite de montrer comment j'ai participé à une dynamique collective et à une meilleure coordination du travail."
+          "Cet exemple montre que le travail en équipe m'a appris à construire une valeur commune, en combinant communication, respect des rôles et coordination autour d'un objectif partagé."
         ]
       },
       "selfReview": [
@@ -450,7 +638,19 @@
         "À moyen terme, je souhaite gagner en fluidité dans la coordination, le partage de contexte et la complémentarité avec d'autres profils."
       ]
     },
-    "relatedProjects": []
+    "relatedProjects": [
+      {
+        "label": "Projets IUT"
+      },
+      {
+        "label": "JustMusic",
+        "href": "/projects/justmusic"
+      },
+      {
+        "label": "Expériences Cikaba",
+        "href": "/#experiences"
+      }
+    ]
   },
   {
     "slug": "resolution-de-problemes",
@@ -470,16 +670,17 @@
         "intro": "Cette compétence intervient très souvent dans mon travail, dès qu'il faut diagnostiquer un bug, comprendre un comportement inattendu ou trouver une solution concrète à une difficulté technique.",
         "stories": [
           {
-            "title": "Anecdote 1",
+            "title": "Simplifier des processus complexes",
             "paragraphs": [
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+              "J'ai souvent été amené à chercher des solutions à des problèmes complexes, pas seulement sur le plan technique, mais aussi dans la manière de rendre un usage plus clair. Chez Cikaba notamment, certains processus métier peuvent être denses, avec plusieurs étapes, règles ou informations à prendre en compte.",
+              "Une partie importante du travail consiste alors à transformer cette complexité en parcours utilisateur plus simple et plus intuitif. Cela demande d'analyser le besoin, de comprendre les contraintes métier, puis de proposer des solutions UX/UI qui guident mieux l'utilisateur sans appauvrir le fonctionnement attendu."
             ],
-            "result": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            "valueAdded": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            "result": "Le résultat est une meilleure capacité à rendre des processus complexes plus accessibles, en travaillant autant sur la compréhension du problème que sur la clarté de l'interface.",
+            "valueAdded": "Ma valeur ajoutée est de savoir faire le lien entre analyse métier, réflexion UX/UI et solution concrète, afin de produire des parcours plus lisibles et plus efficaces pour les utilisateurs."
           }
         ],
         "closing": [
-          "Les anecdotes détaillées viendront montrer comment j'aborde un problème, comment je structure la recherche et comment je vérifie qu'une solution est réellement satisfaisante."
+          "Cet exemple montre que ma résolution de problèmes ne se limite pas à corriger un bug : elle consiste aussi à comprendre une situation complexe et à la traduire en solution claire, utilisable et cohérente."
         ]
       },
       "selfReview": [
@@ -491,6 +692,23 @@
         "À moyen terme, je souhaite devenir plus rapide, plus précis et plus sûr dans ma manière de traiter des problèmes techniques."
       ]
     },
-    "relatedProjects": []
+    "relatedProjects": [
+      {
+        "label": "Expériences Cikaba",
+        "href": "/#experiences"
+      },
+      {
+        "label": "Gliint",
+        "href": "/projects/gliint"
+      },
+      {
+        "label": "SFHelper",
+        "href": "/projects/sfhelper"
+      },
+      {
+        "label": "Canap",
+        "href": "/projects/canap"
+      }
+    ]
   }
 ]
