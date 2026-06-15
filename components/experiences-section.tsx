@@ -166,10 +166,10 @@ function ExperienceLinks({
 
 function ExperienceCard({ experience }: Readonly<{ experience: Experience }>) {
   return (
-    <article className="overflow-hidden rounded-[28px] bg-white p-3 shadow-xl shadow-black/5 ring-1 ring-black/6">
+    <article className="overflow-hidden rounded-[22px] bg-white p-2 shadow-xl shadow-black/5 ring-1 ring-black/6 sm:rounded-[28px] sm:p-3">
       <div className="grid gap-6 lg:grid-cols-[0.42fr_0.58fr] lg:items-stretch">
         <div>
-          <div className="relative aspect-[16/10] overflow-hidden rounded-[22px] border border-black/10 lg:h-full lg:min-h-72 lg:aspect-auto">
+          <div className="relative aspect-[16/10] overflow-hidden rounded-[18px] border border-black/10 sm:rounded-[22px] lg:h-full lg:min-h-72 lg:aspect-auto">
             <Image
               src={experience.image}
               alt={`Représentation de l'expérience ${experience.title}`}
@@ -187,13 +187,13 @@ function ExperienceCard({ experience }: Readonly<{ experience: Experience }>) {
           </div>
         </div>
 
-        <div className="rounded-[22px] bg-black/[0.03] p-5 sm:p-7">
+        <div className="rounded-[18px] bg-black/[0.03] p-4 sm:rounded-[22px] sm:p-7">
           <div className="flex flex-wrap gap-2 text-xs font-semibold uppercase tracking-[0.16em] text-black/42">
             <span>{experience.status}</span>
             <span aria-hidden="true">/</span>
             <span>{experience.responsibility}</span>
           </div>
-          <h4 className="mt-4 text-3xl font-semibold tracking-[-0.05em] text-black">
+          <h4 className="mt-4 text-2xl font-semibold tracking-[-0.05em] text-black sm:text-3xl">
             {experience.title}
           </h4>
           <p className="mt-4 max-w-2xl text-base leading-7 text-black/58">
@@ -221,9 +221,9 @@ export function ExperiencesSection() {
   return (
     <section
       id="experiences"
-      className="mx-auto w-full max-w-7xl px-6 pb-24 pt-4 sm:px-10 lg:px-16 lg:pb-32"
+      className="mx-auto w-full max-w-7xl px-6 pb-16 pt-2 sm:px-10 lg:px-16 lg:pb-32"
     >
-      <h2 className="text-center text-4xl font-semibold tracking-[-0.05em] text-black sm:text-5xl lg:text-6xl">
+      <h2 className="text-center text-3xl font-semibold tracking-[-0.05em] text-black sm:text-5xl lg:text-6xl">
         Mes expériences
       </h2>
 

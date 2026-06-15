@@ -20,7 +20,7 @@ export function ProjectCard({
   return (
     <Link
       href={`/projects/${slug}`}
-      className="group block rounded-[28px] bg-white p-3 shadow-xl shadow-black/5 ring-1 ring-black/6 transition hover:-translate-y-1 hover:shadow-[0_26px_60px_rgba(0,0,0,0.1)]"
+      className="group block rounded-[22px] bg-white p-3 shadow-xl shadow-black/5 ring-1 ring-black/6 transition hover:-translate-y-1 hover:shadow-[0_26px_60px_rgba(0,0,0,0.1)] sm:rounded-[28px]"
     >
       <article>
         <div className="relative h-50 overflow-hidden rounded-[22px]">
@@ -59,9 +59,9 @@ export function ProjectsSection() {
   return (
     <section
       id="projects"
-      className="mx-auto w-full max-w-7xl px-6 pb-24 pt-20 sm:px-10 lg:px-16 lg:pb-32"
+      className="mx-auto w-full max-w-7xl px-6 pb-16 pt-14 sm:px-10 sm:pt-20 lg:px-16 lg:pb-32"
     >
-      <h2 className="text-center text-4xl font-semibold tracking-[-0.05em] text-black sm:text-5xl lg:text-6xl">
+      <h2 className="text-center text-3xl font-semibold tracking-[-0.05em] text-black sm:text-5xl lg:text-6xl">
         Mes réalisations
       </h2>
 

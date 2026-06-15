@@ -38,15 +38,15 @@ export function SkillsSection() {
   return (
     <section
       id="skills"
-      className="mt-10 py-20 text-white sm:py-24 lg:py-28"
+      className="mt-4 py-14 text-white sm:mt-10 sm:py-24 lg:py-28"
     >
       <div className="mx-auto w-full max-w-7xl px-6 sm:px-10 lg:px-16">
-        <h2 className="text-center text-4xl font-semibold tracking-[-0.05em] text-black sm:text-5xl lg:text-6xl">
+        <h2 className="text-center text-3xl font-semibold tracking-[-0.05em] text-black sm:text-5xl lg:text-6xl">
           Mes competences
         </h2>
 
         <div className="mt-14">
-          <h3 className="mt-2 text-3xl font-semibold tracking-[-0.05em] text-black sm:text-4xl">
+          <h3 className="mt-2 text-2xl font-semibold tracking-[-0.05em] text-black sm:text-4xl">
             Compétences techniques
           </h3>
           <div className="mt-6 grid gap-4 md:grid-cols-2 xl:grid-cols-3">
@@ -57,7 +57,7 @@ export function SkillsSection() {
         </div>
 
         <div className="mt-14">
-          <h3 className="mt-2 text-3xl font-semibold tracking-[-0.05em] text-black sm:text-4xl">
+          <h3 className="mt-2 text-2xl font-semibold tracking-[-0.05em] text-black sm:text-4xl">
             Compétences humaines
           </h3>
           <div className="mt-6 grid gap-4 md:grid-cols-2 xl:grid-cols-3">

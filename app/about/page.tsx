@@ -54,9 +54,9 @@ export default function AboutPage() {
     <main className="min-h-screen bg-neutral-50 text-black">
       <NavigationBar />
 
-      <section className="mx-auto w-full max-w-6xl px-6 pb-14 pt-4 sm:px-10 lg:px-12 lg:pb-20 lg:pt-6">
-        <article className="overflow-hidden rounded-[36px] bg-white shadow-[0_28px_80px_rgba(0,0,0,0.08)] ring-1 ring-black/6">
-          <div className="relative min-h-[300px] sm:min-h-[380px] lg:min-h-[460px]">
+      <section className="mx-auto w-full max-w-6xl px-4 pb-12 pt-4 sm:px-10 lg:px-12 lg:pb-20 lg:pt-6">
+        <article className="overflow-hidden rounded-[24px] bg-white shadow-[0_28px_80px_rgba(0,0,0,0.08)] ring-1 ring-black/6 sm:rounded-[36px]">
+          <div className="relative min-h-[240px] sm:min-h-[380px] lg:min-h-[460px]">
             <Image
               src="/images/about-banner.png"
               alt="Lucas Delanier"
@@ -64,11 +64,11 @@ export default function AboutPage() {
               className="object-cover"
             />
             <div className="absolute inset-0 bg-linear-to-t from-black/68 via-black/24 to-transparent" />
-            <div className="absolute inset-x-0 bottom-0 p-6 sm:p-8 lg:p-10">
+            <div className="absolute inset-x-0 bottom-0 p-5 sm:p-8 lg:p-10">
               <p className="text-sm font-semibold uppercase tracking-[0.28em] text-white/72">
                 Présentation générale
               </p>
-              <h1 className="mt-4 max-w-4xl text-4xl font-semibold tracking-[-0.06em] text-white sm:text-5xl lg:text-6xl">
+              <h1 className="mt-4 max-w-4xl text-3xl font-semibold tracking-[-0.06em] text-white sm:text-5xl lg:text-6xl">
                 Lucas Delanier
               </h1>
               <p className="mt-4 max-w-3xl text-base leading-7 text-white/84 sm:text-lg sm:leading-8">
@@ -78,14 +78,14 @@ export default function AboutPage() {
             </div>
           </div>
 
-          <div className="px-6 py-8 sm:px-8 sm:py-10 lg:px-12 lg:py-12">
+          <div className="px-5 py-7 sm:px-8 sm:py-10 lg:px-12 lg:py-12">
             <div className="space-y-12">
               {sections.map((section) => (
                 <section
                   key={section.eyebrow}
-                  className={`rounded-[30px]`}
+                  className="rounded-[22px] sm:rounded-[30px]"
                 >
-                  <p className="font-bold uppercase text-2xl tracking-wide text-black">
+                  <p className="text-xl font-bold uppercase tracking-wide text-black sm:text-2xl">
                     {section.eyebrow}
                   </p>
                   <div className="mt-5 space-y-5 text-[1.02rem] leading-8 text-black/68">

@@ -74,13 +74,13 @@ export function NavigationBar() {
   }, []);
 
   return (
-    <nav className="sticky top-0 z-50 w-full px-3 pt-6 sm:px-5 flex items-center justify-center w-full">
+    <nav className="sticky top-0 z-50 flex w-full items-center justify-center px-3 pt-4 sm:px-5 sm:pt-6">
       <div
-        className={` rounded-full bg-[#F2F2F2] transition-all duration-300 ${
+        className={`w-full rounded-3xl bg-[#F2F2F2] transition-all duration-300 lg:w-auto lg:rounded-full ${
           isScrolled ? "max-w-5xl shadow-[0_18px_45px_rgba(0,0,0,0.12)]" : ""
         }`}
       >
-        <div className="flex items-center justify-between gap-4 p-1.5 h-14">
+        <div className="hidden h-14 items-center justify-between gap-4 p-1.5 lg:flex">
           <div className="flex items-center gap-2">
             <Link
                 href="/"
@@ -161,18 +161,20 @@ export function NavigationBar() {
 
             <div className="mt-4 flex flex-col gap-2">
               <Link
-                href="/"
+                href="/pdf/CV-delanier.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
                 onClick={() => setMenuOpen(false)}
                 className="rounded-full border border-black/10 px-4 py-3 text-center text-sm font-medium text-black transition hover:bg-black/[0.03]"
               >
-                Let&apos;s talk
+                Voir mon CV
               </Link>
               <Link
-                href="/projects"
+                href="mailto:delanierlucas@gmail.com"
                 onClick={() => setMenuOpen(false)}
                 className="rounded-full bg-black px-4 py-3 text-center text-sm font-medium text-white transition hover:bg-black/85"
               >
-                View work
+                Me contacter
               </Link>
             </div>
           </div>

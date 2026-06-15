@@ -69,9 +69,9 @@ export default async function ProjectDetailPage({ params }: ProjectPageProps) {
     <main className="min-h-screen bg-neutral-50 text-black">
       <NavigationBar />
 
-      <section className="mx-auto max-w-6xl w-full px-6 pb-16 pt-4 sm:px-10 lg:px-12 lg:pb-24 lg:pt-6">
-        <article className="overflow-hidden rounded-[36px] bg-white shadow-[0_28px_80px_rgba(0,0,0,0.08)] ring-1 ring-black/6">
-          <div className="relative aspect-[16/7] min-h-[240px] overflow-hidden sm:min-h-[320px] lg:min-h-[420px]">
+      <section className="mx-auto w-full max-w-6xl px-4 pb-14 pt-4 sm:px-10 lg:px-12 lg:pb-24 lg:pt-6">
+        <article className="overflow-hidden rounded-[24px] bg-white shadow-[0_28px_80px_rgba(0,0,0,0.08)] ring-1 ring-black/6 sm:rounded-[36px]">
+          <div className="relative aspect-[16/10] min-h-[210px] overflow-hidden sm:aspect-[16/7] sm:min-h-[320px] lg:min-h-[420px]">
             <Image
                 src={project.coverImage}
                 alt={project.title}
@@ -79,18 +79,18 @@ export default async function ProjectDetailPage({ params }: ProjectPageProps) {
                 className="object-cover object-top bg-white"
             />
           </div>
-          <div className="grid gap-8 px-6 py-8 sm:px-8 sm:py-10  lg:px-12 lg:py-12">
+          <div className="grid gap-8 px-5 py-7 sm:px-8 sm:py-10 lg:px-12 lg:py-12">
             <div>
               <div className="mt-4 flex flex-col gap-5 sm:flex-row sm:items-center sm:justify-between">
-                <div className="flex items-center gap-2">
+                <div className="flex min-w-0 items-center gap-2">
                   <Image
                       src={project.logo}
                       alt=""
                       width={200}
                       height={200}
-                      className="size-24 object-contain"
+                      className="size-16 object-contain sm:size-24"
                   />
-                  <h1 className="text-4xl font-semibold tracking-[-0.06em] text-black sm:text-5xl lg:text-7xl">
+                  <h1 className="min-w-0 text-3xl font-semibold tracking-[-0.06em] text-black sm:text-5xl lg:text-7xl">
                     {project.title}
                   </h1>
                 </div>
@@ -106,7 +106,7 @@ export default async function ProjectDetailPage({ params }: ProjectPageProps) {
                   </a>
                 ) : null}
               </div>
-              <p className="mt-5 max-w-3xl text-xl leading-8 text-black/82 sm:text-2xl sm:leading-9">
+              <p className="mt-5 max-w-3xl text-lg leading-7 text-black/82 sm:text-2xl sm:leading-9">
                 {project.subtitle}
               </p>
               <p className="mt-6 max-w-3xl text-base leading-8 text-black/62 sm:text-lg">
@@ -124,8 +124,8 @@ export default async function ProjectDetailPage({ params }: ProjectPageProps) {
             placeholderCount={project.screenPlaceholders}
           />
 
-          <div className="px-6 py-8 sm:px-8 sm:py-10 lg:px-12 lg:py-12">
-            <section className="rounded-[28px] bg-neutral-50 p-5 sm:p-6">
+          <div className="px-5 py-7 sm:px-8 sm:py-10 lg:px-12 lg:py-12">
+            <section className="rounded-[22px] bg-neutral-50 p-4 sm:rounded-[28px] sm:p-6">
               <h2 className="text-sm font-semibold uppercase tracking-[0.22em] text-black/34">
                 Stack
               </h2>
@@ -133,7 +133,7 @@ export default async function ProjectDetailPage({ params }: ProjectPageProps) {
                 {project.stack.map((item) => (
                   <li
                     key={item}
-                    className="flex items-center gap-3 rounded-full bg-white py-2 pl-2 pr-5 ring-1 ring-black/8"
+                    className="flex items-center gap-2 rounded-full bg-white py-2 pl-2 pr-4 ring-1 ring-black/8 sm:gap-3 sm:pr-5"
                   >
                     <span className="relative flex size-10 shrink-0 items-center justify-center overflow-hidden rounded-full bg-[#ececec]">
                       <Image
@@ -144,7 +144,7 @@ export default async function ProjectDetailPage({ params }: ProjectPageProps) {
                         className="size-7 object-contain"
                       />
                     </span>
-                    <span className="text-base font-semibold tracking-[-0.03em] text-black">
+                    <span className="text-sm font-semibold tracking-[-0.03em] text-black sm:text-base">
                       {item}
                     </span>
                   </li>
@@ -158,7 +158,7 @@ export default async function ProjectDetailPage({ params }: ProjectPageProps) {
                   key={section.key}
                   className="rounded-[30px] bg-white"
                 >
-                  <h2 className="text-2xl font-semibold tracking-[-0.04em] text-black sm:text-3xl">
+                  <h2 className="text-xl font-semibold tracking-[-0.04em] text-black sm:text-3xl">
                     {section.title}
                   </h2>
                   <div className="mt-5 space-y-5 text-[1.03rem] leading-8 text-black/68">
@@ -172,7 +172,7 @@ export default async function ProjectDetailPage({ params }: ProjectPageProps) {
               ))}
             </div>
 
-            <section className="mt-14 rounded-[30px] bg-neutral-50 p-6 sm:p-8">
+            <section className="mt-10 rounded-[22px] bg-neutral-50 p-4 sm:mt-14 sm:rounded-[30px] sm:p-8">
               <p className="text-sm font-semibold uppercase tracking-[0.24em] text-black/34">
                 Compétences rattachées
               </p>

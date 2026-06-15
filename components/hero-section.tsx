@@ -31,8 +31,8 @@ const rightGridOpacities = [
 
 export function HeroSection() {
   return (
-    <section className="mx-auto flex justify-center min-h-[calc(100vh-5.5rem)] w-full max-w-7xl px- items-start pt-64 sm:px-10 lg:px-16">
-      <div className="max-w-4xl flex flex-col  items-center justify-center">
+    <section className="mx-auto flex min-h-[520px] w-full max-w-7xl items-start justify-center px-6 pt-36 sm:min-h-[calc(100vh-5.5rem)] sm:px-10 sm:pt-64 lg:px-16">
+      <div className="flex max-w-4xl flex-col items-center justify-center text-center">
         <motion.h1
           initial={{ opacity: 0, y: 24 }}
           animate={{ opacity: 1, y: 0 }}
@@ -41,7 +41,7 @@ export function HeroSection() {
             delay: 0.1,
             ease: heroEase,
           }}
-          className="text-[64px] leading-none font-semibold text-black sm:text-[88px] lg:text-[120px]"
+          className="text-[48px] leading-none font-semibold text-black sm:text-[88px] lg:text-[120px]"
         >
           Lucas Delanier
         </motion.h1>
@@ -53,9 +53,9 @@ export function HeroSection() {
             delay: 0.28,
             ease: heroEase,
           }}
-          className="flex items-center gap-2"
+          className="flex flex-wrap items-center justify-center gap-2"
         >
-          <p className=" text-[20px] text-black/50 sm:text-[24px] lg:text-[28px]">
+          <p className="text-[18px] text-black/50 sm:text-[24px] lg:text-[28px]">
             Développeur &
           </p>
           <div className="relative flex items-center gap-2 border-[3px] border-[#FF004D] bg-[#FF004D]/20 px-3 pr-4">
@@ -63,12 +63,12 @@ export function HeroSection() {
             <span className="absolute -right-1.75 -top-1.75 size-2.5 bg-white border-3 border-[#FF004D]" />
             <span className="absolute -bottom-1.75 -left-1.75 size-2.5 bg-white border-3 border-[#FF004D]" />
             <span className="absolute -bottom-1.75 -right-1.75 size-2.5 bg-white border-3 border-[#FF004D]" />
-            <p className=" text-[20px]  sm:text-[24px] lg:text-[28px] font-semibold italic">
+            <p className="text-[18px] font-semibold italic sm:text-[24px] lg:text-[28px]">
               designer UI/UX
             </p>
               <motion.div
                   whileHover="hover"
-                  className="absolute -bottom-20 -right-24 z-20 inline-flex w-max cursor-pointer flex-col items-start pointer-events-auto pr-3 pt-2"
+                  className="pointer-events-auto absolute -bottom-20 -right-24 z-20 hidden w-max cursor-pointer flex-col items-start pr-3 pt-2 sm:inline-flex"
                   variants={{
                       hover: {
                           x: -4,

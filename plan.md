@@ -1,5 +1,12 @@
 Plan
 
+1. Ajuster la navigation et le hero uniquement sur mobile pour éviter les débordements et garder les bons liens.
+2. Réduire les paddings, rayons, tailles d'images et titres sur mobile dans les sections de la home.
+3. Améliorer les pages détail projet et compétence sur mobile sans modifier les breakpoints desktop.
+4. Vérifier avec le lint.
+
+## Historique precedent
+
 1. Remplacer les references aux realisations par des badges de taches.
 2. Ajouter les taches demandees pour Cikaba Mastere, Alternance Cikaba et INRAE.
 3. Preciser dans INRAE l'embauche de 2 mois pour la version mobile Flutter.

@@ -21,18 +21,18 @@ type ProjectScreenshotProps = {
 
 function ScreenPlaceholder() {
   return (
-    <div className="h-[169px] w-[260px] shrink-0 rounded-[20px] bg-[#d9d9d9] sm:w-[340px] lg:w-[420px]" />
+    <div className="h-[150px] w-[230px] shrink-0 rounded-[20px] bg-[#d9d9d9] sm:h-[169px] sm:w-[340px] lg:w-[420px]" />
   );
 }
 
 const screenshotClasses = {
   desktop: {
-    frame: "h-[260px] w-[400px]",
-    sizes: "400px",
+    frame: "h-[190px] w-[292px] sm:h-[260px] sm:w-[400px]",
+    sizes: "(min-width: 640px) 400px, 292px",
   },
   phone: {
-    frame: "h-[390px] w-[180px]",
-    sizes: "180px",
+    frame: "h-[320px] w-[148px] sm:h-[390px] sm:w-[180px]",
+    sizes: "(min-width: 640px) 180px, 148px",
   },
 } as const;
 

@@ -5,7 +5,7 @@ export function AboutSection() {
   return (
     <section
       id="about"
-      className="mx-auto w-full max-w-7xl px-6 pb-24 pt-10 sm:px-10 lg:px-16 lg:pb-32"
+      className="mx-auto w-full max-w-7xl px-6 pb-16 pt-4 sm:px-10 sm:pt-10 lg:px-16 lg:pb-32"
     >
       <div className="grid items-center gap-12 lg:grid-cols-[0.3fr_0.7fr] lg:gap-18">
         <div className="group relative hover:scale-105 overflow-hidden rounded-[16px] transition-all bg-linear-to-b from-neutral-200 to-transparent p-6 hover:shadow-[0_24px_80px_rgba(0,0,0,0.08)] sm:p-8">
@@ -24,7 +24,7 @@ export function AboutSection() {
             <p className="text-sm font-semibold uppercase tracking-[0.28em] text-black/40">
               A propos
             </p>
-            <p className="mt-4 text-xl font-semibold tracking-[-0.05em] text-black sm:text-5xl lg:text-4xl">
+            <p className="mt-4 text-3xl font-semibold tracking-[-0.05em] text-black sm:text-5xl lg:text-4xl">
               Curieux, rigoureux et sensible au design d&apos;interface.
             </p>
             <p className="mt-6 text-lg leading-8 text-black/58">
