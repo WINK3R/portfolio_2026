@@ -25,7 +25,7 @@ type Experience = {
 const experiences: Experience[] = [
   {
     title: "Cikaba - Mastère ISCOD",
-    period: "Période à préciser",
+    period: "2025 - 2026",
     role: "Ingénieur logiciel en alternance",
     place: "Cikaba",
     logo: {
@@ -56,7 +56,7 @@ const experiences: Experience[] = [
   },
   {
     title: "Alternance Cikaba",
-    period: "Période à préciser",
+    period: "2024",
     role: "Développeur en alternance",
     place: "Cikaba",
     logo: {
@@ -82,7 +82,7 @@ const experiences: Experience[] = [
   },
   {
     title: "INRAE",
-    period: "Période à préciser",
+    period: "2023",
     role: "Développeur serious game",
     place: "INRAE",
     logo: {
@@ -93,7 +93,7 @@ const experiences: Experience[] = [
     responsibility: "Conception et développement",
     missions:
       "Développement d'un serious game autour de la santé des jeunes et de leur alimentation, avec une attention portée à la pédagogie, au parcours utilisateur et à la clarté des interactions. J'ai ensuite été embauché pendant 2 mois pour réaliser la version mobile en Flutter.",
-    duration: "Projet serious game",
+    duration: "3 mois",
     image: "/images/experiences/inrae-banner.jpg",
     taskBadges: ["Déploiement", "Conception", "Maquettage", "Flutter"],
     skillLinks: [
@@ -185,20 +185,6 @@ function ExperienceCard({ experience }: Readonly<{ experience: Experience }>) {
               className="absolute left-4 top-4 h-16 w-24 object-contain"
             />
           </div>
-
-          <div className="px-2 pb-2 pt-6">
-            <div className="flex flex-wrap gap-2 text-xs font-semibold uppercase tracking-[0.18em] text-black/42">
-              <span>{experience.period}</span>
-              <span aria-hidden="true">/</span>
-              <span>{experience.duration}</span>
-            </div>
-            <h3 className="mt-4 text-2xl font-semibold tracking-[-0.04em] text-black">
-              {experience.role}
-            </h3>
-            <p className="mt-2 text-sm font-medium leading-5 text-black/46">
-              {experience.place}
-            </p>
-          </div>
         </div>
 
         <div className="rounded-[22px] bg-black/[0.03] p-5 sm:p-7">
@@ -217,6 +203,13 @@ function ExperienceCard({ experience }: Readonly<{ experience: Experience }>) {
           <div className="mt-8 grid gap-5 sm:grid-cols-2">
             <ExperienceBadges title="Tâches" badges={experience.taskBadges} />
             <ExperienceLinks title="Compétences" links={experience.skillLinks} />
+          </div>
+          <div className="px-2 pt-12 w-full flex justify-end">
+            <div className="flex flex-wrap gap-2 text-xs font-semibold uppercase tracking-[0.18em] text-black/42">
+              <span>{experience.period}</span>
+              <span aria-hidden="true">/</span>
+              <span>{experience.duration}</span>
+            </div>
           </div>
         </div>
       </div>
