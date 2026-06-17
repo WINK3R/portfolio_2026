@@ -19,7 +19,6 @@ export type SkillIconName =
   | "PaintBrushIcon"
   | "RocketLaunchIcon"
   | "Square3Stack3DIcon"
-  | "ShieldCheckIcon"
   | "PresentationChartLineIcon"
   | "ArrowsPointingOutIcon"
   | "BoltIcon"

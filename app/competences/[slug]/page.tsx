@@ -29,7 +29,7 @@ export async function generateMetadata({
 
   if (!skill) {
     return {
-      title: "Competence introuvable",
+      title: "Compétence introuvable",
     };
   }
 
@@ -73,8 +73,8 @@ export default async function SkillDetailPage({ params }: SkillPageProps) {
               </div>
               <p className="text-sm font-semibold uppercase tracking-[0.28em] text-white/72">
                 {skill.category === "technique"
-                  ? "Competence technique"
-                  : "Competence humaine"}
+                  ? "Compétence technique"
+                  : "Compétence humaine"}
               </p>
               <h1 className="mt-3 max-w-4xl text-3xl font-semibold tracking-[-0.06em] text-white sm:text-5xl lg:text-6xl">
                 {skill.title}
@@ -88,7 +88,7 @@ export default async function SkillDetailPage({ params }: SkillPageProps) {
           <div className="px-5 py-7 sm:px-8 sm:py-10 lg:px-12 lg:py-12">
             <section className="w-full">
               <h2 className="text-2xl font-semibold tracking-[-0.05em] text-black sm:text-3xl">
-                Ma definition
+                Ma définition
               </h2>
               <div className="mt-6 space-y-6 text-[1.04rem] leading-8 text-black/70 lg:text-[1.08rem] lg:leading-9">
                 {skill.sections.definition.map((paragraph, index) => (
@@ -99,7 +99,7 @@ export default async function SkillDetailPage({ params }: SkillPageProps) {
 
             <section className="mt-14 w-full border-t border-black/8 pt-10">
               <h2 className="text-2xl font-semibold tracking-[-0.05em] text-black sm:text-3xl">
-                Mes elements de preuve
+                Mes éléments de preuve
               </h2>
               <p className="mt-6 text-[1.04rem] leading-8 text-black/70 lg:text-[1.08rem] lg:leading-9">
                 {skill.sections.proof.intro}
@@ -149,7 +149,7 @@ export default async function SkillDetailPage({ params }: SkillPageProps) {
                       <div className="mt-6 space-y-4">
                         <div className="rounded-[22px] bg-white p-5 ring-1 ring-black/6">
                           <p className="text-sm font-semibold uppercase tracking-[0.22em] text-black/35">
-                            Resultat
+                            Résultat
                           </p>
                           <p className="mt-3 text-base leading-7 text-black/70">
                             {story.result}
@@ -157,7 +157,7 @@ export default async function SkillDetailPage({ params }: SkillPageProps) {
                         </div>
                         <div className="rounded-[22px] bg-white p-5 ring-1 ring-black/6">
                           <p className="text-sm font-semibold uppercase tracking-[0.22em] text-black/35">
-                            Valeur ajoutee
+                            Valeur ajoutée
                           </p>
                           <p className="mt-3 text-base leading-7 text-black/70">
                             {story.valueAdded}
@@ -212,7 +212,7 @@ export default async function SkillDetailPage({ params }: SkillPageProps) {
 
             <section className="mt-14 w-full border-t border-black/8 pt-10">
               <h2 className="text-2xl font-semibold tracking-[-0.05em] text-black sm:text-3xl">
-                Mon evolution dans cette competence
+                Mon évolution dans cette compétence
               </h2>
               <div className="mt-6 space-y-6 text-[1.04rem] leading-8 text-black/70 lg:text-[1.08rem] lg:leading-9">
                 {skill.sections.growth.map((paragraph, index) => (
@@ -223,7 +223,7 @@ export default async function SkillDetailPage({ params }: SkillPageProps) {
 
             <section className="mt-14 w-full border-t border-black/8 pt-10">
               <h2 className="text-2xl font-semibold tracking-[-0.05em] text-black sm:text-3xl">
-                Realisations liees
+                Réalisations liées
               </h2>
               <div className="mt-6 flex flex-wrap gap-3">
                 {skill.relatedProjects.map((item) =>

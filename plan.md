@@ -1,5 +1,17 @@
 Plan
 
+1. Extraire la formation de la section expériences vers un composant dédié.
+2. Ajouter la nouvelle section `Formation` sur la page d'accueil.
+3. Ajouter l'entrée `Formation` dans la navigation principale.
+
+## Historique precedent
+
+1. Fusionner le contenu "Tests automatisés" dans la compétence "Déploiement & DevOps".
+2. Supprimer la compétence séparée "Tests automatisés" pour revenir à 10 compétences.
+3. Vérifier que `data/skills.json` reste valide et que le comptage technique/non technique correspond à la grille.
+
+## Historique precedent
+
 1. Ajuster la navigation et le hero uniquement sur mobile pour éviter les débordements et garder les bons liens.
 2. Réduire les paddings, rayons, tailles d'images et titres sur mobile dans les sections de la home.
 3. Améliorer les pages détail projet et compétence sur mobile sans modifier les breakpoints desktop.

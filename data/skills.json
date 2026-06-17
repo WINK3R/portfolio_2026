@@ -31,7 +31,7 @@
                 "href": "/"
               },
               {
-                "label": "Section competences",
+                "label": "Section compétences",
                 "href": "/#skills"
               }
             ]
@@ -108,7 +108,7 @@
     "slug": "back-end",
     "category": "technique",
     "title": "Back-end",
-    "description": "Mise en place de logiques metier, APIs et structures solides pour des projets coherents.",
+    "description": "Mise en place de logiques métier, APIs et structures solides pour des projets cohérents.",
     "level": "72%",
     "accentColor": "#22A06B",
     "icon": "ServerStackIcon",
@@ -171,7 +171,7 @@
     "slug": "design-ui-ux",
     "category": "technique",
     "title": "Design UI/UX",
-    "description": "Creation d'experiences claires, lisibles et orientees utilisateur, du wireframe au rendu final.",
+    "description": "Création d'expériences claires, lisibles et orientées utilisateur, du wireframe au rendu final.",
     "level": "84%",
     "accentColor": "#FF7A90",
     "icon": "PaintBrushIcon",
@@ -233,8 +233,8 @@
   {
     "slug": "deploiement-devops",
     "category": "technique",
-    "title": "Deploiement & DevOps",
-    "description": "Bases de mise en production, gestion d'environnements et automatisation des flux de travail.",
+    "title": "Déploiement & DevOps",
+    "description": "Bases de mise en production, gestion d'environnements, tests et automatisation des flux de travail.",
     "level": "74%",
     "accentColor": "#F59E0B",
     "icon": "RocketLaunchIcon",
@@ -242,11 +242,11 @@
     "galleryImage": "/images/photo-about-me.png",
     "sections": {
       "definition": [
-        "Le déploiement et le DevOps représentent pour moi tout ce qui permet de faire vivre un projet au-delà du développement local. Cela comprend la mise en ligne, la gestion des environnements, la configuration et les premières formes d'automatisation.",
+        "Le déploiement et le DevOps représentent pour moi tout ce qui permet de faire vivre un projet au-delà du développement local. Cela comprend la mise en ligne, la gestion des environnements, la configuration, les tests automatisés et les premières formes d'automatisation.",
         "Dans un contexte professionnel, cette compétence est importante parce qu'un projet ne s'arrête pas quand le code fonctionne sur une machine. Il faut aussi qu'il soit exécutable, stable et compréhensible dans un environnement réel."
       ],
       "proof": {
-        "intro": "Cette compétence s'est construite à travers mes mises en ligne, mes réglages d'environnement et mes premières réflexions sur la continuité entre développement et exécution.",
+        "intro": "Cette compétence s'est construite à travers mes mises en ligne, mes réglages d'environnement, mes premières réflexions sur la continuité entre développement et exécution, ainsi que l'intégration progressive de tests et d'outils de qualité.",
         "stories": [
           {
             "title": "Étudier le déploiement d'infrastructures modernes",
@@ -256,19 +256,28 @@
             ],
             "result": "Le résultat est une compréhension plus solide des étapes nécessaires pour livrer une application dans un environnement structuré, depuis la conteneurisation jusqu'au suivi de la qualité du code.",
             "valueAdded": "Ma valeur ajoutée est de ne pas limiter le déploiement à une simple mise en ligne, mais de prendre en compte l'organisation des services, l'automatisation, la maintenabilité et la qualité globale de l'infrastructure."
+          },
+          {
+            "title": "Intégrer les tests et SonarQube dans mes projets",
+            "paragraphs": [
+              "Dans la majorité de mes projets, j'essaie de mettre en place une démarche qualité qui ne repose pas seulement sur des vérifications manuelles. Cela passe par l'ajout de tests automatisés et par leur intégration dans la CI/CD, afin de contrôler les comportements importants à chaque évolution du code.",
+              "J'utilise aussi des outils comme SonarQube pour suivre la qualité du code, repérer des problèmes de maintenabilité, de duplication ou de fiabilité, et garder une vision plus objective de l'état technique du projet. Cette approche m'aide à corriger plus tôt et à éviter que les défauts ne s'accumulent."
+            ],
+            "result": "Le résultat est un workflow plus fiable, dans lequel les tests et l'analyse de qualité accompagnent les développements au lieu d'arriver seulement en fin de projet.",
+            "valueAdded": "Ma valeur ajoutée est d'intégrer la qualité dans le processus de développement, en cherchant à sécuriser les changements, limiter les régressions et maintenir une base de code plus saine."
           }
         ],
         "closing": [
-          "Cet exemple montre que ma compétence DevOps s'appuie sur une vision plus complète de la livraison logicielle : construire, déployer, automatiser, contrôler la qualité et maintenir un environnement exploitable."
+          "Ces exemples montrent que ma compétence DevOps s'appuie sur une vision plus complète de la livraison logicielle : construire, tester, déployer, automatiser, contrôler la qualité et maintenir un environnement exploitable."
         ]
       },
       "selfReview": [
-        "Je considère aujourd'hui avoir des bases sérieuses sur le déploiement, en particulier pour comprendre les environnements, les builds et la mise en ligne de projets web. Cette compétence reste néanmoins en construction dans mon profil.",
-        "Je dois encore progresser sur les pratiques DevOps plus avancées, comme l'automatisation plus complète, l'observabilité et la robustesse des pipelines. Mon recul est clair : un projet bien développé doit aussi être correctement livré et exploitable."
+        "Je considère aujourd'hui avoir des bases sérieuses sur le déploiement, en particulier pour comprendre les environnements, les builds, la mise en ligne de projets web et la place des tests dans la fiabilité d'un projet. Cette compétence reste néanmoins en construction dans mon profil.",
+        "Je dois encore progresser sur les pratiques DevOps plus avancées, comme l'automatisation plus complète, l'observabilité, la robustesse des pipelines et la priorisation des cas de test utiles. Mon recul est clair : un projet bien développé doit aussi être correctement livré, vérifié et exploitable."
       ],
       "growth": [
-        "Je veux approfondir cette compétence pour mieux maîtriser les déploiements, la configuration et les outils qui améliorent la fiabilité d'un projet.",
-        "À moyen terme, je souhaite consolider mes pratiques sur les environnements, les workflows de livraison et les outils de mise en production."
+        "Je veux approfondir cette compétence pour mieux maîtriser les déploiements, la configuration, les tests automatisés et les outils qui améliorent la fiabilité d'un projet.",
+        "À moyen terme, je souhaite consolider mes pratiques sur les environnements, les workflows de livraison, la CI/CD, les stratégies de test et les outils de mise en production."
       ]
     },
     "relatedProjects": [
@@ -284,6 +293,9 @@
         "label": "Docker & Kubernetes"
       },
       {
+        "label": "CI/CD"
+      },
+      {
         "label": "SonarQube"
       }
     ]
@@ -292,7 +304,7 @@
     "slug": "architecture-logicielle",
     "category": "technique",
     "title": "Architecture logicielle",
-    "description": "Reflexion sur l'organisation du code, la maintenabilite et la clarte des systemes construits.",
+    "description": "Réflexion sur l'organisation du code, la maintenabilité et la clarté des systèmes construits.",
     "level": "70%",
     "accentColor": "#7C5CFF",
     "icon": "Square3Stack3DIcon",
@@ -347,67 +359,10 @@
     ]
   },
   {
-    "slug": "tests-automatises",
-    "category": "technique",
-    "title": "Tests automatises",
-    "description": "Verification des comportements clefs pour fiabiliser les interfaces et limiter les regressions.",
-    "level": "83%",
-    "accentColor": "#00A6A6",
-    "icon": "ShieldCheckIcon",
-    "heroImage": "/images/illustration-3.png",
-    "galleryImage": "/images/photo-about-me-3.png",
-    "sections": {
-      "definition": [
-        "Les tests automatisés sont pour moi un moyen de vérifier qu'un comportement important reste fiable dans le temps. Ils permettent de mieux sécuriser une évolution, de limiter les régressions et d'apporter plus de confiance quand un projet grandit."
-      ],
-      "proof": {
-        "intro": "Cette compétence s'inscrit dans une logique de fiabilisation : mieux vérifier, mieux corriger et mieux faire évoluer un code sans tout casser.",
-        "stories": [
-          {
-            "title": "Intégrer les tests et SonarQube dans mes projets",
-            "paragraphs": [
-              "Dans la majorité de mes projets, j'essaie de mettre en place une démarche qualité qui ne repose pas seulement sur des vérifications manuelles. Cela passe par l'ajout de tests automatisés et par leur intégration dans la CI/CD, afin de contrôler les comportements importants à chaque évolution du code.",
-              "J'utilise aussi des outils comme SonarQube pour suivre la qualité du code, repérer des problèmes de maintenabilité, de duplication ou de fiabilité, et garder une vision plus objective de l'état technique du projet. Cette approche m'aide à corriger plus tôt et à éviter que les défauts ne s'accumulent."
-            ],
-            "result": "Le résultat est un workflow plus fiable, dans lequel les tests et l'analyse de qualité accompagnent les développements au lieu d'arriver seulement en fin de projet.",
-            "valueAdded": "Ma valeur ajoutée est d'intégrer la qualité dans le processus de développement, en cherchant à sécuriser les changements, limiter les régressions et maintenir une base de code plus saine."
-          }
-        ],
-        "closing": [
-          "Cet exemple montre que ma compétence en tests automatisés s'inscrit dans une logique plus large de qualité continue, avec des contrôles réguliers, mesurables et intégrés au cycle de développement."
-        ]
-      },
-      "selfReview": [
-        "Je considère avoir une bonne compréhension de l'intérêt des tests et de leur place dans la qualité d'un projet. Cette compétence reste importante dans mon profil, même si elle est encore moins centrale que le front-end ou l'UI/UX.",
-        "Je dois encore progresser sur la régularité de leur mise en place, sur la priorisation des cas utiles et sur des stratégies de test plus complètes. Mon recul est que tester n'a de valeur que si cela aide réellement à fiabiliser le projet."
-      ],
-      "growth": [
-        "Je veux approfondir cette compétence pour rendre mes projets plus robustes et plus faciles à faire évoluer.",
-        "À moyen terme, je souhaite mieux intégrer les tests dans mes habitudes de développement et dans mes phases de correction."
-      ]
-    },
-    "relatedProjects": [
-      {
-        "label": "Gliint",
-        "href": "/projects/gliint"
-      },
-      {
-        "label": "SFHelper",
-        "href": "/projects/sfhelper"
-      },
-      {
-        "label": "CI/CD"
-      },
-      {
-        "label": "SonarQube"
-      }
-    ]
-  },
-  {
     "slug": "methodes-agiles",
     "category": "non-technique",
-    "title": "Methodes agiles",
-    "description": "Travail par iteration, adaptation continue et priorisation claire selon le contexte du projet.",
+    "title": "Méthodes agiles",
+    "description": "Travail par itération, adaptation continue et priorisation claire selon le contexte du projet.",
     "level": "78%",
     "accentColor": "#F97316",
     "icon": "PresentationChartLineIcon",
@@ -469,8 +424,8 @@
   {
     "slug": "adaptabilite",
     "category": "non-technique",
-    "title": "Adaptabilite",
-    "description": "Capacite a apprendre vite, changer d'approche et m'ajuster a des besoins differents.",
+    "title": "Adaptabilité",
+    "description": "Capacité à apprendre vite, changer d'approche et m'ajuster à des besoins différents.",
     "level": "72%",
     "accentColor": "#84CC16",
     "icon": "ArrowsPointingOutIcon",
@@ -538,7 +493,7 @@
     "slug": "autonomie",
     "category": "non-technique",
     "title": "Autonomie",
-    "description": "Organisation personnelle, prise d'initiative et avancee constante sur les sujets confies.",
+    "description": "Organisation personnelle, prise d'initiative et avancée constante sur les sujets confiés.",
     "level": "84%",
     "accentColor": "#EC4899",
     "icon": "BoltIcon",
@@ -601,8 +556,8 @@
   {
     "slug": "travail-en-equipe",
     "category": "non-technique",
-    "title": "Travail en equipe",
-    "description": "Communication fluide, partage d'idees et collaboration constructive pour faire avancer un projet.",
+    "title": "Travail en équipe",
+    "description": "Communication fluide, partage d'idées et collaboration constructive pour faire avancer un projet.",
     "level": "76%",
     "accentColor": "#38BDF8",
     "icon": "UsersIcon",
@@ -655,8 +610,8 @@
   {
     "slug": "resolution-de-problemes",
     "category": "non-technique",
-    "title": "Resolution de problemes",
-    "description": "Analyse, diagnostic et recherche de solutions concretes avec methode et recul.",
+    "title": "Résolution de problèmes",
+    "description": "Analyse, diagnostic et recherche de solutions concrètes avec méthode et recul.",
     "level": "73%",
     "accentColor": "#EF4444",
     "icon": "LightBulbIcon",

@@ -5,9 +5,10 @@ import { useEffect, useState } from "react";
 import Logo from "@/public/icons/logo.svg"
 
 const navItems = [
-  { name: "A propos", href: "/about" },
+  { name: "À propos", href: "/about" },
   { name: "Compétences", href: "/#skills" },
   { name: "Projets", href: "/projects" },
+  { name: "Formation", href: "/#formation" },
   { name: "Expériences", href: "/#experiences" },
 ];
 

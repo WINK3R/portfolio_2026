@@ -8,7 +8,6 @@ import {
   PresentationChartLineIcon,
   RocketLaunchIcon,
   ServerStackIcon,
-  ShieldCheckIcon,
   Square3Stack3DIcon,
   UsersIcon,
 } from "@heroicons/react/24/outline";
@@ -22,7 +21,6 @@ const skillIcons: Record<SkillIconName, HeroIcon> = {
   PaintBrushIcon,
   RocketLaunchIcon,
   Square3Stack3DIcon,
-  ShieldCheckIcon,
   PresentationChartLineIcon,
   ArrowsPointingOutIcon,
   BoltIcon,

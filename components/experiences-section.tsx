@@ -55,7 +55,7 @@ const experiences: Experience[] = [
     ],
   },
   {
-    title: "Alternance Cikaba",
+    title: "Cikaba - IUT BUT",
     period: "2024",
     role: "Développeur en alternance",
     place: "Cikaba",

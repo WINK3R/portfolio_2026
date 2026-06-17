@@ -42,7 +42,7 @@ export function SkillsSection() {
     >
       <div className="mx-auto w-full max-w-7xl px-6 sm:px-10 lg:px-16">
         <h2 className="text-center text-3xl font-semibold tracking-[-0.05em] text-black sm:text-5xl lg:text-6xl">
-          Mes competences
+          Mes compétences
         </h2>
 
         <div className="mt-14">
