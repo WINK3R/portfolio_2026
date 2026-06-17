@@ -1,5 +1,11 @@
 Plan
 
+1. Enrichir les tuiles formation avec niveau/diplôme, établissement, logo, lien institutionnel et texte court.
+2. Garder les logos cliquables vers les sites des établissements.
+3. Vérifier le build.
+
+## Historique precedent
+
 1. Extraire la formation de la section expériences vers un composant dédié.
 2. Ajouter la nouvelle section `Formation` sur la page d'accueil.
 3. Ajouter l'entrée `Formation` dans la navigation principale.
