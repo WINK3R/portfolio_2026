@@ -1,4 +1,11 @@
-Plan
+# Plan
+
+1. Ajouter Squad dans `data/projects.json` en reprenant la structure detaillee des autres projets.
+2. Renseigner les images existantes du dossier `public/images/projects/squad` avec `screenshotDisplay: "phone"`.
+3. Ajuster les textes visibles qui comptent les projets et relier Squad aux competences pertinentes si necessaire.
+4. Valider le JSON et lancer une verification de build ou lint.
+
+## Historique precedent
 
 1. Enrichir les tuiles formation avec niveau/diplôme, établissement, logo, lien institutionnel et texte court.
 2. Garder les logos cliquables vers les sites des établissements.

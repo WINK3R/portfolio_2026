@@ -213,6 +213,79 @@
     ]
   },
   {
+    "slug": "squad",
+    "title": "Squad",
+    "subtitle": "Application mobile d'organisation de parties avec salons vocaux Discord à la demande",
+    "description": "Une application mobile React Native encore en phase de développement, reliée à une API Spring Boot, pensée pour organiser des parties entre joueurs et automatiser la création de salons vocaux Discord grâce à un bot Python.",
+    "shortDescription": "Application mobile en développement avec API Spring Boot et bot Discord Python pour créer des salons vocaux à la demande.",
+    "coverImage": "/images/projects/squad/squad-banner.png",
+    "logo": "/images/projects/squad/squad-logo.png",
+    "screenshotDisplay": "phone",
+    "screenshots": [
+      "/images/projects/squad/image-1.png",
+      "/images/projects/squad/image-2.png",
+      "/images/projects/squad/image-3.png",
+      "/images/projects/squad/image-4.png",
+      "/images/projects/squad/image-5.png",
+      "/images/projects/squad/image-6.png",
+      "/images/projects/squad/image-7.png",
+      "/images/projects/squad/image-8.png",
+      "/images/projects/squad/image-9.png",
+      "/images/projects/squad/image-10.png",
+      "/images/projects/squad/image-11.png",
+      "/images/projects/squad/image-12.png"
+    ],
+    "screenPlaceholders": 8,
+    "status": "detailled",
+    "sections": {
+      "presentation": [
+        "Squad est une application mobile encore en phase de développement, pensée pour faciliter l'organisation de parties entre joueurs. L'objectif est de centraliser la création, la recherche et la gestion de parties dans une interface mobile claire, afin que les utilisateurs puissent rejoindre rapidement un groupe adapté à leur jeu, leurs disponibilités ou leur manière de jouer.",
+        "Le projet s'appuie sur une application React Native côté mobile, une API Spring Boot côté serveur et un bot Discord développé en Python. Cette architecture permet de relier l'expérience mobile à des actions concrètes sur Discord, notamment la création de salons vocaux dédiés aux parties.",
+        "L'idée n'était pas seulement de présenter une liste de parties. Squad cherche à rapprocher l'organisation dans l'application et le moment où les joueurs se retrouvent réellement en vocal. Le bot Discord joue donc un rôle important : il permet d'ouvrir des salons vocaux à la demande pour les parties créées dans l'application."
+      ],
+      "objectives": [
+        "L'objectif principal était de construire une application mobile capable de rendre l'organisation de parties plus simple et plus directe. Dans beaucoup de communautés, les joueurs passent par plusieurs outils pour trouver un groupe, discuter et lancer un vocal. Squad vise à réduire cette friction en regroupant les étapes importantes dans un même parcours.",
+        "Le contexte du projet amenait plusieurs enjeux techniques : concevoir une interface mobile fluide, structurer une API backend fiable, gérer les données liées aux utilisateurs et aux parties, puis connecter cette logique applicative à Discord via un bot autonome.",
+        "Le risque principal était de créer une séparation trop forte entre l'application et Discord. Si l'utilisateur doit tout refaire manuellement après avoir créé une partie, l'intérêt du produit diminue. Il fallait donc penser l'intégration Discord comme une vraie extension de l'expérience, pas comme une fonctionnalité isolée."
+      ],
+      "steps": [
+        "Le développement a commencé par la définition des parcours principaux de l'application mobile : consulter les parties disponibles, créer une party, rejoindre un groupe et retrouver les informations utiles avant le lancement. Ces écrans demandaient une interface lisible, adaptée au format téléphone et suffisamment rapide à parcourir.",
+        "L'application mobile a été développée avec React Native. Ce choix permettait de construire une expérience mobile moderne avec une logique de composants proche de React, tout en gardant une base adaptée aux usages d'une application installable.",
+        "Côté serveur, l'API a été construite avec Spring Boot afin de gérer la logique métier, les endpoints et la structuration des données. Cette partie devait rester claire, car elle sert d'intermédiaire entre l'application mobile, les utilisateurs, les parties et les actions déclenchées vers Discord.",
+        "Le bot Discord a été développé en Python pour automatiser la création de salons vocaux à la demande. Lorsqu'une party nécessite un espace vocal, le bot peut ouvrir un salon dédié et faire le lien entre l'organisation dans l'application et l'échange vocal sur Discord.",
+        "Une attention particulière a été portée à la coordination entre les différentes briques. Le projet ne repose pas sur une seule interface, mais sur un ensemble composé d'une app mobile, d'une API et d'un bot externe. Il fallait donc garder des responsabilités séparées tout en assurant une expérience cohérente pour l'utilisateur."
+      ],
+      "actors": [
+        "Squad a été conçu comme un projet complet mêlant mobile, backend et automatisation Discord. Mon rôle a consisté à travailler sur la structure générale du produit, l'intégration des différentes briques techniques et la cohérence des parcours.",
+        "Le projet demandait de faire dialoguer plusieurs environnements : l'application React Native pour l'expérience utilisateur, l'API Spring Boot pour la logique métier et le bot Python pour les interactions avec Discord.",
+        "Cette organisation a imposé une vision assez transversale du développement. Il fallait réfléchir à la fois comme développeur mobile, développeur backend et intégrateur d'un service externe utilisé par les joueurs au moment de lancer leur partie."
+      ],
+      "results": [
+        "À ce stade du développement, le résultat est une application mobile structurée autour de l'organisation de parties, avec une identité visuelle propre, des écrans au format téléphone et une logique pensée pour accompagner les joueurs jusqu'au vocal.",
+        "L'intégration du bot Discord apporte une valeur concrète au projet, car elle transforme une action dans l'application en création d'un espace vocal utilisable par les membres de la party.",
+        "Sur le plan technique, Squad m'a permis de travailler une architecture plus distribuée qu'une application classique : front mobile, API backend et bot événementiel. Le projet illustre ma capacité à connecter plusieurs technologies autour d'un même usage."
+      ],
+      "aftermath": [
+        "La suite naturelle du projet serait de renforcer la gestion des permissions Discord, les notifications et la synchronisation entre l'état d'une party dans l'application et l'état du salon vocal associé.",
+        "Il serait aussi intéressant d'améliorer la recherche de parties avec des filtres plus fins, des préférences de jeu, des niveaux ou des disponibilités, afin de rendre la mise en relation plus pertinente.",
+        "À plus long terme, Squad pourrait évoluer vers une expérience communautaire plus complète, avec profils joueurs, historique de parties, recommandations et meilleure intégration avec les serveurs Discord existants."
+      ],
+      "criticalView": [
+        "Le principal recul que je garde sur Squad concerne la complexité d'un projet qui traverse plusieurs environnements. Une application mobile peut fonctionner correctement seule, mais dès qu'elle déclenche des actions dans Discord via une API et un bot, la cohérence des états devient un sujet central.",
+        "Ce projet montre aussi l'importance de bien définir les responsabilités. L'application ne doit pas porter la logique du bot, le bot ne doit pas remplacer l'API, et le backend doit rester le point de coordination fiable entre les actions utilisateur et les effets produits sur Discord.",
+        "Avec du recul, je renforcerais encore les mécanismes de suivi et de robustesse autour du bot : gestion des erreurs, logs, cas où un salon existe déjà, nettoyage automatique et meilleure visibilité côté utilisateur lorsque Discord ne répond pas comme prévu."
+      ]
+    },
+    "stack": ["React Native", "Spring Boot", "Python", "Discord Bot"],
+    "skills": [
+      { "label": "Front-end", "href": "/competences/front-end" },
+      { "label": "Back-end", "href": "/competences/back-end" },
+      { "label": "Architecture logicielle", "href": "/competences/architecture-logicielle" },
+      { "label": "Résolution de problèmes", "href": "/competences/resolution-de-problemes" },
+      { "label": "Adaptabilité", "href": "/competences/adaptabilite" }
+    ]
+  },
+  {
     "slug": "sfhelper",
     "title": "SFHelper",
     "subtitle": "Outil web d'aide à la planification d'usines pour Satisfactory",

@@ -58,6 +58,10 @@
                 "href": "/projects/canap"
               },
               {
+                "label": "Squad",
+                "href": "/projects/squad"
+              },
+              {
                 "label": "SFHelper",
                 "href": "/projects/sfhelper"
               }
@@ -93,6 +97,10 @@
       {
         "label": "Canap",
         "href": "/projects/canap"
+      },
+      {
+        "label": "Squad",
+        "href": "/projects/squad"
       },
       {
         "label": "SFHelper",
@@ -159,6 +167,10 @@
         "href": "/projects/canap"
       },
       {
+        "label": "Squad",
+        "href": "/projects/squad"
+      },
+      {
         "label": "Exercice Kanban"
       },
       {
@@ -219,6 +231,10 @@
       {
         "label": "JustMusic",
         "href": "/projects/justmusic"
+      },
+      {
+        "label": "Squad",
+        "href": "/projects/squad"
       },
       {
         "label": "Portfolio personnel",
@@ -348,6 +364,10 @@
       {
         "label": "SFHelper",
         "href": "/projects/sfhelper"
+      },
+      {
+        "label": "Squad",
+        "href": "/projects/squad"
       },
       {
         "label": "Exercice Kanban"
@@ -482,6 +502,10 @@
       {
         "label": "Canap",
         "href": "/projects/canap"
+      },
+      {
+        "label": "Squad",
+        "href": "/projects/squad"
       },
       {
         "label": "SFHelper",
@@ -663,6 +687,10 @@
       {
         "label": "Canap",
         "href": "/projects/canap"
+      },
+      {
+        "label": "Squad",
+        "href": "/projects/squad"
       }
     ]
   }

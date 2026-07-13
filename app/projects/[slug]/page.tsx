@@ -55,6 +55,10 @@ const stackLogoPaths: Record<string, string> = {
   "Spotify API": "/images/stacks/spotify-api-logo.png",
   Swift: "/images/stacks/swift-logo.png",
   "TMDB API": "/images/stacks/tmdb-logo.png",
+  "React Native": "/images/stacks/react.png",
+  "Spring Boot": "/images/stacks/spring_boot.webp",
+  Python: "/images/stacks/python.png",
+  "Discord Bot": "/images/stacks/discord.webp",
 };
 
 export default async function ProjectDetailPage({ params }: ProjectPageProps) {
