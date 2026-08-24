@@ -4,6 +4,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { NavigationBar } from "@/components/navigation-bar";
 import { SkillIcon } from "@/components/skill-icon";
+import { SkillRating } from "@/components/skill-rating";
 import {
   Collapsible,
   CollapsibleContent,
@@ -71,11 +72,18 @@ export default async function SkillDetailPage({ params }: SkillPageProps) {
               >
                 <SkillIcon name={skill.icon} className="size-8" />
               </div>
-              <p className="text-sm font-semibold uppercase tracking-[0.28em] text-white/72">
-                {skill.category === "technique"
-                  ? "Compétence technique"
-                  : "Compétence humaine"}
-              </p>
+              <div className="flex flex-wrap items-center gap-x-4 gap-y-3">
+                <p className="text-sm font-semibold uppercase tracking-[0.28em] text-white/72">
+                  {skill.category === "technique"
+                    ? "Compétence technique"
+                    : "Compétence humaine"}
+                </p>
+                <SkillRating
+                  level={skill.level}
+                  showValue
+                  className="rounded-full bg-black/18 px-3 py-1.5 text-white ring-1 ring-white/20 backdrop-blur-sm"
+                />
+              </div>
               <h1 className="mt-3 max-w-4xl text-3xl font-semibold tracking-[-0.06em] text-white sm:text-5xl lg:text-6xl">
                 {skill.title}
               </h1>

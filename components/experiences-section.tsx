@@ -1,9 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
 
-type Experience = {
+export type Experience = {
   title: string;
   period: string;
+  timelineOrder: number;
   role: string;
   place: string;
   logo: {
@@ -22,10 +23,11 @@ type Experience = {
   }[];
 };
 
-const experiences: Experience[] = [
+export const experiences: Experience[] = [
   {
     title: "Cikaba - Mastère ISCOD",
-    period: "2025 - 2026",
+    period: "2 sept. 2024 — 31 déc. 2026",
+    timelineOrder: 6,
     role: "Ingénieur logiciel en alternance",
     place: "Cikaba",
     logo: {
@@ -57,6 +59,7 @@ const experiences: Experience[] = [
   {
     title: "Cikaba - IUT BUT",
     period: "2024",
+    timelineOrder: 4,
     role: "Développeur en alternance",
     place: "Cikaba",
     logo: {
@@ -83,6 +86,7 @@ const experiences: Experience[] = [
   {
     title: "INRAE",
     period: "2023",
+    timelineOrder: 3,
     role: "Développeur serious game",
     place: "INRAE",
     logo: {
@@ -164,7 +168,9 @@ function ExperienceLinks({
   );
 }
 
-function ExperienceCard({ experience }: Readonly<{ experience: Experience }>) {
+export function ExperienceCard({
+  experience,
+}: Readonly<{ experience: Experience }>) {
   return (
     <article className="overflow-hidden rounded-[22px] bg-white p-2 shadow-xl shadow-black/5 ring-1 ring-black/6 sm:rounded-[28px] sm:p-3">
       <div className="grid gap-6 lg:grid-cols-[0.42fr_0.58fr] lg:items-stretch">
@@ -196,6 +202,9 @@ function ExperienceCard({ experience }: Readonly<{ experience: Experience }>) {
           <h4 className="mt-4 text-2xl font-semibold tracking-[-0.05em] text-black sm:text-3xl">
             {experience.title}
           </h4>
+          <p className="mt-2 text-sm font-semibold text-black/48">
+            {experience.role} · {experience.place}
+          </p>
           <p className="mt-4 max-w-2xl text-base leading-7 text-black/58">
             {experience.missions}
           </p>

@@ -25,12 +25,14 @@ export type SkillIconName =
   | "UsersIcon"
   | "LightBulbIcon";
 
+export type SkillLevel = 1 | 2 | 3 | 4 | 5;
+
 export type Skill = {
   slug: string;
   category: "technique" | "non-technique";
   title: string;
   description: string;
-  level: string;
+  level: SkillLevel;
   accentColor: string;
   icon: SkillIconName;
   heroImage: string;

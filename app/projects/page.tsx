@@ -16,7 +16,7 @@ export default function ProjectsPage() {
             Mes projets
           </h1>
           <p className="mt-5 text-lg leading-8 text-black/60">
-            Six réalisations regroupées sur une page commune, avec un accès
+            Cinq réalisations regroupées sur une page commune, avec un accès
             direct à chaque fiche projet et une lecture pensée comme un
             portfolio structuré.
           </p>

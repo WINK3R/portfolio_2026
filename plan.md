@@ -1,5 +1,20 @@
 # Plan
 
+1. Exposer les cartes et données de formation et d'expérience sans fusionner leurs composants.
+2. Créer une frise unique qui mélange les deux types et les ordonne de façon antichronologique.
+3. Utiliser les dates exactes disponibles dans les justificatifs et conserver les dates connues lorsque les mois ne sont pas documentés.
+4. Remplacer les deux sections de la page d'accueil par le parcours commun et adapter la navigation.
+5. Vérifier le responsive, les ancres existantes, le lint et le build Next.js.
+
+## Historique precedent
+
+1. Remplacer les pourcentages de niveau par une note sur 5, avec 5 étoiles pour Front-end et Design UI/UX et 4 étoiles pour les autres compétences.
+2. Créer un composant d'étoiles accessible et réutilisable, décliné avec la couleur de chaque compétence.
+3. Afficher cette note dans les cartes de la liste et dans la bannière de chaque page de détail.
+4. Valider les données, le lint et le build Next.js.
+
+## Historique precedent
+
 1. Ajouter Squad dans `data/projects.json` en reprenant la structure detaillee des autres projets.
 2. Renseigner les images existantes du dossier `public/images/projects/squad` avec `screenshotDisplay: "phone"`.
 3. Ajuster les textes visibles qui comptent les projets et relier Squad aux competences pertinentes si necessaire.

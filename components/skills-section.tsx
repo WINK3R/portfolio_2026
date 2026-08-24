@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { SkillIcon } from "@/components/skill-icon";
+import { SkillRating } from "@/components/skill-rating";
 import { nonTechnicalSkills, technicalSkills, type Skill } from "@/lib/skills";
 
 type SkillCardProps = {
@@ -24,6 +25,11 @@ function SkillCard({ skill }: Readonly<SkillCardProps>) {
             <h3 className="text-2xl font-semibold leading-[1.02] tracking-[-0.04em] text-black">
               {skill.title}
             </h3>
+            <SkillRating
+              level={skill.level}
+              color={skill.accentColor}
+              className="mt-2"
+            />
             <p className="mt-2 text-sm leading-5 text-black/38">
               {skill.description}
             </p>

@@ -1,23 +1,25 @@
 import Image from "next/image";
 
-type Formation = {
+export type Formation = {
   title: string;
   level: string;
   school: string;
   place: string;
   period: string;
+  timelineOrder: number;
   logo: string;
   website: string;
   description: string;
 };
 
-const formations: Formation[] = [
+export const formations: Formation[] = [
   {
     title: "BAC général",
     level: "Spécialités Mathématiques / informatique",
     school: "Lycée Édouard Herriot",
     place: "Lyon 6ème",
     period: "2021",
+    timelineOrder: 1,
     logo: "/formation/lycee.png",
     website: "https://lycee-eherriot.etab.ac-lyon.fr/",
     description:
@@ -29,6 +31,7 @@ const formations: Formation[] = [
     school: "Université Clermont Auvergne",
     place: "Clermont-Ferrand",
     period: "2021 - 2024",
+    timelineOrder: 2,
     logo: "/formation/uca.png",
     website: "https://www.uca.fr/",
     description:
@@ -39,7 +42,8 @@ const formations: Formation[] = [
     level: "Expert en ingénierie du logiciel - RNCP niveau 7",
     school: "ISCOD",
     place: "ISCOD",
-    period: "2024 - 2026",
+    period: "12 nov. 2024 — 30 nov. 2026",
+    timelineOrder: 5,
     logo: "/formation/iscod.jpg",
     website: "https://www.iscod.fr/",
     description:
@@ -47,9 +51,16 @@ const formations: Formation[] = [
   },
 ];
 
-function FormationTile({ formation }: Readonly<{ formation: Formation }>) {
+export function FormationTile({
+  formation,
+  timeline = false,
+}: Readonly<{ formation: Formation; timeline?: boolean }>) {
   return (
-    <article className="flex min-h-80 w-88 flex-col justify-between rounded-[28px] bg-white p-5 shadow-xl shadow-black/6 ring-1 ring-black/8">
+    <article
+      className={`flex flex-col justify-between rounded-[28px] bg-white p-5 shadow-xl shadow-black/6 ring-1 ring-black/8 ${
+        timeline ? "min-h-0 w-full sm:min-h-72 sm:p-7" : "min-h-80 w-88"
+      }`}
+    >
       <div>
         <div className="flex items-start justify-between gap-4">
           <span className="w-fit rounded-full bg-black px-3 py-1.5 text-xs font-semibold uppercase tracking-[0.14em] text-white">
