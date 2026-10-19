@@ -1,5 +1,11 @@
 # Plan
 
+1. Mettre à jour les compétences « Autonomie » et « Travail en équipe » avec les textes fournis, en conservant la structure éditoriale de la page.
+2. Associer les anecdotes aux réalisations correspondantes.
+3. Vérifier la validité des données et le lint.
+
+## Historique precedent
+
 1. Exposer les cartes et données de formation et d'expérience sans fusionner leurs composants.
 2. Créer une frise unique qui mélange les deux types et les ordonne de façon antichronologique.
 3. Utiliser les dates exactes disponibles dans les justificatifs et conserver les dates connues lorsque les mois ne sont pas documentés.
@@ -126,3 +132,11 @@
 3. Add stack entries: Swift, Firebase, TMDB API.
 4. Link relevant skills: Front-end, Back-end, Design UI/UX, Architecture logicielle, Resolution de problemes.
 5. Validate JSON, then run lint/build checks.
+
+## Matrice de compétences
+
+1. Ajouter sous le titre « Mes compétences » un CTA vers une page dédiée.
+2. Construire un radar accessible à dix axes à partir des niveaux déjà présents dans les données.
+3. Associer chaque sommet à la couleur et au nom de sa compétence, avec une légende lisible sur mobile.
+4. Ajouter la page statique `/competences/matrice` dans le style visuel du portfolio.
+5. Vérifier le lint et le build de production.
