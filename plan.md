@@ -1,5 +1,12 @@
 # Plan
 
+1. Remplacer le contenu provisoire de la compétence « Résolution de problèmes » par une rédaction détaillée et personnelle.
+2. Développer deux preuves concrètes : la refonte du plan de prévention chez Cikaba et l'interchangeabilité des fournisseurs d'API dans Gliint.
+3. Expliciter la méthode de diagnostic, l'autocritique et l'évolution vers un profil full-stack.
+4. Vérifier la validité des données et le lint.
+
+## Historique precedent
+
 1. Mettre à jour les compétences « Autonomie » et « Travail en équipe » avec les textes fournis, en conservant la structure éditoriale de la page.
 2. Associer les anecdotes aux réalisations correspondantes.
 3. Vérifier la validité des données et le lint.
