@@ -1,5 +1,12 @@
 # Plan
 
+1. Réécrire la fiche GLIINT en donnant davantage de contexte au projet personnel et à sa démarche de conception.
+2. Développer les étapes de réalisation dans un ordre chronologique, avec les choix techniques, difficultés et validations associées.
+3. Ajouter des anecdotes crédibles sur les tuiles adaptatives, les API de métadonnées, les analytics, Stripe et les tests.
+4. Vérifier la validité du JSON et le rendu technique avec les contrôles du projet.
+
+## Historique precedent
+
 1. Remplacer le contenu provisoire de la compétence « Résolution de problèmes » par une rédaction détaillée et personnelle.
 2. Développer deux preuves concrètes : la refonte du plan de prévention chez Cikaba et l'interchangeabilité des fournisseurs d'API dans Gliint.
 3. Expliciter la méthode de diagnostic, l'autocritique et l'évolution vers un profil full-stack.
