@@ -50,6 +50,27 @@ export function SkillsSection() {
         <h2 className="text-center text-3xl font-semibold tracking-[-0.05em] text-black sm:text-5xl lg:text-6xl">
           Mes compétences
         </h2>
+        <div className="mt-6 flex justify-center">
+          <Link
+            href="/competences/matrice"
+            className="group inline-flex items-center gap-3 rounded-full bg-black px-5 py-3 text-sm font-semibold text-white shadow-lg shadow-black/12 transition hover:-translate-y-0.5 hover:bg-black/82 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-black"
+          >
+            Voir ma matrice de compétences
+            <svg
+              aria-hidden="true"
+              className="size-4 transition-transform group-hover:translate-x-0.5"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="1.8"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            >
+              <path d="M5 12h14" />
+              <path d="m13 6 6 6-6 6" />
+            </svg>
+          </Link>
+        </div>
 
         <div className="mt-14">
           <h3 className="mt-2 text-2xl font-semibold tracking-[-0.05em] text-black sm:text-4xl">

@@ -110,10 +110,10 @@ export default async function ProjectDetailPage({ params }: ProjectPageProps) {
                   </a>
                 ) : null}
               </div>
-              <p className="mt-5 max-w-3xl text-lg leading-7 text-black/82 sm:text-2xl sm:leading-9">
+              <p className="mt-5 max-w-3xl text-justify text-lg leading-7 text-black/82 sm:text-2xl sm:leading-9">
                 {project.subtitle}
               </p>
-              <p className="mt-6 max-w-3xl text-base leading-8 text-black/62 sm:text-lg">
+              <p className="mt-6 max-w-3xl text-justify text-base leading-8 text-black/62 sm:text-lg">
                 {project.description}
               </p>
             </div>
@@ -165,7 +165,7 @@ export default async function ProjectDetailPage({ params }: ProjectPageProps) {
                   <h2 className="text-xl font-semibold tracking-[-0.04em] text-black sm:text-3xl">
                     {section.title}
                   </h2>
-                  <div className="mt-5 space-y-5 text-[1.03rem] leading-8 text-black/68">
+                  <div className="mt-5 space-y-5 text-justify text-[1.03rem] leading-8 text-black/68">
                     {project.sections[section.key].map((paragraph, index) => (
                       <p key={`${project.slug}-${section.key}-${index}`}>
                         {paragraph}

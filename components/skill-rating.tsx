@@ -22,21 +22,36 @@ export function SkillRating({
     >
       <span aria-hidden="true" className="flex items-center gap-0.5">
         {Array.from({ length: 5 }, (_, index) => {
-          const isFilled = index < level;
+          const fillRatio = Math.min(1, Math.max(0, level - index));
 
           return (
-            <svg
-              key={index}
-              className={`size-4 ${isFilled ? "opacity-100" : "opacity-30"}`}
-              viewBox="0 0 24 24"
-              fill={isFilled ? "currentColor" : "none"}
-              stroke="currentColor"
-              strokeWidth="1.8"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            >
-              <path d="m12 2.8 2.78 5.63 6.22.9-4.5 4.39 1.06 6.2L12 17l-5.56 2.92 1.06-6.2L3 9.33l6.22-.9L12 2.8Z" />
-            </svg>
+            <span key={index} className="relative size-4">
+              <svg
+                className="absolute inset-0 size-4 opacity-30"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="1.8"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                <path d="m12 2.8 2.78 5.63 6.22.9-4.5 4.39 1.06 6.2L12 17l-5.56 2.92 1.06-6.2L3 9.33l6.22-.9L12 2.8Z" />
+              </svg>
+              {fillRatio > 0 ? (
+                <svg
+                  className="absolute inset-0 size-4"
+                  style={{ clipPath: `inset(0 ${100 - fillRatio * 100}% 0 0)` }}
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  stroke="currentColor"
+                  strokeWidth="1.8"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                >
+                  <path d="m12 2.8 2.78 5.63 6.22.9-4.5 4.39 1.06 6.2L12 17l-5.56 2.92 1.06-6.2L3 9.33l6.22-.9L12 2.8Z" />
+                </svg>
+              ) : null}
+            </span>
           );
         })}
       </span>

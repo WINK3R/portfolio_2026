@@ -8,8 +8,8 @@ type RelatedItem = {
 type SkillStory = {
   title: string;
   paragraphs: string[];
-  result: string;
-  valueAdded: string;
+  result?: string;
+  valueAdded?: string;
   relatedItems?: RelatedItem[];
 };
 
@@ -25,7 +25,7 @@ export type SkillIconName =
   | "UsersIcon"
   | "LightBulbIcon";
 
-export type SkillLevel = 1 | 2 | 3 | 4 | 5;
+export type SkillLevel = 1 | 1.5 | 2 | 2.5 | 3 | 3.5 | 4 | 4.5 | 5;
 
 export type Skill = {
   slug: string;
@@ -40,7 +40,7 @@ export type Skill = {
   sections: {
     definition: string[];
     proof: {
-      intro: string;
+      intro: string | string[];
       stories: SkillStory[];
       closing: string[];
     };

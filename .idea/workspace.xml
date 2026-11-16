@@ -4,18 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6214dfae-1ced-4109-a6eb-289033033ebd" name="Changes" comment="wip">
-      <change beforePath="$PROJECT_DIR$/.idea/ShadcnHelperSettings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ShadcnHelperSettings.xml" afterDir="false" />
+    <list default="true" id="6214dfae-1ced-4109-a6eb-289033033ebd" name="Changes" comment="redaction justMusic">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/competences/[slug]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/competences/[slug]/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/projects/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/projects/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/experiences-section.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/experiences-section.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/formations-section.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/formations-section.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/navigation-bar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/navigation-bar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/skills-section.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/skills-section.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/skills.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/skills.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/skills.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/skills.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/projects.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/projects.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/plan.md" beforeDir="false" afterPath="$PROJECT_DIR$/plan.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +44,7 @@
     <option name="INCOMING_COMMITS_CHECK_STRATEGY" value="FETCH" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="feature/lp" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -76,23 +67,23 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0432846708784664" />
-      <entry key="MS500" value="1.53366266901998" />
-      <entry key="S2" value="1.8547059080600987" />
-      <entry key="S5" value="1.9391320939273118" />
-      <entry key="S10" value="1.969088279738906" />
-      <entry key="S30" value="1.989588061020458" />
-      <entry key="S60" value="1.9947804111632303" />
-      <entry key="M2" value="1.9975721159304745" />
-      <entry key="M5" value="2.2302071027046804" />
-      <entry key="M10" value="5.407218854951854" />
-      <entry key="M15" value="10.947584807514149" />
-      <entry key="M30" value="26.922986629347232" />
-      <entry key="H1" value="46.06707196311978" />
-      <entry key="H2" value="68.76769530083554" />
-      <entry key="H4" value="104.40304086370912" />
-      <entry key="D1" value="202.94938255294326" />
-      <entry key="W1" value="236.5898479868358" />
+      <entry key="MS100" value="1.0074942509322287" />
+      <entry key="MS500" value="1.3757903695163907" />
+      <entry key="S2" value="1.7829542962565428" />
+      <entry key="S5" value="1.9067646159521887" />
+      <entry key="S10" value="1.952241889412658" />
+      <entry key="S30" value="1.9838202576065394" />
+      <entry key="S60" value="1.9918771450985486" />
+      <entry key="M2" value="1.9960967106682017" />
+      <entry key="M5" value="2.1562867654522173" />
+      <entry key="M10" value="5.7129108188307764" />
+      <entry key="M15" value="13.907808282744721" />
+      <entry key="M30" value="44.17429452503858" />
+      <entry key="H1" value="89.03059953688854" />
+      <entry key="H2" value="137.46592408971586" />
+      <entry key="H4" value="191.29886147509785" />
+      <entry key="D1" value="316.1637702726249" />
+      <entry key="W1" value="358.0092881367073" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -101,36 +92,36 @@
       <entry key="S5" value="0.0" />
       <entry key="S10" value="0.0" />
       <entry key="S30" value="0.0" />
-      <entry key="S60" value="8.16504261495173E-173" />
-      <entry key="M2" value="9.036062535729448E-87" />
-      <entry key="M5" value="3.8229633630271583E-35" />
-      <entry key="M10" value="6.221509765141518E-18" />
-      <entry key="M15" value="3.51251055141378E-12" />
-      <entry key="M30" value="2.371685661091276E-6" />
-      <entry key="H1" value="0.0023904164138975567" />
-      <entry key="H2" value="0.08231864744641723" />
-      <entry key="H4" value="0.4935520210701844" />
-      <entry key="D1" value="2.21866197847298" />
-      <entry key="W1" value="2.873380437003557" />
+      <entry key="S60" value="3.575719930805525E-194" />
+      <entry key="M2" value="1.8909574111570407E-97" />
+      <entry key="M5" value="2.0449427022907113E-39" />
+      <entry key="M10" value="4.550260820294179E-20" />
+      <entry key="M15" value="1.323461484107202E-13" />
+      <entry key="M30" value="4.60366764197541E-7" />
+      <entry key="H1" value="0.001053166362550861" />
+      <entry key="H2" value="0.054639904889852195" />
+      <entry key="H4" value="0.4021043663218224" />
+      <entry key="D1" value="2.1441678668529636" />
+      <entry key="W1" value="2.8593954539710893" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.977466339351357" />
-      <entry key="MS500" value="1.507390579033012" />
-      <entry key="S2" value="1.8459819436672156" />
-      <entry key="S5" value="1.9354148261823894" />
-      <entry key="S10" value="1.9671892123243546" />
-      <entry key="S30" value="1.9889458113816836" />
-      <entry key="S60" value="1.9944581175281324" />
-      <entry key="M2" value="1.9974106657454" />
-      <entry key="M5" value="2.230113854110012" />
-      <entry key="M10" value="5.406564916965389" />
-      <entry key="M15" value="10.945941188950663" />
-      <entry key="M30" value="26.919559050086622" />
-      <entry key="H1" value="46.065815370242895" />
-      <entry key="H2" value="68.8470149275139" />
-      <entry key="H4" value="104.89395355403279" />
-      <entry key="D1" value="205.1669111543262" />
-      <entry key="W1" value="239.46302801830387" />
+      <entry key="MS100" value="0.9466127426149271" />
+      <entry key="MS500" value="1.3592466075531262" />
+      <entry key="S2" value="1.7776721898277668" />
+      <entry key="S5" value="1.904512652334182" />
+      <entry key="S10" value="1.9510903628438208" />
+      <entry key="S30" value="1.983430503279872" />
+      <entry key="S60" value="1.9916815137489101" />
+      <entry key="M2" value="1.9959986916766335" />
+      <entry key="M5" value="2.156238385069714" />
+      <entry key="M10" value="5.7127512483575105" />
+      <entry key="M15" value="13.907439450283084" />
+      <entry key="M30" value="44.17313716090854" />
+      <entry key="H1" value="89.02959973578564" />
+      <entry key="H2" value="137.5182723800321" />
+      <entry key="H4" value="191.69864067461452" />
+      <entry key="D1" value="318.3068097841462" />
+      <entry key="W1" value="360.8684793390953" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -141,6 +132,7 @@
   <component name="ProjectSessionTemplates">
     <option name="panelTemplate">
       <template>
+        <option name="ensembleEnabled" value="false" />
         <option name="modeId" value="Agent" />
         <option name="model">
           <model>
@@ -149,8 +141,10 @@
           </model>
         </option>
         <option name="targetType" value="BACKGROUND" />
+        <option name="worktreeMode" value="WORKSPACE" />
       </template>
     </option>
+    <option name="version" value="1" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -167,7 +161,7 @@
     &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
     &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
     &quot;copilot.chat.legacySessionMetadata.migrated&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;fix/more-text&quot;,
     &quot;git.auto.fetch.suggestion.counter&quot;: &quot;2&quot;,
     &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,
     &quot;js.debugger.nextJs.config.created.client&quot;: &quot;true&quot;,
@@ -180,7 +174,8 @@
     &quot;nodejs_interpreter_path&quot;: &quot;/home/ldelanier/.config/JetBrains/WebStorm2025.3/node/versions/24.14.1/bin/node&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;npm.Next.js: server-side.executor&quot;: &quot;Run&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;consents&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;ml.llm.AcpAgentsConfigurable&quot;,
+    &quot;shadcn.welcome.notification.shown&quot;: &quot;true&quot;,
     &quot;ts.external.directory.path&quot;: &quot;/home/ldelanier/Documents/Iscod/Portfolio/portfolio/node_modules/typescript/lib&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -219,7 +214,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-WS-262.9437.145" />
+        <option value="bundled-js-predefined-d6986cc7102b-56aff7b04f6f-JavaScript-WS-263.7307.202" />
       </set>
     </attachedChunks>
   </component>
@@ -248,7 +243,14 @@
       <workItem from="1781703307476" duration="3451000" />
       <workItem from="1782134962327" duration="8000" />
       <workItem from="1783934738488" duration="4333000" />
-      <workItem from="1787573024023" duration="1955000" />
+      <workItem from="1787573024023" duration="3128000" />
+      <workItem from="1787643258143" duration="486000" />
+      <workItem from="1791882386481" duration="9595000" />
+      <workItem from="1792154168884" duration="1908000" />
+      <workItem from="1792394902441" duration="104000" />
+      <workItem from="1793957152152" duration="2464000" />
+      <workItem from="1794219772418" duration="29000" />
+      <workItem from="1794844829595" duration="3114000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -354,7 +356,47 @@
       <option name="project" value="LOCAL" />
       <updated>1783936626375</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="improve">
+      <option name="closed" value="true" />
+      <created>1787575100302</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1787575100302</updated>
+    </task>
+    <task id="LOCAL-00015" summary="improve wip">
+      <option name="closed" value="true" />
+      <created>1792395000526</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1792395000526</updated>
+    </task>
+    <task id="LOCAL-00016" summary="improve wip">
+      <option name="closed" value="true" />
+      <created>1794219790211</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1794219790211</updated>
+    </task>
+    <task id="LOCAL-00017" summary="redaction gliint">
+      <option name="closed" value="true" />
+      <created>1794846023290</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1794846023290</updated>
+    </task>
+    <task id="LOCAL-00018" summary="redaction justMusic">
+      <option name="closed" value="true" />
+      <created>1794847770891</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1794847770891</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -387,7 +429,11 @@
     <MESSAGE value="first commit" />
     <MESSAGE value="hero section" />
     <MESSAGE value="wip" />
-    <option name="LAST_COMMIT_MESSAGE" value="wip" />
+    <MESSAGE value="improve" />
+    <MESSAGE value="improve wip" />
+    <MESSAGE value="redaction gliint" />
+    <MESSAGE value="redaction justMusic" />
+    <option name="LAST_COMMIT_MESSAGE" value="redaction justMusic" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>

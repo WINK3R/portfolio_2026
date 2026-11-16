@@ -1,5 +1,53 @@
 # Plan
 
+1. Réécrire la fiche SFHelper autour du besoin personnel de planifier des usines Satisfactory avant leur construction dans le jeu.
+2. Détailler la modélisation des recettes, la propagation des besoins et le traitement des recettes alternatives.
+3. Ajouter des anecdotes sur les dépendances circulaires, les arrondis de machines et la lisibilité des résultats.
+4. Conserver les résultats documentés, puis vérifier l'absence de tirets cadratins et la validité des données.
+
+## Historique precedent
+
+1. Réécrire la fiche Squad autour du parcours d'organisation d'une partie et de son prolongement dans Discord.
+2. Détailler l'application React Native, l'API Spring Boot, le bot Python et leurs responsabilités respectives.
+3. Ajouter des anecdotes sur la synchronisation des états, les créations de salons en double et la gestion des erreurs externes.
+4. Vérifier la cohérence avec le statut en développement, l'absence de tirets cadratins et la validité des données.
+
+## Historique precedent
+
+1. Réécrire la fiche Canap autour de son objectif de découverte et de suivi de films et séries sur iOS.
+2. Détailler la conception du swipe, l'intégration de TMDB, la modélisation Firebase et la distinction entre films et séries.
+3. Ajouter des anecdotes sur la normalisation des données, la progression des épisodes et la synchronisation des actions utilisateur.
+4. Vérifier la cohérence, l'absence de tirets cadratins et la validité des données.
+
+## Historique precedent
+
+1. Réécrire la fiche JustMusic en conservant son contexte d'équipe, son positionnement social et sa publication passée sur le Play Store.
+2. Détailler chronologiquement la conception Figma, la modélisation Firebase, le développement Flutter et les intégrations Google et Spotify.
+3. Ajouter des situations concrètes sur la publication quotidienne, le fil social, la coordination Scrum et la préparation de la distribution.
+4. Vérifier la cohérence éditoriale, l'absence de tirets cadratins et la validité des données.
+
+## Historique precedent
+
+1. Réécrire la fiche GLIINT en donnant davantage de contexte au projet personnel et à sa démarche de conception.
+2. Développer les étapes de réalisation dans un ordre chronologique, avec les choix techniques, difficultés et validations associées.
+3. Ajouter des anecdotes crédibles sur les tuiles adaptatives, les API de métadonnées, les analytics, Stripe et les tests.
+4. Vérifier la validité du JSON et le rendu technique avec les contrôles du projet.
+
+## Historique precedent
+
+1. Remplacer le contenu provisoire de la compétence « Résolution de problèmes » par une rédaction détaillée et personnelle.
+2. Développer deux preuves concrètes : la refonte du plan de prévention chez Cikaba et l'interchangeabilité des fournisseurs d'API dans Gliint.
+3. Expliciter la méthode de diagnostic, l'autocritique et l'évolution vers un profil full-stack.
+4. Vérifier la validité des données et le lint.
+
+## Historique precedent
+
+1. Mettre à jour les compétences « Autonomie » et « Travail en équipe » avec les textes fournis, en conservant la structure éditoriale de la page.
+2. Associer les anecdotes aux réalisations correspondantes.
+3. Vérifier la validité des données et le lint.
+
+## Historique precedent
+
 1. Exposer les cartes et données de formation et d'expérience sans fusionner leurs composants.
 2. Créer une frise unique qui mélange les deux types et les ordonne de façon antichronologique.
 3. Utiliser les dates exactes disponibles dans les justificatifs et conserver les dates connues lorsque les mois ne sont pas documentés.
@@ -126,3 +174,11 @@
 3. Add stack entries: Swift, Firebase, TMDB API.
 4. Link relevant skills: Front-end, Back-end, Design UI/UX, Architecture logicielle, Resolution de problemes.
 5. Validate JSON, then run lint/build checks.
+
+## Matrice de compétences
+
+1. Ajouter sous le titre « Mes compétences » un CTA vers une page dédiée.
+2. Construire un radar accessible à dix axes à partir des niveaux déjà présents dans les données.
+3. Associer chaque sommet à la couleur et au nom de sa compétence, avec une légende lisible sur mobile.
+4. Ajouter la page statique `/competences/matrice` dans le style visuel du portfolio.
+5. Vérifier le lint et le build de production.

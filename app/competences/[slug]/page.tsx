@@ -87,7 +87,7 @@ export default async function SkillDetailPage({ params }: SkillPageProps) {
               <h1 className="mt-3 max-w-4xl text-3xl font-semibold tracking-[-0.06em] text-white sm:text-5xl lg:text-6xl">
                 {skill.title}
               </h1>
-              <p className="mt-4 max-w-3xl text-base leading-7 text-white/84 sm:text-lg sm:leading-8">
+              <p className="mt-4 max-w-3xl text-justify text-base leading-7 text-white/84 sm:text-lg sm:leading-8">
                 {skill.description}
               </p>
             </div>
@@ -98,7 +98,7 @@ export default async function SkillDetailPage({ params }: SkillPageProps) {
               <h2 className="text-2xl font-semibold tracking-[-0.05em] text-black sm:text-3xl">
                 Ma définition
               </h2>
-              <div className="mt-6 space-y-6 text-[1.04rem] leading-8 text-black/70 lg:text-[1.08rem] lg:leading-9">
+              <div className="mt-6 space-y-6 text-justify text-[1.04rem] leading-8 text-black/70 lg:text-[1.08rem] lg:leading-9">
                 {skill.sections.definition.map((paragraph, index) => (
                   <p key={`${skill.slug}-definition-${index}`}>{paragraph}</p>
                 ))}
@@ -109,9 +109,14 @@ export default async function SkillDetailPage({ params }: SkillPageProps) {
               <h2 className="text-2xl font-semibold tracking-[-0.05em] text-black sm:text-3xl">
                 Mes éléments de preuve
               </h2>
-              <p className="mt-6 text-[1.04rem] leading-8 text-black/70 lg:text-[1.08rem] lg:leading-9">
-                {skill.sections.proof.intro}
-              </p>
+              <div className="mt-6 space-y-6 text-justify text-[1.04rem] leading-8 text-black/70 lg:text-[1.08rem] lg:leading-9">
+                {(Array.isArray(skill.sections.proof.intro)
+                  ? skill.sections.proof.intro
+                  : [skill.sections.proof.intro]
+                ).map((paragraph, index) => (
+                  <p key={`${skill.slug}-proof-intro-${index}`}>{paragraph}</p>
+                ))}
+              </div>
 
               <div className="mt-8 space-y-8">
                 {skill.sections.proof.stories.map((story, index) => (
@@ -146,7 +151,7 @@ export default async function SkillDetailPage({ params }: SkillPageProps) {
                     </CollapsibleTrigger>
 
                     <CollapsibleContent className="border-t border-black/8 px-5 pb-5 pt-5 sm:px-7 sm:pb-7 sm:pt-6">
-                      <div className="space-y-5 text-[1.01rem] leading-8 text-black/68">
+                      <div className="space-y-5 text-justify text-[1.01rem] leading-8 text-black/68">
                         {story.paragraphs.map((paragraph, paragraphIndex) => (
                           <p key={`${skill.slug}-story-${index}-paragraph-${paragraphIndex}`}>
                             {paragraph}
@@ -154,24 +159,30 @@ export default async function SkillDetailPage({ params }: SkillPageProps) {
                         ))}
                       </div>
 
-                      <div className="mt-6 space-y-4">
-                        <div className="rounded-[22px] bg-white p-5 ring-1 ring-black/6">
-                          <p className="text-sm font-semibold uppercase tracking-[0.22em] text-black/35">
-                            Résultat
-                          </p>
-                          <p className="mt-3 text-base leading-7 text-black/70">
-                            {story.result}
-                          </p>
+                      {story.result || story.valueAdded ? (
+                        <div className="mt-6 space-y-4">
+                          {story.result ? (
+                            <div className="rounded-[22px] bg-white p-5 ring-1 ring-black/6">
+                              <p className="text-sm font-semibold uppercase tracking-[0.22em] text-black/35">
+                                Résultat
+                              </p>
+                              <p className="mt-3 text-justify text-base leading-7 text-black/70">
+                                {story.result}
+                              </p>
+                            </div>
+                          ) : null}
+                          {story.valueAdded ? (
+                            <div className="rounded-[22px] bg-white p-5 ring-1 ring-black/6">
+                              <p className="text-sm font-semibold uppercase tracking-[0.22em] text-black/35">
+                                Valeur ajoutée
+                              </p>
+                              <p className="mt-3 text-justify text-base leading-7 text-black/70">
+                                {story.valueAdded}
+                              </p>
+                            </div>
+                          ) : null}
                         </div>
-                        <div className="rounded-[22px] bg-white p-5 ring-1 ring-black/6">
-                          <p className="text-sm font-semibold uppercase tracking-[0.22em] text-black/35">
-                            Valeur ajoutée
-                          </p>
-                          <p className="mt-3 text-base leading-7 text-black/70">
-                            {story.valueAdded}
-                          </p>
-                        </div>
-                      </div>
+                      ) : null}
 
                       {story.relatedItems && story.relatedItems.length > 0 ? (
                         <div className="mt-6 flex flex-wrap gap-3">
@@ -200,7 +211,7 @@ export default async function SkillDetailPage({ params }: SkillPageProps) {
                 ))}
               </div>
 
-              <div className="mt-8 space-y-6 text-[1.04rem] leading-8 text-black/70 lg:text-[1.08rem] lg:leading-9">
+              <div className="mt-8 space-y-6 text-justify text-[1.04rem] leading-8 text-black/70 lg:text-[1.08rem] lg:leading-9">
                 {skill.sections.proof.closing.map((paragraph, index) => (
                   <p key={`${skill.slug}-proof-closing-${index}`}>{paragraph}</p>
                 ))}
@@ -211,7 +222,7 @@ export default async function SkillDetailPage({ params }: SkillPageProps) {
               <h2 className="text-2xl font-semibold tracking-[-0.05em] text-black sm:text-3xl">
                 Mon autocritique
               </h2>
-              <div className="mt-6 space-y-6 text-[1.04rem] leading-8 text-black/70 lg:text-[1.08rem] lg:leading-9">
+              <div className="mt-6 space-y-6 text-justify text-[1.04rem] leading-8 text-black/70 lg:text-[1.08rem] lg:leading-9">
                 {skill.sections.selfReview.map((paragraph, index) => (
                   <p key={`${skill.slug}-self-review-${index}`}>{paragraph}</p>
                 ))}
@@ -222,7 +233,7 @@ export default async function SkillDetailPage({ params }: SkillPageProps) {
               <h2 className="text-2xl font-semibold tracking-[-0.05em] text-black sm:text-3xl">
                 Mon évolution dans cette compétence
               </h2>
-              <div className="mt-6 space-y-6 text-[1.04rem] leading-8 text-black/70 lg:text-[1.08rem] lg:leading-9">
+              <div className="mt-6 space-y-6 text-justify text-[1.04rem] leading-8 text-black/70 lg:text-[1.08rem] lg:leading-9">
                 {skill.sections.growth.map((paragraph, index) => (
                   <p key={`${skill.slug}-growth-${index}`}>{paragraph}</p>
                 ))}
