@@ -1,5 +1,26 @@
 # Plan
 
+1. Réécrire la fiche SFHelper autour du besoin personnel de planifier des usines Satisfactory avant leur construction dans le jeu.
+2. Détailler la modélisation des recettes, la propagation des besoins et le traitement des recettes alternatives.
+3. Ajouter des anecdotes sur les dépendances circulaires, les arrondis de machines et la lisibilité des résultats.
+4. Conserver les résultats documentés, puis vérifier l'absence de tirets cadratins et la validité des données.
+
+## Historique precedent
+
+1. Réécrire la fiche Squad autour du parcours d'organisation d'une partie et de son prolongement dans Discord.
+2. Détailler l'application React Native, l'API Spring Boot, le bot Python et leurs responsabilités respectives.
+3. Ajouter des anecdotes sur la synchronisation des états, les créations de salons en double et la gestion des erreurs externes.
+4. Vérifier la cohérence avec le statut en développement, l'absence de tirets cadratins et la validité des données.
+
+## Historique precedent
+
+1. Réécrire la fiche Canap autour de son objectif de découverte et de suivi de films et séries sur iOS.
+2. Détailler la conception du swipe, l'intégration de TMDB, la modélisation Firebase et la distinction entre films et séries.
+3. Ajouter des anecdotes sur la normalisation des données, la progression des épisodes et la synchronisation des actions utilisateur.
+4. Vérifier la cohérence, l'absence de tirets cadratins et la validité des données.
+
+## Historique precedent
+
 1. Réécrire la fiche JustMusic en conservant son contexte d'équipe, son positionnement social et sa publication passée sur le Play Store.
 2. Détailler chronologiquement la conception Figma, la modélisation Firebase, le développement Flutter et les intégrations Google et Spotify.
 3. Ajouter des situations concrètes sur la publication quotidienne, le fil social, la coordination Scrum et la préparation de la distribution.
