@@ -1,5 +1,12 @@
 # Plan
 
+1. Réécrire la fiche JustMusic en conservant son contexte d'équipe, son positionnement social et sa publication passée sur le Play Store.
+2. Détailler chronologiquement la conception Figma, la modélisation Firebase, le développement Flutter et les intégrations Google et Spotify.
+3. Ajouter des situations concrètes sur la publication quotidienne, le fil social, la coordination Scrum et la préparation de la distribution.
+4. Vérifier la cohérence éditoriale, l'absence de tirets cadratins et la validité des données.
+
+## Historique precedent
+
 1. Réécrire la fiche GLIINT en donnant davantage de contexte au projet personnel et à sa démarche de conception.
 2. Développer les étapes de réalisation dans un ordre chronologique, avec les choix techniques, difficultés et validations associées.
 3. Ajouter des anecdotes crédibles sur les tuiles adaptatives, les API de métadonnées, les analytics, Stripe et les tests.
